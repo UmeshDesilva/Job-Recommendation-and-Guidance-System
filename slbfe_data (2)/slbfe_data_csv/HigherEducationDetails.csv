@@ -1,0 +1,2027 @@
+PersonalID,QualificationType,CourseName,University,Year,Result
+2,Diploma,Engineering Elite,University of Ruhuna,2016,First Class
+3,Diploma,Engineering Premier,University of Moratuwa,2010,Second Upper
+3,Diploma,Computer Science Global,University of Moratuwa,1988,First Class
+10,BSc,Hospitality Premier,SLIIT,2003,Second Upper
+24,BSc,Computer Science Tech,Eastern University,2007,Second Upper
+26,BA,Nursing International,University of Colombo,1987,
+37,BA,Business Premier,Open University of Sri Lanka,2005,Second Lower
+41,BSc,Computer Science International,SLIIT,2004,Second Lower
+54,BSc,Engineering Tech,Open University of Sri Lanka,1992,
+60,BSc,Hospitality Tech,SLIIT,1994,Merit
+62,BSc,Hospitality Elite,University of Colombo,2017,First Class
+68,BSc,Nursing National,Open University of Sri Lanka,2003,Pass
+75,MSc,Engineering Elite,Open University of Sri Lanka,2011,Second Upper
+77,Diploma,Business Tech,University of Colombo,2004,First Class
+81,MSc,Computer Science Tech,Open University of Sri Lanka,2020,Second Lower
+96,BSc,Business Advanced,University of Sri Jayewardenepura,2011,Merit
+102,Higher Diploma,Engineering Premier,University of Sri Jayewardenepura,2002,Second Lower
+113,BA,Computer Science Tech,Eastern University,1990,Second Lower
+125,Higher Diploma,Computer Science Global,University of Ruhuna,1983,First Class
+133,Higher Diploma,Accounting Elite,University of Peradeniya,1997,Second Upper
+134,Higher Diploma,Nursing Elite,Eastern University,2020,
+142,BSc,Nursing National,Open University of Sri Lanka,2003,Second Upper
+142,MSc,Engineering National,NSBM Green University,1984,Second Lower
+143,MSc,Nursing Premier,SLIIT,2003,Second Upper
+166,BA,Engineering Advanced,University of Colombo,1983,Second Lower
+167,Diploma,Hospitality Global,SLIIT,2000,Pass
+168,BSc,Hospitality National,NSBM Green University,1997,Pass
+170,BSc,Accounting National,University of Sri Jayewardenepura,2004,Second Upper
+170,MSc,Computer Science Elite,University of Peradeniya,2013,Second Lower
+174,BA,Accounting International,NSBM Green University,1999,Pass
+176,MSc,Nursing Premier,SLIIT,1985,Second Lower
+176,MSc,Hospitality Tech,University of Kelaniya,1981,Pass
+177,Diploma,Accounting National,University of Kelaniya,1999,Pass
+177,MSc,Hospitality Advanced,Open University of Sri Lanka,2009,Merit
+186,BSc,Hospitality Global,University of Colombo,2023,Pass
+195,MSc,Engineering International,University of Peradeniya,2014,
+213,BSc,Computer Science Advanced,University of Ruhuna,1982,Merit
+222,MSc,Hospitality International,NSBM Green University,1998,Pass
+224,Diploma,Engineering Premier,University of Sri Jayewardenepura,1995,Pass
+227,BA,Computer Science Advanced,University of Sri Jayewardenepura,1983,Merit
+229,BSc,Engineering National,NSBM Green University,2004,First Class
+245,BA,Hospitality Global,NSBM Green University,1994,First Class
+252,BA,Business Elite,NSBM Green University,2005,Merit
+254,Diploma,Business National,SLIIT,2002,
+254,MSc,Business Premier,Open University of Sri Lanka,2020,Second Lower
+254,BSc,Computer Science Premier,Open University of Sri Lanka,1991,
+257,BSc,Business Global,SLIIT,2003,Merit
+261,BSc,Business Advanced,SLIIT,2002,Second Lower
+261,MSc,Nursing Elite,University of Sri Jayewardenepura,2015,First Class
+265,BA,Engineering Premier,University of Sri Jayewardenepura,2003,Second Lower
+274,Higher Diploma,Computer Science Premier,NSBM Green University,2023,Second Lower
+274,BA,Computer Science Elite,University of Moratuwa,2005,Second Lower
+285,BA,Engineering Global,University of Colombo,1994,Pass
+297,Higher Diploma,Hospitality Elite,Eastern University,2006,Pass
+310,Higher Diploma,Accounting International,University of Colombo,1992,Merit
+313,BA,Business Elite,NSBM Green University,2013,
+317,BA,Computer Science International,University of Kelaniya,1989,First Class
+317,BSc,Nursing Elite,University of Ruhuna,2023,First Class
+326,Diploma,Hospitality Tech,SLIIT,2016,Second Upper
+327,BSc,Computer Science Global,University of Moratuwa,1992,Second Upper
+328,BSc,Accounting Elite,Open University of Sri Lanka,2011,Merit
+329,MSc,Accounting International,SLIIT,1986,Pass
+329,BSc,Accounting Tech,NSBM Green University,2013,Merit
+332,Higher Diploma,Nursing International,Eastern University,2020,Pass
+339,BA,Nursing International,University of Ruhuna,2020,
+354,Diploma,Nursing Premier,NSBM Green University,2013,Second Lower
+359,Higher Diploma,Business International,University of Colombo,2003,Second Upper
+373,BSc,Accounting Tech,SLIIT,1994,Second Lower
+376,BSc,Hospitality Elite,SLIIT,2014,First Class
+376,BA,Accounting Tech,University of Kelaniya,2023,Second Lower
+378,BA,Hospitality Premier,University of Kelaniya,2017,Pass
+382,Diploma,Engineering Elite,University of Ruhuna,2022,Second Lower
+384,BA,Engineering International,Eastern University,2019,Second Lower
+396,Diploma,Engineering Premier,University of Moratuwa,1993,Merit
+398,Diploma,Business Global,University of Colombo,2014,Second Lower
+422,Diploma,Hospitality National,SLIIT,1984,First Class
+422,BA,Accounting Advanced,University of Moratuwa,2004,Second Upper
+429,BA,Engineering Advanced,University of Peradeniya,2018,Second Lower
+429,Higher Diploma,Computer Science Elite,NSBM Green University,1989,Second Upper
+434,BSc,Nursing International,University of Sri Jayewardenepura,1999,Second Upper
+443,BA,Hospitality Advanced,University of Sri Jayewardenepura,2023,Second Lower
+444,Diploma,Business Tech,University of Peradeniya,1987,Merit
+448,Diploma,Nursing International,Eastern University,2001,First Class
+448,BSc,Business Tech,University of Sri Jayewardenepura,1999,First Class
+455,BSc,Engineering Global,University of Moratuwa,1985,Second Upper
+455,BA,Computer Science International,Open University of Sri Lanka,2003,Second Upper
+458,BSc,Business International,NSBM Green University,2001,Pass
+469,Higher Diploma,Hospitality Premier,NSBM Green University,2023,First Class
+469,Higher Diploma,Hospitality Tech,University of Peradeniya,1991,
+469,Higher Diploma,Accounting Global,Eastern University,2012,
+470,BSc,Business Elite,Open University of Sri Lanka,1985,First Class
+471,BA,Computer Science Premier,University of Peradeniya,1983,Pass
+473,Diploma,Business Premier,University of Moratuwa,1997,Pass
+475,Higher Diploma,Business International,University of Peradeniya,2023,Second Upper
+476,BSc,Business Elite,NSBM Green University,1992,Second Lower
+477,BA,Hospitality International,University of Sri Jayewardenepura,2004,
+478,BA,Computer Science Premier,University of Peradeniya,2007,First Class
+481,BSc,Business Premier,University of Kelaniya,2007,Second Lower
+486,Higher Diploma,Accounting Elite,Eastern University,2002,Second Lower
+487,BA,Hospitality Global,University of Sri Jayewardenepura,1999,Second Lower
+490,Higher Diploma,Computer Science Premier,University of Kelaniya,2001,Merit
+490,BSc,Accounting Elite,University of Sri Jayewardenepura,1996,Second Upper
+490,Higher Diploma,Computer Science Advanced,NSBM Green University,2014,
+495,BSc,Hospitality Premier,University of Kelaniya,1981,Second Lower
+499,Diploma,Computer Science International,University of Peradeniya,2010,Merit
+511,Higher Diploma,Hospitality Advanced,University of Colombo,1989,Second Lower
+521,MSc,Nursing Tech,NSBM Green University,2020,Pass
+528,MSc,Business Elite,University of Kelaniya,1993,First Class
+529,BA,Engineering International,University of Kelaniya,1983,First Class
+532,BSc,Business Tech,University of Peradeniya,1981,Pass
+533,Diploma,Nursing Advanced,Open University of Sri Lanka,1999,Pass
+537,Diploma,Business Advanced,NSBM Green University,2020,Merit
+537,BSc,Nursing International,University of Moratuwa,2011,Second Lower
+541,Higher Diploma,Business National,University of Peradeniya,1997,Pass
+552,MSc,Nursing National,University of Peradeniya,2018,Pass
+553,Higher Diploma,Business Elite,NSBM Green University,2021,Pass
+575,BSc,Hospitality Global,Open University of Sri Lanka,2015,Pass
+577,Diploma,Nursing International,SLIIT,2020,Second Lower
+586,MSc,Business Tech,University of Sri Jayewardenepura,2003,Pass
+587,MSc,Business Elite,University of Sri Jayewardenepura,1987,Second Lower
+591,Higher Diploma,Business Premier,University of Moratuwa,2014,Pass
+591,BSc,Engineering International,University of Kelaniya,1993,Pass
+595,BSc,Nursing Tech,University of Sri Jayewardenepura,1991,Second Lower
+602,Diploma,Accounting Tech,NSBM Green University,1985,Pass
+604,Higher Diploma,Computer Science National,University of Sri Jayewardenepura,2015,Pass
+605,Diploma,Hospitality Global,University of Peradeniya,1991,
+607,Diploma,Business Elite,SLIIT,2007,Second Upper
+615,Higher Diploma,Nursing International,Eastern University,1991,Pass
+619,MSc,Computer Science Tech,University of Ruhuna,2004,First Class
+627,BA,Accounting Tech,SLIIT,1999,
+635,BA,Nursing Tech,University of Kelaniya,2008,Second Upper
+643,BSc,Computer Science International,University of Kelaniya,2003,Pass
+643,BSc,Engineering Tech,University of Colombo,1998,Merit
+643,BSc,Accounting Premier,University of Colombo,1997,
+648,BA,Nursing National,Open University of Sri Lanka,1981,First Class
+661,BSc,Nursing Elite,University of Peradeniya,2010,Pass
+664,BA,Computer Science International,NSBM Green University,1995,First Class
+665,Diploma,Computer Science Elite,University of Peradeniya,2020,Second Lower
+672,BSc,Engineering Tech,Open University of Sri Lanka,2004,Second Upper
+674,BA,Accounting Advanced,NSBM Green University,1988,Merit
+694,BSc,Accounting Global,Eastern University,1982,Second Upper
+694,MSc,Engineering International,SLIIT,1989,Second Lower
+696,Diploma,Computer Science Elite,NSBM Green University,1994,Second Upper
+696,MSc,Nursing National,University of Kelaniya,1990,Merit
+702,Higher Diploma,Computer Science International,University of Sri Jayewardenepura,2013,Second Lower
+703,MSc,Business Premier,Open University of Sri Lanka,2008,Second Lower
+715,MSc,Engineering Global,University of Sri Jayewardenepura,1994,
+720,BSc,Business National,University of Ruhuna,2017,Merit
+729,BA,Business Elite,University of Sri Jayewardenepura,2017,Second Upper
+732,BSc,Computer Science Elite,University of Peradeniya,2021,First Class
+734,BSc,Nursing National,Open University of Sri Lanka,1990,First Class
+741,BA,Business Elite,Eastern University,1990,Merit
+749,BSc,Nursing Advanced,NSBM Green University,1980,Pass
+760,BA,Nursing Tech,University of Peradeniya,1998,Pass
+760,Diploma,Nursing Global,University of Kelaniya,2008,Merit
+761,MSc,Computer Science Advanced,NSBM Green University,2025,Second Lower
+769,Higher Diploma,Nursing Tech,SLIIT,2021,Second Upper
+770,MSc,Business National,University of Colombo,1983,Second Lower
+773,BSc,Nursing National,University of Ruhuna,2018,
+783,BSc,Accounting National,Eastern University,1984,
+785,BSc,Accounting International,University of Kelaniya,2025,Second Upper
+805,BSc,Accounting Premier,University of Sri Jayewardenepura,2021,Second Lower
+805,BA,Nursing International,University of Kelaniya,2008,Second Upper
+814,MSc,Accounting Elite,University of Sri Jayewardenepura,1982,First Class
+816,Higher Diploma,Computer Science National,SLIIT,2000,Pass
+816,Higher Diploma,Computer Science Tech,University of Ruhuna,2022,Merit
+819,BSc,Engineering Advanced,University of Peradeniya,2010,
+821,Diploma,Engineering National,Open University of Sri Lanka,2018,
+822,BA,Accounting Advanced,NSBM Green University,2001,Second Lower
+831,BSc,Engineering International,University of Kelaniya,2013,Pass
+837,BSc,Computer Science Advanced,Eastern University,1998,First Class
+837,Higher Diploma,Hospitality Global,University of Sri Jayewardenepura,2004,Pass
+837,BA,Business Advanced,University of Ruhuna,2001,Pass
+838,BSc,Computer Science International,University of Moratuwa,2001,Merit
+844,Higher Diploma,Hospitality Tech,University of Colombo,1991,First Class
+857,Higher Diploma,Business Elite,University of Moratuwa,2016,Merit
+861,Higher Diploma,Computer Science Elite,University of Colombo,1990,First Class
+861,Higher Diploma,Hospitality International,Open University of Sri Lanka,1997,Pass
+866,MSc,Nursing Advanced,SLIIT,2020,Merit
+866,Higher Diploma,Hospitality Global,University of Sri Jayewardenepura,2014,Pass
+867,BA,Business Elite,University of Colombo,2019,Pass
+867,BSc,Nursing Advanced,University of Moratuwa,2010,Second Lower
+870,Diploma,Nursing International,University of Sri Jayewardenepura,1989,Second Upper
+870,MSc,Nursing National,Open University of Sri Lanka,2005,First Class
+870,Higher Diploma,Nursing International,SLIIT,1994,Pass
+873,MSc,Engineering Advanced,Open University of Sri Lanka,1999,Second Upper
+886,MSc,Engineering National,University of Moratuwa,1981,Pass
+893,Diploma,Business Tech,Open University of Sri Lanka,2005,Second Upper
+896,MSc,Engineering Advanced,University of Colombo,1985,Second Lower
+904,BSc,Computer Science Tech,University of Ruhuna,2014,Second Upper
+920,BA,Nursing Tech,University of Kelaniya,1998,Second Lower
+920,Diploma,Accounting National,University of Peradeniya,2012,Second Upper
+924,Diploma,Nursing Advanced,University of Sri Jayewardenepura,2013,
+930,MSc,Nursing Tech,NSBM Green University,1980,
+933,MSc,Nursing Advanced,University of Moratuwa,2008,
+934,BSc,Business Premier,University of Sri Jayewardenepura,1994,Second Upper
+948,Diploma,Business Global,Eastern University,2023,
+949,Diploma,Business Premier,Eastern University,2015,
+949,BA,Business Global,University of Colombo,2014,Pass
+949,BA,Computer Science Global,University of Ruhuna,2019,Pass
+952,Diploma,Hospitality Tech,NSBM Green University,1991,Second Lower
+956,BA,Hospitality Elite,University of Kelaniya,1994,First Class
+960,BA,Accounting National,University of Moratuwa,2025,Second Upper
+960,BSc,Nursing International,Eastern University,1983,Second Upper
+981,Higher Diploma,Engineering Global,Eastern University,1988,Merit
+1001,MSc,Hospitality National,University of Sri Jayewardenepura,1992,First Class
+1003,Diploma,Computer Science Advanced,University of Peradeniya,1994,
+1003,MSc,Accounting Tech,University of Kelaniya,1993,Merit
+1008,MSc,Hospitality Premier,University of Colombo,1997,Second Lower
+1014,BA,Engineering International,University of Kelaniya,1985,First Class
+1038,Higher Diploma,Business Elite,SLIIT,2024,Second Lower
+1039,BA,Hospitality Premier,University of Peradeniya,1994,Merit
+1045,BSc,Business Premier,University of Ruhuna,2006,First Class
+1052,BA,Computer Science Tech,University of Moratuwa,2023,Second Lower
+1054,BSc,Computer Science National,University of Kelaniya,2008,Pass
+1061,MSc,Engineering International,Eastern University,2009,
+1063,MSc,Accounting Global,SLIIT,1984,Pass
+1072,Higher Diploma,Engineering International,NSBM Green University,1984,First Class
+1076,BSc,Engineering Global,University of Ruhuna,1994,
+1077,BSc,Hospitality Premier,University of Moratuwa,2015,Second Upper
+1084,Diploma,Accounting National,University of Colombo,2023,Second Lower
+1096,MSc,Accounting International,University of Peradeniya,1995,Second Lower
+1102,MSc,Nursing Advanced,University of Sri Jayewardenepura,2002,Second Lower
+1102,BA,Hospitality Advanced,University of Sri Jayewardenepura,1988,Pass
+1102,MSc,Hospitality Tech,University of Moratuwa,1993,Second Upper
+1104,BSc,Engineering International,University of Moratuwa,2024,
+1104,Diploma,Nursing Global,University of Sri Jayewardenepura,1995,
+1104,Diploma,Engineering Premier,University of Kelaniya,1983,Merit
+1115,Higher Diploma,Hospitality National,University of Ruhuna,1983,Second Upper
+1118,Higher Diploma,Computer Science Advanced,Open University of Sri Lanka,2025,Merit
+1119,BA,Engineering Advanced,Eastern University,1990,
+1122,BA,Computer Science Advanced,University of Peradeniya,2018,Second Upper
+1123,Diploma,Computer Science Advanced,SLIIT,1985,Merit
+1126,Diploma,Nursing Elite,Eastern University,1982,Merit
+1126,Higher Diploma,Computer Science National,SLIIT,1991,Second Lower
+1143,MSc,Nursing National,University of Ruhuna,1990,
+1152,BSc,Computer Science Elite,University of Sri Jayewardenepura,1987,
+1159,Diploma,Business Advanced,SLIIT,1981,Merit
+1162,BA,Hospitality Advanced,SLIIT,2021,Pass
+1166,BA,Hospitality Advanced,University of Colombo,1981,Second Lower
+1168,Diploma,Nursing Advanced,University of Moratuwa,1987,Pass
+1175,MSc,Business Advanced,Open University of Sri Lanka,2020,Second Upper
+1176,BSc,Engineering International,University of Moratuwa,2000,Second Lower
+1179,BA,Hospitality Advanced,NSBM Green University,2018,Merit
+1184,Higher Diploma,Engineering Premier,University of Kelaniya,2024,
+1185,BSc,Business Elite,University of Moratuwa,1998,Second Upper
+1193,Diploma,Business International,University of Moratuwa,2018,Second Lower
+1193,BSc,Hospitality Global,SLIIT,2006,Second Lower
+1193,Diploma,Computer Science Tech,Eastern University,1987,Second Lower
+1201,MSc,Hospitality Global,University of Moratuwa,1990,Pass
+1215,BSc,Engineering Advanced,University of Sri Jayewardenepura,1997,Merit
+1216,Diploma,Business Global,University of Colombo,2009,Second Upper
+1232,Higher Diploma,Computer Science Global,NSBM Green University,2005,
+1234,BSc,Engineering Advanced,SLIIT,2020,
+1237,BSc,Engineering Global,University of Peradeniya,1996,
+1264,Diploma,Accounting Tech,University of Moratuwa,2018,Pass
+1266,BA,Nursing Advanced,University of Moratuwa,2022,Second Lower
+1286,BA,Engineering Premier,Open University of Sri Lanka,2002,Second Lower
+1294,BA,Computer Science Elite,Eastern University,2000,Pass
+1294,MSc,Nursing Advanced,University of Ruhuna,1982,Second Lower
+1296,Diploma,Computer Science Premier,University of Moratuwa,1980,Pass
+1304,BSc,Engineering National,Open University of Sri Lanka,2009,First Class
+1304,MSc,Engineering Premier,University of Peradeniya,1990,
+1307,Higher Diploma,Accounting Elite,University of Moratuwa,2020,Second Lower
+1320,MSc,Nursing Tech,SLIIT,2001,First Class
+1322,BA,Computer Science National,University of Ruhuna,1999,Second Upper
+1323,Higher Diploma,Engineering International,Eastern University,2013,Second Upper
+1324,Higher Diploma,Nursing Global,University of Kelaniya,2015,Pass
+1326,MSc,Business Elite,NSBM Green University,1980,Second Lower
+1334,Diploma,Business National,University of Peradeniya,1995,
+1342,MSc,Hospitality Tech,University of Colombo,2009,
+1342,MSc,Engineering Tech,University of Moratuwa,1990,Pass
+1342,BA,Hospitality Tech,University of Colombo,2016,First Class
+1346,Higher Diploma,Business Advanced,NSBM Green University,2012,Second Upper
+1348,BA,Nursing Global,Eastern University,1987,
+1365,Higher Diploma,Accounting National,Eastern University,1997,
+1395,BSc,Computer Science Global,University of Colombo,2016,
+1426,BA,Engineering Elite,University of Colombo,2005,
+1427,MSc,Accounting Global,University of Ruhuna,1981,Second Upper
+1432,MSc,Nursing Premier,University of Moratuwa,2006,First Class
+1447,MSc,Hospitality Global,NSBM Green University,1988,Pass
+1460,BSc,Computer Science International,University of Ruhuna,1989,Second Upper
+1466,BA,Engineering Tech,University of Kelaniya,2000,Second Upper
+1471,BA,Computer Science Tech,University of Moratuwa,2011,
+1507,BA,Accounting Tech,University of Colombo,2025,First Class
+1508,Diploma,Accounting Tech,University of Sri Jayewardenepura,2019,First Class
+1524,Higher Diploma,Computer Science Premier,NSBM Green University,2005,
+1526,MSc,Computer Science Elite,University of Colombo,2000,Second Lower
+1526,Higher Diploma,Accounting National,Eastern University,2021,Second Lower
+1526,Higher Diploma,Engineering Premier,Eastern University,1996,Merit
+1534,BSc,Business International,University of Sri Jayewardenepura,2013,Pass
+1534,Diploma,Accounting National,University of Peradeniya,2003,
+1540,BA,Accounting Elite,Eastern University,2020,Second Upper
+1543,Diploma,Engineering National,Eastern University,1988,Second Lower
+1544,BA,Computer Science Global,University of Sri Jayewardenepura,2012,Merit
+1546,Diploma,Nursing International,Eastern University,1990,First Class
+1557,Diploma,Hospitality International,University of Sri Jayewardenepura,2004,Merit
+1558,Higher Diploma,Engineering National,University of Ruhuna,2021,Merit
+1563,BA,Nursing Elite,University of Ruhuna,1995,
+1568,BSc,Nursing Global,University of Colombo,1990,
+1575,MSc,Business National,Open University of Sri Lanka,1993,Pass
+1575,BA,Accounting Advanced,University of Sri Jayewardenepura,1980,
+1585,BA,Business Tech,University of Kelaniya,1983,Second Lower
+1594,BSc,Accounting Global,University of Colombo,2015,Second Lower
+1596,BA,Computer Science Advanced,University of Peradeniya,1990,Pass
+1596,MSc,Computer Science International,Open University of Sri Lanka,1997,
+1596,Higher Diploma,Hospitality National,SLIIT,2004,Pass
+1597,BSc,Computer Science Elite,University of Peradeniya,1991,Second Lower
+1597,MSc,Hospitality Elite,Eastern University,1980,Second Lower
+1608,BSc,Hospitality Tech,University of Moratuwa,1996,Pass
+1612,Diploma,Business National,University of Peradeniya,2012,Merit
+1621,Diploma,Business Global,University of Kelaniya,2004,
+1621,Higher Diploma,Computer Science International,University of Ruhuna,2004,Merit
+1630,BA,Hospitality International,SLIIT,2017,
+1633,MSc,Accounting National,University of Peradeniya,2016,First Class
+1634,BA,Hospitality Advanced,University of Kelaniya,1983,Second Upper
+1634,MSc,Business National,SLIIT,2023,Second Upper
+1639,Diploma,Engineering Premier,University of Moratuwa,2004,Merit
+1644,Diploma,Accounting International,University of Moratuwa,1998,Second Upper
+1647,BSc,Business International,University of Peradeniya,2003,Second Upper
+1647,BSc,Hospitality Advanced,Eastern University,2000,Second Upper
+1658,Diploma,Hospitality International,University of Peradeniya,1995,
+1658,BSc,Hospitality Elite,University of Moratuwa,1996,Second Upper
+1658,MSc,Computer Science National,University of Peradeniya,1985,Pass
+1660,BSc,Business International,Eastern University,1998,Second Lower
+1662,Higher Diploma,Hospitality Elite,SLIIT,1992,Second Upper
+1662,Diploma,Engineering International,University of Sri Jayewardenepura,1999,First Class
+1670,BA,Hospitality Advanced,Eastern University,1985,Second Upper
+1674,BSc,Accounting Premier,University of Sri Jayewardenepura,2024,First Class
+1676,BSc,Business International,University of Peradeniya,2014,First Class
+1679,BSc,Nursing Advanced,University of Sri Jayewardenepura,2005,Merit
+1688,BA,Computer Science International,Open University of Sri Lanka,1994,Merit
+1690,MSc,Business International,University of Kelaniya,2012,Merit
+1692,Higher Diploma,Nursing Elite,University of Sri Jayewardenepura,1982,Merit
+1698,Higher Diploma,Accounting Tech,SLIIT,2017,
+1698,Diploma,Nursing Global,SLIIT,2010,Pass
+1708,BA,Accounting International,University of Kelaniya,2014,
+1710,MSc,Nursing Premier,University of Colombo,2020,First Class
+1728,Diploma,Hospitality Premier,University of Colombo,2022,Second Lower
+1728,BSc,Engineering National,Eastern University,1985,Merit
+1738,BSc,Business International,University of Colombo,2020,Second Lower
+1745,Higher Diploma,Hospitality Tech,University of Colombo,2002,First Class
+1745,MSc,Accounting Global,University of Sri Jayewardenepura,2023,First Class
+1758,Higher Diploma,Nursing Global,University of Colombo,1990,Second Upper
+1758,Higher Diploma,Computer Science Premier,University of Colombo,1984,Second Upper
+1759,BA,Accounting Advanced,Eastern University,2009,Pass
+1783,Diploma,Hospitality Elite,University of Moratuwa,1989,
+1786,BSc,Business Elite,University of Peradeniya,2020,Pass
+1793,Higher Diploma,Business Advanced,University of Peradeniya,2008,First Class
+1798,BSc,Nursing Global,University of Moratuwa,2022,First Class
+1798,BSc,Engineering Elite,University of Colombo,1996,Second Upper
+1798,Higher Diploma,Accounting International,University of Peradeniya,2018,
+1800,Higher Diploma,Business International,University of Colombo,2004,Pass
+1800,Higher Diploma,Engineering Elite,Open University of Sri Lanka,1995,First Class
+1800,BSc,Hospitality Premier,Eastern University,2025,Second Lower
+1805,BA,Nursing International,University of Ruhuna,2005,Merit
+1805,BA,Business Elite,University of Kelaniya,1984,Second Upper
+1806,Diploma,Nursing Advanced,Eastern University,2025,Second Upper
+1825,Diploma,Engineering National,Eastern University,1994,
+1838,MSc,Computer Science Premier,NSBM Green University,1982,Merit
+1838,Higher Diploma,Hospitality National,Open University of Sri Lanka,2018,First Class
+1842,BSc,Computer Science National,Open University of Sri Lanka,2022,Second Upper
+1844,MSc,Hospitality Advanced,NSBM Green University,1986,
+1848,BA,Nursing Tech,NSBM Green University,1985,Second Upper
+1854,MSc,Engineering Tech,University of Peradeniya,1983,Merit
+1861,BSc,Business National,University of Moratuwa,1999,
+1863,BSc,Accounting National,University of Peradeniya,2025,Merit
+1864,BSc,Business National,University of Moratuwa,2007,
+1867,Diploma,Business Premier,University of Peradeniya,1988,Second Upper
+1880,Higher Diploma,Accounting Elite,University of Moratuwa,2018,Second Lower
+1884,Higher Diploma,Accounting Advanced,University of Ruhuna,2020,
+1884,BSc,Business Global,Eastern University,2022,Second Lower
+1887,MSc,Nursing Elite,Open University of Sri Lanka,2008,Second Upper
+1887,Diploma,Business Tech,University of Sri Jayewardenepura,2021,Second Lower
+1890,BSc,Business Tech,University of Colombo,1997,Second Lower
+1892,BSc,Hospitality International,University of Moratuwa,2018,Second Upper
+1895,BA,Hospitality Global,SLIIT,1987,Merit
+1906,MSc,Computer Science Advanced,University of Kelaniya,1980,Second Upper
+1910,MSc,Nursing Elite,University of Peradeniya,2011,Merit
+1911,BA,Accounting National,SLIIT,2013,First Class
+1921,Higher Diploma,Business Global,Eastern University,2013,
+1927,BA,Nursing Tech,University of Moratuwa,1997,
+1927,BA,Business Elite,NSBM Green University,2002,
+1930,Higher Diploma,Business Premier,Eastern University,1982,
+1936,MSc,Engineering National,University of Ruhuna,1993,Second Lower
+1937,BA,Computer Science Elite,University of Ruhuna,2003,Merit
+1942,Higher Diploma,Hospitality Elite,Open University of Sri Lanka,1992,
+1947,MSc,Accounting Global,SLIIT,1984,
+1956,MSc,Engineering Tech,University of Sri Jayewardenepura,2015,First Class
+1964,BSc,Engineering Global,Eastern University,1984,Pass
+1964,Higher Diploma,Hospitality National,University of Colombo,2022,
+1964,MSc,Computer Science Tech,Eastern University,1996,First Class
+1967,BSc,Accounting National,NSBM Green University,2014,Second Lower
+1981,BSc,Hospitality National,SLIIT,2019,
+1983,Diploma,Accounting Premier,NSBM Green University,2004,Second Upper
+1983,BSc,Nursing Elite,University of Kelaniya,2003,Merit
+1986,Higher Diploma,Business Elite,Open University of Sri Lanka,1992,
+1991,BSc,Computer Science Advanced,University of Moratuwa,2022,Second Upper
+2011,BA,Business Advanced,University of Sri Jayewardenepura,1998,Merit
+2013,MSc,Accounting Elite,University of Peradeniya,1986,Merit
+2013,BSc,Nursing Elite,University of Colombo,1993,First Class
+2022,Higher Diploma,Hospitality Global,University of Ruhuna,2020,Second Lower
+2032,Diploma,Nursing International,University of Sri Jayewardenepura,1981,
+2038,BSc,Nursing National,Eastern University,1991,Pass
+2040,MSc,Computer Science International,NSBM Green University,1999,
+2056,Higher Diploma,Hospitality National,SLIIT,1992,Merit
+2061,MSc,Engineering Elite,NSBM Green University,2025,Second Upper
+2067,Diploma,Computer Science National,NSBM Green University,1987,Merit
+2067,BSc,Computer Science Global,University of Peradeniya,1980,Second Lower
+2077,BSc,Hospitality Tech,SLIIT,1980,First Class
+2080,Higher Diploma,Accounting Global,University of Kelaniya,2020,
+2081,Diploma,Nursing Premier,Open University of Sri Lanka,1983,First Class
+2084,BA,Hospitality Advanced,NSBM Green University,1988,First Class
+2090,MSc,Nursing Tech,Open University of Sri Lanka,1984,
+2090,BSc,Hospitality Advanced,University of Ruhuna,1998,Pass
+2091,Higher Diploma,Hospitality Elite,University of Colombo,1991,
+2124,Higher Diploma,Nursing Elite,University of Kelaniya,1980,Merit
+2128,BA,Nursing Global,University of Colombo,2003,Second Lower
+2145,BSc,Computer Science Advanced,NSBM Green University,1998,Pass
+2145,BSc,Engineering Premier,University of Ruhuna,2021,Second Lower
+2145,Higher Diploma,Business Global,University of Moratuwa,2002,Pass
+2156,MSc,Accounting Premier,University of Peradeniya,1992,First Class
+2156,BSc,Computer Science National,SLIIT,1991,Second Lower
+2166,BA,Nursing Tech,SLIIT,2006,Second Upper
+2169,Higher Diploma,Hospitality National,University of Colombo,2018,
+2172,BA,Nursing Tech,University of Colombo,1988,First Class
+2173,Higher Diploma,Computer Science International,NSBM Green University,2003,Second Upper
+2182,Higher Diploma,Accounting National,University of Sri Jayewardenepura,2006,Second Upper
+2207,Diploma,Hospitality Advanced,SLIIT,2010,Merit
+2211,MSc,Engineering International,SLIIT,2006,Second Upper
+2211,Higher Diploma,Engineering Premier,University of Peradeniya,2011,First Class
+2218,BA,Business Tech,University of Kelaniya,1983,Pass
+2218,Diploma,Hospitality National,University of Kelaniya,2015,Second Lower
+2221,Higher Diploma,Nursing National,Eastern University,1982,Second Lower
+2221,Diploma,Accounting Premier,University of Colombo,1995,Second Upper
+2221,Higher Diploma,Hospitality Tech,University of Moratuwa,2014,Second Lower
+2223,Higher Diploma,Computer Science Elite,University of Sri Jayewardenepura,2007,
+2224,BSc,Nursing Elite,University of Moratuwa,2008,
+2228,BA,Engineering Global,SLIIT,1987,First Class
+2235,Diploma,Accounting Tech,University of Moratuwa,1997,
+2240,Diploma,Accounting National,University of Kelaniya,2024,
+2241,BA,Accounting Global,NSBM Green University,1997,First Class
+2244,BSc,Accounting Advanced,University of Peradeniya,1987,
+2253,MSc,Hospitality Premier,University of Sri Jayewardenepura,2016,Second Lower
+2267,BSc,Nursing International,University of Ruhuna,2010,Pass
+2278,BA,Computer Science Elite,University of Sri Jayewardenepura,1987,Second Upper
+2285,BSc,Engineering National,University of Peradeniya,1992,Second Upper
+2287,BA,Hospitality Advanced,University of Colombo,2012,Second Lower
+2293,Diploma,Engineering Advanced,University of Moratuwa,1992,Merit
+2294,MSc,Computer Science Tech,University of Kelaniya,2022,First Class
+2302,BA,Engineering International,University of Ruhuna,2004,Second Lower
+2307,MSc,Computer Science Global,University of Peradeniya,1992,Second Lower
+2313,MSc,Accounting Advanced,University of Moratuwa,2000,
+2313,BSc,Nursing Advanced,University of Ruhuna,2003,
+2317,Higher Diploma,Hospitality Elite,NSBM Green University,1987,Pass
+2318,Higher Diploma,Business National,NSBM Green University,2003,First Class
+2324,BSc,Nursing Advanced,University of Colombo,1983,Second Lower
+2348,BSc,Computer Science Advanced,University of Ruhuna,1987,Second Lower
+2349,MSc,Engineering Elite,University of Peradeniya,2011,Merit
+2353,Diploma,Engineering Global,University of Peradeniya,1990,First Class
+2353,BA,Accounting Advanced,University of Colombo,1980,First Class
+2357,BSc,Hospitality Elite,NSBM Green University,2006,Second Upper
+2357,Higher Diploma,Engineering Elite,University of Peradeniya,1988,Merit
+2380,Higher Diploma,Hospitality International,University of Kelaniya,1994,
+2383,MSc,Nursing National,Open University of Sri Lanka,1980,
+2388,Diploma,Business National,SLIIT,1992,
+2390,Diploma,Computer Science International,Open University of Sri Lanka,2014,Second Upper
+2390,Diploma,Computer Science Premier,University of Sri Jayewardenepura,1993,Second Lower
+2403,BA,Nursing Elite,Open University of Sri Lanka,1984,Merit
+2403,MSc,Business International,Eastern University,2016,Second Upper
+2403,Higher Diploma,Computer Science National,NSBM Green University,1986,First Class
+2405,MSc,Hospitality International,University of Kelaniya,1994,Pass
+2406,BA,Engineering Tech,SLIIT,2025,Second Upper
+2409,BSc,Business International,University of Colombo,1993,First Class
+2411,BSc,Computer Science International,Eastern University,1991,
+2412,Diploma,Engineering Global,University of Colombo,1982,Merit
+2413,MSc,Engineering Premier,Open University of Sri Lanka,1981,Second Upper
+2418,Diploma,Hospitality Global,University of Sri Jayewardenepura,1983,Pass
+2434,Higher Diploma,Accounting Tech,Eastern University,1985,
+2434,BSc,Nursing International,University of Colombo,1991,
+2434,Higher Diploma,Nursing Elite,University of Kelaniya,2020,Second Lower
+2437,Diploma,Accounting Advanced,University of Moratuwa,1985,
+2441,BA,Computer Science Elite,University of Ruhuna,2021,Second Upper
+2441,Higher Diploma,Engineering Elite,University of Peradeniya,1992,
+2444,BSc,Nursing International,University of Sri Jayewardenepura,1980,First Class
+2444,BSc,Nursing Elite,University of Colombo,1984,First Class
+2450,MSc,Business Tech,NSBM Green University,1985,
+2450,MSc,Business Global,University of Sri Jayewardenepura,2005,Pass
+2455,Higher Diploma,Hospitality Elite,University of Colombo,1981,First Class
+2455,Higher Diploma,Engineering Advanced,University of Ruhuna,2001,Second Lower
+2455,Diploma,Accounting Tech,Eastern University,1988,Second Upper
+2456,Higher Diploma,Business National,SLIIT,1980,Second Lower
+2462,Higher Diploma,Accounting Global,Eastern University,2001,Pass
+2463,BA,Nursing Tech,NSBM Green University,2005,Second Lower
+2469,BSc,Nursing Advanced,Eastern University,2023,Merit
+2472,BSc,Hospitality Premier,Open University of Sri Lanka,2016,First Class
+2491,BSc,Business Advanced,University of Kelaniya,2014,
+2500,Higher Diploma,Engineering National,University of Ruhuna,1984,Second Lower
+2513,BSc,Engineering Advanced,University of Colombo,1985,Second Upper
+2513,BA,Hospitality International,University of Ruhuna,1990,Pass
+2515,BSc,Computer Science National,University of Sri Jayewardenepura,1985,Second Lower
+2515,Diploma,Computer Science Advanced,SLIIT,1998,First Class
+2516,MSc,Hospitality Premier,NSBM Green University,2014,Second Upper
+2517,MSc,Business Advanced,University of Kelaniya,1980,Pass
+2525,MSc,Hospitality Global,Eastern University,2001,Merit
+2528,MSc,Accounting National,SLIIT,2010,Second Upper
+2544,MSc,Computer Science Tech,University of Moratuwa,1984,Merit
+2544,BA,Engineering Tech,NSBM Green University,1985,First Class
+2549,BA,Business Elite,University of Kelaniya,1987,
+2549,Higher Diploma,Computer Science Advanced,University of Sri Jayewardenepura,2000,Second Lower
+2549,Diploma,Engineering International,University of Moratuwa,2008,Merit
+2551,MSc,Computer Science Global,Eastern University,2002,Second Lower
+2551,Diploma,Accounting Global,University of Kelaniya,2010,Pass
+2568,MSc,Business Global,NSBM Green University,2002,
+2570,Higher Diploma,Business National,University of Kelaniya,1982,Merit
+2570,Higher Diploma,Nursing Tech,University of Colombo,2015,First Class
+2574,MSc,Nursing International,SLIIT,1982,Second Upper
+2580,Higher Diploma,Nursing International,NSBM Green University,1984,First Class
+2582,Higher Diploma,Hospitality International,Open University of Sri Lanka,2006,Second Lower
+2598,Diploma,Computer Science International,University of Peradeniya,2004,
+2599,BA,Business Tech,University of Colombo,1980,First Class
+2602,MSc,Computer Science Elite,SLIIT,1995,Second Lower
+2603,BA,Accounting International,University of Peradeniya,2007,First Class
+2603,BA,Computer Science Global,NSBM Green University,1980,Second Upper
+2604,Higher Diploma,Hospitality Global,SLIIT,2019,First Class
+2604,BA,Hospitality Advanced,University of Peradeniya,2002,Merit
+2607,BA,Nursing Tech,University of Kelaniya,2012,Second Upper
+2633,MSc,Nursing Premier,University of Sri Jayewardenepura,2007,Pass
+2639,Diploma,Business Elite,University of Peradeniya,2004,Second Lower
+2642,Higher Diploma,Business International,University of Peradeniya,1996,Second Upper
+2642,BSc,Accounting International,University of Kelaniya,2008,Second Upper
+2643,Higher Diploma,Business Global,NSBM Green University,1995,Second Lower
+2652,MSc,Hospitality Advanced,Open University of Sri Lanka,2012,Merit
+2652,BSc,Business International,University of Colombo,1982,First Class
+2652,MSc,Computer Science Elite,SLIIT,2012,
+2665,Higher Diploma,Business Premier,University of Colombo,2025,Second Lower
+2666,BSc,Business International,University of Sri Jayewardenepura,2016,First Class
+2670,BA,Hospitality Elite,University of Ruhuna,1990,Second Lower
+2670,BA,Business Global,University of Peradeniya,2000,First Class
+2671,MSc,Accounting National,Open University of Sri Lanka,2005,Merit
+2671,Diploma,Accounting International,Eastern University,2011,Pass
+2671,MSc,Business International,University of Ruhuna,2017,
+2673,BSc,Accounting International,University of Peradeniya,1984,
+2677,Higher Diploma,Engineering Elite,Eastern University,2016,Second Lower
+2677,Diploma,Hospitality Elite,University of Ruhuna,1985,Pass
+2682,Higher Diploma,Hospitality International,Open University of Sri Lanka,2001,Merit
+2682,BA,Nursing National,SLIIT,1982,Merit
+2683,Diploma,Business Premier,Open University of Sri Lanka,2001,
+2683,MSc,Computer Science Elite,University of Colombo,2019,Second Upper
+2684,BA,Computer Science International,SLIIT,2025,First Class
+2685,MSc,Computer Science Premier,University of Ruhuna,1994,
+2691,Higher Diploma,Business International,University of Ruhuna,1991,First Class
+2697,MSc,Computer Science National,Eastern University,2018,
+2705,BSc,Accounting Elite,SLIIT,2003,First Class
+2713,Diploma,Hospitality Global,Open University of Sri Lanka,1989,
+2714,Higher Diploma,Business National,University of Ruhuna,1995,Pass
+2715,BA,Business Tech,University of Peradeniya,2010,Pass
+2718,BA,Business Global,NSBM Green University,2000,Pass
+2738,BA,Nursing Advanced,University of Colombo,2024,Merit
+2738,MSc,Hospitality Advanced,NSBM Green University,2021,Second Lower
+2739,BA,Nursing Global,University of Moratuwa,1991,Second Lower
+2743,Higher Diploma,Engineering Tech,University of Peradeniya,2004,Second Lower
+2743,Diploma,Hospitality Advanced,University of Kelaniya,2025,
+2743,MSc,Nursing Global,Eastern University,1990,
+2747,MSc,Hospitality Advanced,NSBM Green University,1984,Second Upper
+2751,Higher Diploma,Accounting Advanced,University of Moratuwa,1984,Pass
+2761,BSc,Business International,University of Kelaniya,2012,Pass
+2762,Higher Diploma,Engineering Advanced,NSBM Green University,2010,
+2762,BA,Business International,University of Peradeniya,2005,
+2762,Higher Diploma,Business Elite,University of Ruhuna,1980,
+2767,Higher Diploma,Computer Science Elite,University of Sri Jayewardenepura,2021,Merit
+2786,Diploma,Business Tech,University of Colombo,2018,
+2787,BA,Engineering National,Open University of Sri Lanka,2019,Pass
+2788,Diploma,Business Tech,SLIIT,2018,
+2789,MSc,Engineering Premier,University of Kelaniya,2022,Second Lower
+2795,MSc,Accounting Elite,University of Kelaniya,2007,Second Lower
+2824,BA,Computer Science Advanced,University of Colombo,2002,Merit
+2825,BA,Engineering Tech,University of Colombo,1997,Merit
+2827,Higher Diploma,Engineering Elite,University of Kelaniya,1989,Pass
+2836,MSc,Hospitality Advanced,University of Ruhuna,2019,Second Lower
+2836,MSc,Nursing International,University of Peradeniya,2005,Second Upper
+2836,Higher Diploma,Business Premier,NSBM Green University,1998,Pass
+2848,BA,Computer Science Premier,NSBM Green University,1988,Pass
+2861,BSc,Hospitality International,NSBM Green University,1996,First Class
+2861,BSc,Nursing Tech,Open University of Sri Lanka,2023,First Class
+2880,Higher Diploma,Computer Science Advanced,Open University of Sri Lanka,2016,Second Upper
+2881,BA,Hospitality Advanced,University of Colombo,2025,
+2886,BA,Nursing Elite,University of Colombo,1990,Second Upper
+2887,MSc,Hospitality Premier,University of Ruhuna,2010,Merit
+2891,MSc,Hospitality Tech,University of Colombo,2017,First Class
+2896,Diploma,Engineering Advanced,Eastern University,2017,Second Lower
+2896,BSc,Accounting Advanced,University of Peradeniya,1993,
+2896,MSc,Business National,University of Sri Jayewardenepura,2020,Pass
+2897,Diploma,Hospitality International,University of Colombo,2024,First Class
+2919,MSc,Engineering Premier,University of Peradeniya,1993,Second Lower
+2919,Diploma,Accounting Advanced,Eastern University,1987,Second Lower
+2919,MSc,Engineering Global,NSBM Green University,2005,Second Upper
+2923,BA,Business Tech,University of Moratuwa,2018,Merit
+2925,Diploma,Accounting Tech,University of Kelaniya,1992,Pass
+2951,BA,Engineering Tech,University of Kelaniya,2011,Second Lower
+2954,Higher Diploma,Accounting Elite,NSBM Green University,1985,Pass
+2956,Higher Diploma,Accounting Advanced,Open University of Sri Lanka,1997,Second Upper
+2971,Higher Diploma,Business Tech,University of Moratuwa,2020,First Class
+2974,Diploma,Nursing Global,SLIIT,2014,First Class
+2977,BA,Engineering Tech,University of Kelaniya,2017,Merit
+2977,BA,Nursing Advanced,University of Ruhuna,2008,Merit
+2977,BA,Computer Science National,Open University of Sri Lanka,2020,Second Lower
+2999,MSc,Nursing International,SLIIT,2006,Pass
+2999,MSc,Engineering Advanced,University of Ruhuna,2014,First Class
+2999,Diploma,Engineering International,Open University of Sri Lanka,2016,
+3005,Higher Diploma,Computer Science Tech,SLIIT,2013,
+3015,BSc,Accounting National,Eastern University,2018,Second Lower
+3019,MSc,Hospitality Tech,University of Ruhuna,2025,Second Lower
+3019,BA,Hospitality Advanced,University of Colombo,2005,Second Lower
+3019,Higher Diploma,Business Tech,University of Moratuwa,1991,Second Lower
+3024,BA,Computer Science International,University of Sri Jayewardenepura,2002,
+3026,Higher Diploma,Business International,University of Kelaniya,2011,Second Lower
+3034,BSc,Business International,University of Ruhuna,2023,
+3036,BSc,Accounting Elite,Eastern University,1997,First Class
+3038,Higher Diploma,Accounting Elite,University of Moratuwa,1988,Second Upper
+3044,BSc,Computer Science National,Open University of Sri Lanka,2012,Second Upper
+3045,Higher Diploma,Engineering Elite,Eastern University,1996,Pass
+3066,BSc,Hospitality Advanced,University of Sri Jayewardenepura,2006,Pass
+3066,BA,Business National,SLIIT,2021,
+3066,MSc,Computer Science Global,University of Sri Jayewardenepura,2005,
+3070,BSc,Hospitality International,NSBM Green University,2025,Second Lower
+3079,Diploma,Accounting National,University of Moratuwa,2016,Second Lower
+3079,BSc,Engineering International,University of Peradeniya,1992,First Class
+3079,MSc,Accounting Tech,NSBM Green University,2010,Merit
+3086,Diploma,Business International,Eastern University,2001,
+3105,Diploma,Nursing International,University of Kelaniya,1990,Second Upper
+3106,BSc,Engineering Global,Eastern University,1991,
+3107,Higher Diploma,Nursing International,University of Kelaniya,2006,
+3113,Higher Diploma,Engineering Premier,University of Kelaniya,2023,Pass
+3117,Higher Diploma,Engineering Global,University of Kelaniya,1996,Pass
+3119,BSc,Computer Science National,University of Colombo,2014,Merit
+3121,BA,Accounting Global,University of Peradeniya,1993,First Class
+3136,BA,Hospitality Advanced,NSBM Green University,2008,
+3137,Higher Diploma,Business National,University of Sri Jayewardenepura,2021,Merit
+3153,Diploma,Engineering Global,NSBM Green University,2018,
+3157,MSc,Engineering International,University of Colombo,1984,Second Upper
+3157,Higher Diploma,Engineering National,Open University of Sri Lanka,1989,Pass
+3159,BA,Hospitality International,NSBM Green University,1988,First Class
+3161,Diploma,Computer Science Advanced,University of Kelaniya,2025,First Class
+3167,MSc,Engineering Advanced,University of Moratuwa,1993,
+3168,BA,Business Elite,University of Peradeniya,1993,Pass
+3168,Higher Diploma,Computer Science Elite,University of Colombo,2024,Pass
+3168,MSc,Nursing Tech,University of Kelaniya,2005,
+3179,Higher Diploma,Nursing International,University of Sri Jayewardenepura,2020,
+3182,MSc,Computer Science Global,Open University of Sri Lanka,2002,First Class
+3182,BA,Computer Science Global,University of Colombo,1980,Second Lower
+3187,Higher Diploma,Engineering Premier,University of Kelaniya,2012,
+3192,BA,Business Tech,SLIIT,2002,Second Lower
+3203,Diploma,Hospitality Advanced,University of Peradeniya,2015,Pass
+3208,MSc,Engineering International,Eastern University,1981,Second Upper
+3220,BA,Nursing Premier,University of Sri Jayewardenepura,1982,Merit
+3222,BSc,Engineering International,Open University of Sri Lanka,2013,Second Lower
+3236,Higher Diploma,Business National,Eastern University,2020,First Class
+3238,Higher Diploma,Nursing Elite,Open University of Sri Lanka,2006,
+3241,BA,Computer Science National,Open University of Sri Lanka,2015,First Class
+3250,BA,Hospitality Tech,SLIIT,2019,Second Upper
+3253,BSc,Nursing Tech,University of Colombo,1983,Second Lower
+3266,BSc,Computer Science International,University of Moratuwa,2001,Second Upper
+3268,MSc,Computer Science National,SLIIT,2005,Merit
+3274,MSc,Accounting International,University of Colombo,2012,Second Lower
+3279,MSc,Hospitality International,University of Moratuwa,2024,Pass
+3279,Diploma,Engineering International,SLIIT,2010,Merit
+3280,BSc,Hospitality Global,University of Moratuwa,1992,Merit
+3282,BSc,Hospitality Global,SLIIT,2008,Second Lower
+3294,Higher Diploma,Nursing Premier,University of Moratuwa,2024,First Class
+3301,MSc,Nursing Premier,University of Colombo,2022,First Class
+3303,Higher Diploma,Engineering Premier,Eastern University,2009,Second Lower
+3309,BA,Computer Science Advanced,NSBM Green University,2000,First Class
+3320,BSc,Computer Science Tech,SLIIT,2002,Second Upper
+3320,Diploma,Nursing Tech,Open University of Sri Lanka,2024,Second Upper
+3321,Higher Diploma,Accounting National,University of Kelaniya,1996,
+3323,MSc,Engineering International,University of Ruhuna,1997,Second Lower
+3323,Higher Diploma,Hospitality National,NSBM Green University,1982,Pass
+3324,BA,Hospitality Tech,University of Peradeniya,1984,
+3330,Higher Diploma,Computer Science Tech,University of Kelaniya,1985,Pass
+3335,Diploma,Accounting Global,Open University of Sri Lanka,2017,Second Upper
+3337,BSc,Computer Science Advanced,Eastern University,1991,First Class
+3351,BSc,Engineering Advanced,University of Ruhuna,2014,
+3380,Diploma,Accounting International,University of Kelaniya,2017,Second Upper
+3381,BA,Accounting Elite,University of Sri Jayewardenepura,2023,Merit
+3383,BSc,Hospitality Premier,Open University of Sri Lanka,1985,Pass
+3383,Diploma,Accounting Premier,NSBM Green University,2016,Merit
+3384,Diploma,Accounting Global,SLIIT,1991,Second Upper
+3393,BSc,Hospitality International,University of Peradeniya,2020,Pass
+3400,MSc,Hospitality National,Eastern University,2016,First Class
+3407,Higher Diploma,Hospitality National,SLIIT,2000,
+3408,Diploma,Computer Science Advanced,University of Colombo,2022,Pass
+3411,BA,Accounting Tech,NSBM Green University,2023,
+3419,Higher Diploma,Nursing Tech,SLIIT,1999,First Class
+3419,Higher Diploma,Hospitality National,SLIIT,2008,Pass
+3421,BA,Business International,SLIIT,2003,Second Upper
+3425,MSc,Business International,Eastern University,1981,
+3431,Diploma,Hospitality Premier,University of Sri Jayewardenepura,1990,Pass
+3443,Higher Diploma,Nursing Advanced,University of Ruhuna,1999,Second Upper
+3444,Diploma,Hospitality Premier,University of Sri Jayewardenepura,2014,First Class
+3449,BSc,Nursing Advanced,University of Kelaniya,2013,Second Upper
+3458,MSc,Engineering Tech,Open University of Sri Lanka,1996,
+3460,MSc,Accounting Premier,University of Peradeniya,2000,First Class
+3466,Diploma,Nursing International,University of Peradeniya,2013,
+3475,MSc,Business Premier,University of Kelaniya,2024,First Class
+3476,BSc,Business Global,University of Ruhuna,1980,Merit
+3484,BA,Accounting Global,University of Ruhuna,2021,
+3487,BSc,Business International,NSBM Green University,1996,First Class
+3493,BSc,Accounting Global,Eastern University,2017,First Class
+3493,Higher Diploma,Hospitality Advanced,University of Colombo,1983,Second Upper
+3493,Higher Diploma,Engineering Elite,Open University of Sri Lanka,2022,Second Upper
+3498,BA,Engineering Elite,University of Ruhuna,2013,
+3499,BA,Hospitality International,University of Ruhuna,2014,
+3504,MSc,Hospitality Global,University of Sri Jayewardenepura,2009,First Class
+3506,MSc,Hospitality Global,Open University of Sri Lanka,2004,Pass
+3517,BSc,Hospitality Advanced,University of Ruhuna,1988,Merit
+3518,Higher Diploma,Business Global,University of Kelaniya,2010,
+3518,BA,Engineering Premier,SLIIT,2021,Merit
+3530,MSc,Hospitality International,NSBM Green University,2001,Second Lower
+3532,BA,Engineering International,University of Kelaniya,1982,Pass
+3532,Higher Diploma,Nursing Advanced,University of Colombo,2008,Merit
+3537,BA,Business National,Eastern University,2006,Merit
+3537,BSc,Accounting Global,University of Sri Jayewardenepura,1982,Second Lower
+3548,MSc,Accounting International,University of Kelaniya,2008,Second Upper
+3553,Higher Diploma,Business Elite,NSBM Green University,1990,Second Upper
+3563,BSc,Engineering National,University of Moratuwa,1989,Merit
+3566,Higher Diploma,Accounting Global,University of Ruhuna,2005,First Class
+3572,BA,Nursing National,SLIIT,2018,Merit
+3573,Diploma,Business Elite,University of Kelaniya,1980,Second Lower
+3578,BA,Engineering National,University of Sri Jayewardenepura,2014,Second Upper
+3583,Diploma,Business Global,University of Ruhuna,1999,
+3583,Diploma,Business International,Eastern University,2007,Pass
+3584,Diploma,Nursing National,University of Colombo,2003,Second Upper
+3584,BSc,Hospitality Advanced,SLIIT,1999,First Class
+3584,Higher Diploma,Hospitality Premier,University of Kelaniya,1987,First Class
+3588,MSc,Computer Science Global,University of Colombo,2004,Second Lower
+3591,BA,Computer Science Elite,University of Peradeniya,2016,Merit
+3592,MSc,Nursing International,Open University of Sri Lanka,2016,Pass
+3592,BA,Hospitality Global,Open University of Sri Lanka,2005,Second Upper
+3601,BA,Engineering National,University of Moratuwa,1997,First Class
+3603,BA,Business International,University of Sri Jayewardenepura,2001,Pass
+3604,MSc,Business Global,University of Kelaniya,2003,Second Lower
+3604,BSc,Nursing International,University of Colombo,2019,Second Lower
+3606,Higher Diploma,Accounting Premier,SLIIT,2002,
+3607,BA,Nursing Premier,University of Peradeniya,2020,First Class
+3608,Diploma,Engineering Premier,University of Sri Jayewardenepura,2007,Merit
+3611,Higher Diploma,Nursing National,University of Colombo,2013,
+3614,Higher Diploma,Computer Science International,Eastern University,2007,Second Upper
+3622,BSc,Nursing Tech,University of Kelaniya,2023,First Class
+3629,Diploma,Hospitality Premier,Open University of Sri Lanka,1980,Second Upper
+3630,BSc,Accounting Advanced,University of Peradeniya,1990,Second Lower
+3640,Higher Diploma,Business Elite,University of Peradeniya,1998,Second Lower
+3646,BA,Engineering National,University of Peradeniya,1990,First Class
+3648,Diploma,Hospitality International,University of Colombo,2008,Merit
+3653,BSc,Hospitality Global,SLIIT,2011,Merit
+3657,BA,Engineering National,University of Sri Jayewardenepura,2011,Merit
+3659,MSc,Business Premier,University of Kelaniya,1984,Merit
+3659,Diploma,Accounting Global,University of Ruhuna,2012,
+3661,BA,Hospitality Elite,University of Colombo,1997,Merit
+3663,BA,Nursing Elite,Eastern University,2006,First Class
+3673,Diploma,Hospitality International,University of Moratuwa,1980,Second Lower
+3683,Diploma,Business Global,University of Ruhuna,1988,Pass
+3688,Diploma,Nursing Elite,University of Ruhuna,1992,Pass
+3693,Diploma,Engineering National,NSBM Green University,2014,Second Lower
+3702,BA,Business National,University of Colombo,2019,Second Upper
+3706,BSc,Computer Science Elite,University of Ruhuna,2022,
+3708,BA,Hospitality Tech,University of Peradeniya,1992,Second Upper
+3718,MSc,Accounting National,University of Ruhuna,1997,
+3718,BSc,Business International,SLIIT,2019,Second Upper
+3718,BA,Computer Science Global,University of Ruhuna,2005,
+3734,Diploma,Engineering Premier,University of Sri Jayewardenepura,2019,
+3735,Higher Diploma,Business National,Open University of Sri Lanka,1996,Second Lower
+3747,Higher Diploma,Business Premier,University of Sri Jayewardenepura,1987,Merit
+3747,BSc,Hospitality Premier,University of Ruhuna,2011,Merit
+3749,Higher Diploma,Computer Science Global,Open University of Sri Lanka,2012,Merit
+3758,Diploma,Computer Science Premier,University of Moratuwa,2010,Second Lower
+3768,BA,Computer Science National,NSBM Green University,1987,Pass
+3769,Higher Diploma,Accounting National,University of Sri Jayewardenepura,1980,Pass
+3771,Diploma,Hospitality Global,University of Colombo,2004,Second Lower
+3779,Higher Diploma,Nursing Global,NSBM Green University,1983,Pass
+3788,Higher Diploma,Business Elite,University of Sri Jayewardenepura,1980,Second Lower
+3796,Higher Diploma,Engineering Elite,University of Kelaniya,1990,
+3810,Diploma,Accounting Tech,NSBM Green University,1981,Second Lower
+3819,BSc,Accounting Advanced,Open University of Sri Lanka,1989,Second Lower
+3819,BA,Accounting Advanced,SLIIT,2015,First Class
+3821,BA,Hospitality International,University of Colombo,1988,
+3823,Higher Diploma,Business Global,Open University of Sri Lanka,2013,
+3827,Diploma,Engineering Tech,University of Ruhuna,1981,Merit
+3830,Diploma,Accounting Premier,University of Colombo,2021,Second Upper
+3832,BSc,Engineering International,University of Colombo,2021,Pass
+3837,Diploma,Computer Science Premier,University of Moratuwa,2023,First Class
+3840,BA,Engineering Tech,University of Sri Jayewardenepura,2003,Second Lower
+3844,BA,Accounting Elite,University of Moratuwa,1987,Second Upper
+3844,Diploma,Nursing Elite,Open University of Sri Lanka,1993,Merit
+3852,BA,Hospitality Global,Open University of Sri Lanka,1986,Second Lower
+3863,BA,Accounting Advanced,University of Sri Jayewardenepura,1982,Second Lower
+3870,MSc,Engineering Tech,SLIIT,2023,Second Upper
+3879,Higher Diploma,Nursing Elite,Eastern University,1993,Second Upper
+3887,BA,Hospitality International,University of Kelaniya,2013,Merit
+3891,Diploma,Computer Science Global,University of Sri Jayewardenepura,2009,Merit
+3907,Higher Diploma,Hospitality National,University of Sri Jayewardenepura,1991,Second Upper
+3908,BA,Engineering Advanced,University of Sri Jayewardenepura,1984,Merit
+3908,MSc,Business Tech,University of Colombo,2025,Merit
+3909,BA,Engineering Global,University of Sri Jayewardenepura,2001,First Class
+3914,Higher Diploma,Accounting National,University of Kelaniya,1998,Second Lower
+3914,Higher Diploma,Accounting Elite,University of Moratuwa,2020,Pass
+3915,BSc,Hospitality National,Open University of Sri Lanka,1993,Merit
+3916,Higher Diploma,Accounting National,NSBM Green University,1995,Second Upper
+3926,MSc,Engineering Global,Eastern University,2001,Merit
+3930,BSc,Accounting Advanced,NSBM Green University,2009,Merit
+3941,Diploma,Engineering National,University of Moratuwa,1987,Second Lower
+3953,Higher Diploma,Engineering Premier,University of Moratuwa,1983,Second Upper
+3956,Diploma,Accounting National,University of Ruhuna,1989,
+3965,Higher Diploma,Hospitality International,Eastern University,1987,
+3967,Diploma,Nursing International,University of Ruhuna,2016,
+3970,BA,Accounting National,University of Colombo,1985,Merit
+3977,BA,Engineering Tech,Eastern University,1980,Merit
+3977,BA,Business Premier,NSBM Green University,2021,
+3977,BA,Computer Science National,University of Ruhuna,1980,First Class
+3994,BA,Business Global,University of Ruhuna,2019,Merit
+3995,Higher Diploma,Business Elite,University of Kelaniya,2024,Pass
+4000,BA,Nursing Advanced,SLIIT,1985,First Class
+4002,BA,Accounting Premier,SLIIT,2014,
+4011,Diploma,Engineering Premier,NSBM Green University,2019,Second Upper
+4014,Higher Diploma,Business Elite,SLIIT,1983,
+4014,BA,Nursing Tech,University of Kelaniya,1981,First Class
+4014,Diploma,Hospitality Premier,University of Sri Jayewardenepura,2020,First Class
+4018,MSc,Accounting Premier,University of Moratuwa,1986,Second Upper
+4019,Higher Diploma,Accounting National,Open University of Sri Lanka,2010,Second Lower
+4022,Higher Diploma,Computer Science Global,University of Moratuwa,2002,Second Lower
+4024,BSc,Hospitality Global,University of Ruhuna,2013,Second Lower
+4033,BSc,Engineering International,University of Colombo,1994,First Class
+4048,BA,Engineering Premier,Open University of Sri Lanka,1981,Second Upper
+4060,Higher Diploma,Computer Science Global,Open University of Sri Lanka,2004,First Class
+4061,BA,Nursing Elite,NSBM Green University,1993,Pass
+4061,Higher Diploma,Engineering Elite,Open University of Sri Lanka,2013,Second Upper
+4065,Higher Diploma,Hospitality Global,University of Sri Jayewardenepura,2004,
+4070,Diploma,Hospitality Tech,University of Kelaniya,1982,First Class
+4089,BSc,Business International,SLIIT,2018,
+4095,BA,Nursing International,University of Sri Jayewardenepura,1983,
+4096,BSc,Computer Science National,NSBM Green University,2005,First Class
+4105,BSc,Nursing Tech,University of Peradeniya,1987,Merit
+4112,Higher Diploma,Business International,SLIIT,2017,Second Upper
+4112,BA,Accounting Global,SLIIT,2000,Pass
+4114,Diploma,Business Elite,University of Ruhuna,2017,Second Upper
+4122,BA,Computer Science Advanced,University of Moratuwa,1997,
+4134,Diploma,Computer Science Advanced,University of Ruhuna,2017,First Class
+4134,Diploma,Hospitality National,University of Ruhuna,2000,Merit
+4134,MSc,Engineering Advanced,University of Moratuwa,2006,First Class
+4136,Higher Diploma,Engineering Global,University of Moratuwa,2015,Second Lower
+4136,Diploma,Engineering Tech,University of Colombo,2017,First Class
+4144,Higher Diploma,Hospitality National,University of Ruhuna,1993,Second Upper
+4144,BSc,Nursing Premier,Open University of Sri Lanka,1986,Pass
+4155,Diploma,Computer Science Tech,University of Ruhuna,2005,
+4161,BSc,Business International,University of Sri Jayewardenepura,2005,
+4171,Diploma,Computer Science Tech,University of Sri Jayewardenepura,1981,First Class
+4179,Diploma,Engineering Premier,NSBM Green University,2015,First Class
+4196,MSc,Computer Science Global,University of Peradeniya,1982,Pass
+4196,Higher Diploma,Computer Science Tech,University of Peradeniya,1993,
+4198,Higher Diploma,Engineering Premier,University of Colombo,1980,Second Lower
+4198,Higher Diploma,Nursing Premier,University of Ruhuna,1997,
+4201,BA,Hospitality Global,University of Moratuwa,1990,Second Lower
+4218,MSc,Engineering Elite,University of Moratuwa,2017,Second Upper
+4218,BSc,Accounting Global,University of Kelaniya,1992,Merit
+4218,BA,Nursing Tech,University of Kelaniya,2008,Merit
+4221,BA,Accounting Premier,University of Kelaniya,1997,Merit
+4221,MSc,Business Global,SLIIT,2011,Second Upper
+4227,MSc,Computer Science Premier,University of Colombo,1995,Second Upper
+4234,MSc,Accounting Tech,Open University of Sri Lanka,1982,First Class
+4240,Higher Diploma,Accounting National,University of Peradeniya,1997,Second Lower
+4241,BSc,Engineering Elite,University of Sri Jayewardenepura,1990,Second Upper
+4254,BA,Hospitality Elite,University of Ruhuna,2004,First Class
+4254,BSc,Business Premier,University of Sri Jayewardenepura,2003,Merit
+4254,Diploma,Accounting International,Open University of Sri Lanka,2019,Second Lower
+4261,BSc,Engineering International,University of Peradeniya,2012,Second Lower
+4277,BSc,Accounting Elite,University of Kelaniya,1990,Merit
+4283,BSc,Engineering Elite,University of Peradeniya,2011,
+4283,Higher Diploma,Computer Science International,Open University of Sri Lanka,2016,First Class
+4289,BSc,Hospitality National,University of Peradeniya,1984,Second Upper
+4298,BSc,Nursing Premier,University of Kelaniya,2016,Second Lower
+4299,MSc,Business Premier,University of Moratuwa,2008,Second Upper
+4313,Higher Diploma,Accounting Global,University of Sri Jayewardenepura,2023,Pass
+4315,BA,Nursing Tech,University of Peradeniya,2004,First Class
+4328,BSc,Nursing Advanced,NSBM Green University,2016,First Class
+4331,BSc,Hospitality Elite,SLIIT,2024,Second Lower
+4333,BSc,Nursing Elite,NSBM Green University,1982,Second Lower
+4335,Higher Diploma,Hospitality Premier,SLIIT,2009,Second Upper
+4335,Higher Diploma,Accounting International,NSBM Green University,1982,Second Lower
+4335,BSc,Computer Science Elite,Eastern University,2002,Second Upper
+4337,Higher Diploma,Computer Science National,University of Colombo,2002,Second Upper
+4340,MSc,Nursing National,SLIIT,1984,Second Upper
+4340,MSc,Engineering Global,University of Ruhuna,1987,Second Upper
+4349,MSc,Business Premier,University of Sri Jayewardenepura,1992,First Class
+4353,Higher Diploma,Hospitality Premier,University of Peradeniya,2021,First Class
+4377,MSc,Business Premier,University of Ruhuna,2019,
+4391,BA,Accounting Premier,University of Peradeniya,1990,Merit
+4393,BA,Nursing International,University of Colombo,2001,Second Lower
+4410,Diploma,Business Premier,Open University of Sri Lanka,2014,Second Upper
+4410,BA,Nursing Premier,Eastern University,1989,Pass
+4411,BSc,Hospitality Global,University of Ruhuna,2022,Pass
+4412,Diploma,Business Elite,University of Moratuwa,2016,First Class
+4419,BA,Hospitality Premier,University of Colombo,1982,Second Lower
+4426,MSc,Engineering Global,NSBM Green University,1981,Merit
+4426,Higher Diploma,Hospitality National,NSBM Green University,2022,Second Upper
+4429,BSc,Accounting Premier,Eastern University,1983,Second Lower
+4441,BSc,Business Premier,NSBM Green University,1989,
+4441,Diploma,Computer Science Advanced,University of Colombo,1994,Second Lower
+4442,Higher Diploma,Computer Science Global,University of Peradeniya,1984,Merit
+4481,BA,Computer Science Global,University of Ruhuna,1985,Second Upper
+4482,Higher Diploma,Accounting Tech,Eastern University,2004,First Class
+4483,Diploma,Computer Science International,University of Moratuwa,2020,First Class
+4491,Higher Diploma,Accounting International,NSBM Green University,2003,
+4521,BSc,Nursing International,University of Kelaniya,2023,First Class
+4523,MSc,Computer Science Global,University of Peradeniya,1988,First Class
+4524,BSc,Computer Science Global,NSBM Green University,1997,Second Lower
+4528,BSc,Hospitality Elite,University of Sri Jayewardenepura,2011,Second Lower
+4544,Diploma,Computer Science Premier,University of Peradeniya,1992,Merit
+4544,BSc,Business National,University of Peradeniya,2009,First Class
+4545,Higher Diploma,Accounting National,University of Moratuwa,1987,First Class
+4572,Higher Diploma,Nursing Advanced,University of Sri Jayewardenepura,2020,Second Lower
+4572,Diploma,Accounting Advanced,Open University of Sri Lanka,1981,First Class
+4573,BA,Computer Science Elite,University of Ruhuna,1995,Second Lower
+4573,Diploma,Engineering National,University of Peradeniya,2000,
+4574,MSc,Accounting Elite,Eastern University,2004,Merit
+4577,Higher Diploma,Hospitality Advanced,NSBM Green University,2020,Merit
+4581,Diploma,Hospitality Global,University of Peradeniya,1981,First Class
+4581,BSc,Hospitality Global,University of Ruhuna,2002,First Class
+4592,BSc,Nursing Advanced,University of Kelaniya,2024,
+4603,BA,Nursing Tech,University of Peradeniya,1997,
+4606,MSc,Engineering Tech,University of Moratuwa,2018,
+4612,BSc,Nursing Premier,University of Ruhuna,1993,Second Lower
+4613,Diploma,Business International,Eastern University,2021,
+4622,BSc,Nursing International,NSBM Green University,2020,
+4627,Diploma,Business International,Open University of Sri Lanka,2006,First Class
+4633,Diploma,Hospitality Elite,University of Colombo,2014,First Class
+4638,BA,Nursing Global,University of Moratuwa,2018,Merit
+4639,Diploma,Computer Science National,University of Kelaniya,1984,Merit
+4641,Diploma,Hospitality Tech,University of Sri Jayewardenepura,1986,Second Upper
+4643,Higher Diploma,Computer Science Tech,Open University of Sri Lanka,2016,Second Lower
+4643,Higher Diploma,Accounting National,Open University of Sri Lanka,2008,Merit
+4647,Diploma,Nursing Advanced,University of Kelaniya,2014,Pass
+4652,BA,Business Global,Eastern University,2007,Merit
+4653,BSc,Nursing National,SLIIT,2005,Second Lower
+4655,BSc,Computer Science Global,University of Sri Jayewardenepura,2007,Pass
+4667,BSc,Engineering Premier,NSBM Green University,1995,Merit
+4667,MSc,Accounting Tech,Open University of Sri Lanka,2014,First Class
+4667,Diploma,Accounting Elite,Eastern University,1992,Second Lower
+4674,Diploma,Nursing International,NSBM Green University,2002,Second Upper
+4674,MSc,Nursing Tech,SLIIT,1990,Second Lower
+4674,Diploma,Engineering National,Eastern University,2003,Pass
+4702,Higher Diploma,Accounting National,University of Ruhuna,1990,Second Lower
+4705,BSc,Accounting Tech,Open University of Sri Lanka,2017,Second Lower
+4705,Diploma,Accounting Tech,University of Peradeniya,2014,First Class
+4705,Diploma,Nursing Premier,NSBM Green University,2015,Second Lower
+4718,BA,Nursing Advanced,Eastern University,2009,
+4725,BA,Computer Science Global,University of Ruhuna,2023,Second Upper
+4730,MSc,Accounting Elite,Open University of Sri Lanka,2021,First Class
+4731,Diploma,Engineering National,Eastern University,2009,Second Lower
+4731,Higher Diploma,Accounting National,University of Peradeniya,1988,First Class
+4737,Higher Diploma,Accounting Global,University of Sri Jayewardenepura,2005,
+4746,Diploma,Accounting Tech,University of Kelaniya,2009,Pass
+4752,BSc,Engineering Tech,NSBM Green University,2003,
+4752,Diploma,Engineering International,University of Colombo,1990,Second Upper
+4767,BSc,Nursing International,University of Sri Jayewardenepura,1986,Second Upper
+4772,Higher Diploma,Engineering National,University of Colombo,2024,
+4772,Higher Diploma,Nursing Advanced,Open University of Sri Lanka,2004,First Class
+4783,BA,Engineering Tech,University of Ruhuna,2019,Second Lower
+4786,BA,Accounting Elite,Eastern University,2009,Merit
+4791,BA,Hospitality Advanced,University of Moratuwa,2019,First Class
+4791,MSc,Nursing Tech,University of Peradeniya,1995,
+4793,BA,Engineering Advanced,NSBM Green University,2003,First Class
+4795,Higher Diploma,Engineering Advanced,Eastern University,2003,First Class
+4801,Higher Diploma,Accounting Premier,University of Kelaniya,1986,Second Upper
+4806,BSc,Business International,SLIIT,2006,First Class
+4809,BSc,Nursing Global,NSBM Green University,1983,
+4813,BA,Accounting Elite,SLIIT,2013,
+4823,BSc,Hospitality Elite,SLIIT,1980,Second Upper
+4837,MSc,Business Global,University of Kelaniya,1986,Second Upper
+4837,Diploma,Computer Science Advanced,University of Peradeniya,1981,Second Upper
+4846,Higher Diploma,Accounting Tech,University of Sri Jayewardenepura,2009,Pass
+4854,Higher Diploma,Nursing Global,Eastern University,2022,Merit
+4860,BA,Nursing Elite,University of Colombo,2009,
+4867,BA,Business National,University of Ruhuna,1997,
+4881,MSc,Hospitality International,SLIIT,2011,Merit
+4882,Diploma,Hospitality Global,University of Colombo,1984,
+4884,Higher Diploma,Business Premier,University of Moratuwa,2023,Pass
+4887,BA,Business Premier,Eastern University,2007,Second Lower
+4900,BSc,Accounting Elite,University of Moratuwa,1983,Merit
+4901,BA,Accounting Premier,University of Moratuwa,1982,Second Lower
+4901,BA,Business Advanced,University of Ruhuna,2020,Merit
+4901,Diploma,Accounting Advanced,University of Moratuwa,2001,Second Upper
+4910,MSc,Computer Science Tech,SLIIT,2022,Pass
+4910,Higher Diploma,Nursing International,SLIIT,1987,First Class
+4910,BA,Computer Science National,Open University of Sri Lanka,2024,Merit
+4913,Diploma,Nursing International,University of Ruhuna,2025,Merit
+4914,Higher Diploma,Nursing International,University of Kelaniya,2003,Second Upper
+4915,Higher Diploma,Computer Science Tech,University of Ruhuna,2005,Second Lower
+4915,Diploma,Hospitality Elite,University of Peradeniya,2025,Second Upper
+4922,Diploma,Business Premier,NSBM Green University,1994,First Class
+4922,BSc,Accounting Global,University of Sri Jayewardenepura,2000,Second Upper
+4925,BSc,Hospitality Tech,University of Peradeniya,1998,Second Lower
+4931,BSc,Nursing Global,University of Sri Jayewardenepura,1995,Pass
+4942,BSc,Computer Science Premier,University of Ruhuna,1985,Pass
+4942,BSc,Accounting Advanced,SLIIT,2025,Pass
+4945,BSc,Business Premier,University of Kelaniya,2016,Pass
+4969,BSc,Business National,NSBM Green University,2000,First Class
+4970,BSc,Computer Science Elite,University of Sri Jayewardenepura,2025,Merit
+4971,BA,Business National,University of Sri Jayewardenepura,1998,Second Lower
+4973,Higher Diploma,Nursing International,NSBM Green University,2021,Merit
+4973,Diploma,Engineering Premier,University of Peradeniya,1983,Pass
+4978,BSc,Engineering Tech,NSBM Green University,2019,Merit
+4978,BSc,Computer Science Advanced,Open University of Sri Lanka,2022,Second Upper
+4980,MSc,Engineering National,Open University of Sri Lanka,1980,First Class
+4981,MSc,Hospitality Premier,University of Peradeniya,2017,Second Upper
+4995,BSc,Business Tech,NSBM Green University,1998,Pass
+4998,Diploma,Engineering Advanced,University of Kelaniya,2007,
+4998,Higher Diploma,Nursing International,University of Ruhuna,2024,Pass
+5001,BA,Computer Science Elite,Eastern University,1990,Second Lower
+5009,Higher Diploma,Accounting Elite,University of Moratuwa,1990,First Class
+5012,Diploma,Hospitality Advanced,University of Kelaniya,1992,Second Upper
+5022,Diploma,Engineering National,University of Colombo,1990,Pass
+5026,Diploma,Accounting Advanced,Open University of Sri Lanka,1991,Merit
+5030,Diploma,Business International,Eastern University,2001,
+5033,MSc,Business Advanced,University of Ruhuna,2025,First Class
+5045,Diploma,Computer Science Global,University of Kelaniya,2013,Second Lower
+5048,BA,Engineering National,University of Kelaniya,2007,Second Upper
+5049,BSc,Business Elite,University of Sri Jayewardenepura,2004,Merit
+5049,BA,Engineering Elite,University of Peradeniya,2001,Merit
+5049,Diploma,Accounting Tech,Open University of Sri Lanka,2022,Second Upper
+5064,BSc,Hospitality National,University of Colombo,1981,Second Upper
+5073,MSc,Business Premier,University of Ruhuna,2011,Pass
+5096,BA,Accounting National,Eastern University,1989,Second Upper
+5104,BA,Business International,University of Colombo,2008,Second Lower
+5107,Diploma,Accounting International,Open University of Sri Lanka,2006,Second Lower
+5110,MSc,Engineering Tech,Open University of Sri Lanka,2024,Second Upper
+5115,Diploma,Computer Science Premier,University of Sri Jayewardenepura,2007,Pass
+5132,Higher Diploma,Accounting Global,University of Moratuwa,2000,
+5137,BA,Computer Science Advanced,University of Kelaniya,2001,Pass
+5147,Diploma,Computer Science Elite,University of Sri Jayewardenepura,1995,Second Lower
+5156,Higher Diploma,Engineering National,University of Moratuwa,2011,Second Lower
+5156,MSc,Computer Science Advanced,University of Colombo,2022,Merit
+5165,Higher Diploma,Nursing Elite,University of Peradeniya,2023,Second Lower
+5170,Diploma,Business International,Eastern University,2016,Second Upper
+5173,Diploma,Nursing Premier,University of Colombo,1996,Pass
+5189,BA,Hospitality Elite,University of Moratuwa,1999,Pass
+5193,MSc,Nursing International,University of Colombo,2024,Pass
+5203,BSc,Nursing Advanced,University of Peradeniya,1997,First Class
+5205,BSc,Nursing Tech,University of Colombo,2006,Second Lower
+5210,BA,Hospitality Elite,University of Peradeniya,2005,Second Lower
+5213,BSc,Computer Science Premier,University of Sri Jayewardenepura,1992,
+5215,Higher Diploma,Computer Science Elite,University of Colombo,1996,Second Lower
+5225,Higher Diploma,Nursing Elite,SLIIT,1982,Second Lower
+5234,BA,Hospitality Elite,University of Peradeniya,1987,
+5236,BSc,Nursing National,University of Kelaniya,2019,Pass
+5236,MSc,Engineering National,University of Peradeniya,2008,Pass
+5239,BSc,Engineering Tech,Open University of Sri Lanka,1985,Merit
+5248,MSc,Hospitality National,Open University of Sri Lanka,2000,
+5249,Higher Diploma,Accounting Premier,Open University of Sri Lanka,2005,Pass
+5259,MSc,Nursing International,University of Moratuwa,2002,Second Upper
+5259,MSc,Accounting Elite,University of Ruhuna,1997,Merit
+5259,BA,Accounting Global,Eastern University,2001,First Class
+5261,MSc,Nursing International,University of Ruhuna,1981,Second Upper
+5264,BSc,Nursing Global,Eastern University,2005,Second Lower
+5270,BSc,Accounting National,Eastern University,2024,
+5280,Diploma,Accounting Advanced,Eastern University,2003,
+5288,Diploma,Accounting Global,SLIIT,2007,Pass
+5291,Higher Diploma,Hospitality National,SLIIT,2006,Second Upper
+5293,BSc,Hospitality Global,University of Colombo,1988,First Class
+5293,MSc,Nursing Elite,University of Ruhuna,1998,First Class
+5294,Diploma,Engineering Premier,SLIIT,2024,Merit
+5298,Higher Diploma,Accounting National,Open University of Sri Lanka,1992,
+5298,BSc,Business Advanced,University of Sri Jayewardenepura,1995,First Class
+5308,BA,Hospitality Advanced,Eastern University,2003,First Class
+5316,BSc,Hospitality International,Eastern University,2021,Pass
+5316,BA,Hospitality Tech,SLIIT,2014,Merit
+5316,Higher Diploma,Accounting Advanced,NSBM Green University,2011,Second Upper
+5325,Higher Diploma,Nursing Premier,NSBM Green University,2000,
+5330,BA,Accounting International,University of Ruhuna,2020,Pass
+5331,Higher Diploma,Engineering Elite,Open University of Sri Lanka,2000,Second Lower
+5332,BSc,Computer Science Premier,Eastern University,2007,First Class
+5332,BA,Accounting Advanced,University of Moratuwa,2020,Second Upper
+5332,BA,Engineering National,SLIIT,2024,Pass
+5346,BA,Nursing Advanced,Open University of Sri Lanka,1994,Second Upper
+5353,Diploma,Accounting Tech,Open University of Sri Lanka,2011,Second Upper
+5361,MSc,Business Elite,Open University of Sri Lanka,2010,First Class
+5374,Higher Diploma,Computer Science Advanced,University of Ruhuna,2012,Merit
+5374,BA,Hospitality International,University of Sri Jayewardenepura,2001,Merit
+5376,MSc,Business Premier,Open University of Sri Lanka,1990,
+5377,Higher Diploma,Hospitality Premier,University of Peradeniya,1999,Merit
+5377,BA,Business Premier,Open University of Sri Lanka,1986,First Class
+5377,MSc,Accounting Elite,NSBM Green University,2013,Second Upper
+5378,MSc,Business Global,Open University of Sri Lanka,1984,First Class
+5380,Higher Diploma,Accounting Elite,Open University of Sri Lanka,2015,First Class
+5387,BA,Nursing Global,SLIIT,2006,Merit
+5396,Higher Diploma,Business Advanced,SLIIT,2025,
+5397,Diploma,Hospitality International,University of Moratuwa,2013,Second Lower
+5406,BA,Computer Science Elite,University of Ruhuna,1980,Second Upper
+5409,BA,Computer Science National,Open University of Sri Lanka,1991,Second Lower
+5409,Higher Diploma,Engineering International,University of Sri Jayewardenepura,2012,Second Upper
+5419,BSc,Business Global,University of Colombo,2000,Pass
+5430,BA,Business Global,University of Colombo,2001,First Class
+5430,Diploma,Nursing Advanced,University of Ruhuna,1985,Merit
+5432,Higher Diploma,Engineering Elite,NSBM Green University,1981,Second Lower
+5439,BA,Nursing Elite,University of Peradeniya,2004,First Class
+5443,BA,Nursing Elite,University of Colombo,1982,Merit
+5448,MSc,Accounting Tech,Eastern University,2022,Pass
+5456,BA,Accounting Advanced,University of Colombo,1982,Second Lower
+5466,BA,Engineering Global,University of Colombo,1981,Second Upper
+5472,Diploma,Nursing Premier,University of Moratuwa,1991,Merit
+5485,BSc,Accounting Global,University of Colombo,2002,Second Upper
+5489,Diploma,Business Advanced,University of Kelaniya,1996,Pass
+5495,MSc,Engineering Global,University of Ruhuna,2013,Pass
+5499,Diploma,Accounting International,University of Kelaniya,2008,Merit
+5499,MSc,Engineering International,University of Colombo,2014,
+5502,Diploma,Business Advanced,SLIIT,2010,Second Upper
+5502,BA,Accounting International,Open University of Sri Lanka,2007,Second Lower
+5506,BA,Engineering Global,Open University of Sri Lanka,1996,Pass
+5508,MSc,Computer Science National,NSBM Green University,1987,First Class
+5516,BSc,Nursing Tech,University of Peradeniya,2024,Pass
+5522,MSc,Computer Science International,NSBM Green University,2010,Second Lower
+5553,BA,Computer Science National,University of Ruhuna,1986,Second Upper
+5569,Higher Diploma,Business National,University of Colombo,2024,Pass
+5575,BSc,Business Tech,University of Sri Jayewardenepura,1996,Pass
+5579,MSc,Nursing Elite,NSBM Green University,1994,Merit
+5586,MSc,Computer Science Elite,University of Peradeniya,2004,
+5587,BA,Hospitality International,University of Ruhuna,1989,Second Lower
+5598,BA,Accounting National,University of Colombo,1992,Pass
+5598,Higher Diploma,Business International,SLIIT,2015,Second Upper
+5604,Diploma,Accounting Global,University of Sri Jayewardenepura,2014,First Class
+5606,BSc,Business Premier,University of Sri Jayewardenepura,2014,
+5613,BA,Engineering Elite,University of Kelaniya,1991,
+5614,MSc,Engineering Elite,SLIIT,1996,Pass
+5614,Diploma,Nursing Advanced,NSBM Green University,1984,
+5614,Higher Diploma,Nursing Global,University of Sri Jayewardenepura,2001,Second Lower
+5615,Diploma,Business Tech,SLIIT,2016,First Class
+5615,Higher Diploma,Business Elite,Open University of Sri Lanka,2020,Merit
+5624,Diploma,Business Elite,Open University of Sri Lanka,2021,Pass
+5628,MSc,Computer Science Premier,University of Ruhuna,2024,Second Lower
+5629,Diploma,Engineering International,University of Colombo,2006,Second Lower
+5629,BSc,Business Premier,University of Peradeniya,1994,Second Upper
+5630,BA,Nursing Advanced,University of Sri Jayewardenepura,2010,
+5633,MSc,Computer Science Premier,Eastern University,1987,Merit
+5633,Diploma,Business Advanced,Eastern University,2022,Merit
+5643,MSc,Business Global,SLIIT,2012,Second Upper
+5650,MSc,Accounting Global,NSBM Green University,2000,Merit
+5665,BSc,Nursing International,Eastern University,2018,
+5670,MSc,Business Tech,NSBM Green University,2024,Second Lower
+5680,BSc,Engineering Premier,University of Moratuwa,1998,Second Lower
+5687,Diploma,Hospitality International,University of Colombo,1980,Merit
+5694,Higher Diploma,Nursing National,University of Kelaniya,2017,Pass
+5694,MSc,Business Global,Open University of Sri Lanka,2007,First Class
+5694,MSc,Business Advanced,University of Colombo,2012,First Class
+5696,BA,Engineering International,University of Sri Jayewardenepura,1983,First Class
+5696,BA,Computer Science Global,University of Kelaniya,2011,Second Upper
+5705,MSc,Computer Science Tech,Open University of Sri Lanka,2004,Merit
+5715,BSc,Engineering Premier,University of Colombo,1997,Merit
+5715,Diploma,Engineering National,University of Sri Jayewardenepura,1996,First Class
+5717,BSc,Nursing Advanced,University of Peradeniya,2005,Merit
+5728,Higher Diploma,Computer Science Advanced,University of Peradeniya,1994,Pass
+5735,Higher Diploma,Computer Science Tech,NSBM Green University,2018,
+5736,MSc,Business Advanced,NSBM Green University,2001,Merit
+5742,MSc,Accounting Elite,University of Kelaniya,1985,Merit
+5750,MSc,Business Elite,SLIIT,2013,
+5751,Higher Diploma,Hospitality Advanced,University of Colombo,1985,Pass
+5753,MSc,Hospitality Advanced,Eastern University,2001,Merit
+5758,BA,Nursing Elite,Eastern University,1989,Pass
+5762,BA,Nursing Global,NSBM Green University,2003,Second Upper
+5776,MSc,Computer Science Elite,Open University of Sri Lanka,2008,Second Upper
+5782,BSc,Engineering Global,University of Peradeniya,1991,Second Lower
+5782,MSc,Accounting Global,University of Ruhuna,2004,First Class
+5784,BA,Business Advanced,University of Kelaniya,2003,Second Upper
+5788,Diploma,Accounting Advanced,University of Moratuwa,2005,First Class
+5801,BA,Nursing Advanced,University of Sri Jayewardenepura,2019,Merit
+5802,MSc,Accounting International,University of Colombo,2013,Pass
+5842,Higher Diploma,Hospitality Premier,NSBM Green University,1990,
+5851,BA,Nursing Tech,University of Ruhuna,2011,Second Lower
+5854,BA,Accounting Elite,NSBM Green University,2015,Merit
+5856,BSc,Engineering National,University of Ruhuna,2022,Merit
+5856,BSc,Engineering Tech,SLIIT,1992,Merit
+5865,Higher Diploma,Computer Science Advanced,University of Peradeniya,2011,Second Lower
+5866,Higher Diploma,Accounting Global,Eastern University,2000,First Class
+5876,MSc,Business International,University of Sri Jayewardenepura,2014,Pass
+5878,BSc,Computer Science Premier,University of Colombo,1988,First Class
+5879,Diploma,Hospitality International,University of Moratuwa,1997,
+5883,Diploma,Hospitality National,University of Kelaniya,1980,Second Upper
+5883,BSc,Hospitality Elite,Eastern University,1980,Pass
+5885,BA,Hospitality Global,University of Peradeniya,1993,Pass
+5890,Diploma,Hospitality Premier,University of Ruhuna,2008,First Class
+5899,BA,Nursing International,Eastern University,2015,
+5902,MSc,Computer Science Advanced,SLIIT,1993,First Class
+5908,Diploma,Computer Science Tech,University of Sri Jayewardenepura,2022,Merit
+5931,Higher Diploma,Engineering Global,Open University of Sri Lanka,1991,Pass
+5936,MSc,Computer Science Advanced,University of Peradeniya,1984,First Class
+5943,BSc,Engineering Elite,SLIIT,2008,First Class
+5943,Higher Diploma,Engineering Premier,University of Ruhuna,2012,Pass
+5947,MSc,Accounting National,University of Sri Jayewardenepura,2004,Second Upper
+5948,BSc,Engineering National,University of Moratuwa,2020,
+5961,Diploma,Business International,University of Colombo,2021,Second Lower
+5961,BSc,Computer Science Advanced,Open University of Sri Lanka,2011,Merit
+5962,Diploma,Hospitality Premier,University of Ruhuna,2007,First Class
+5962,BSc,Hospitality National,University of Ruhuna,1995,
+5962,BA,Hospitality Premier,University of Sri Jayewardenepura,1996,Pass
+5964,BSc,Accounting Premier,University of Ruhuna,2018,Second Upper
+5970,BA,Business Advanced,SLIIT,2021,Pass
+5974,Higher Diploma,Hospitality Premier,University of Colombo,2009,Merit
+5974,BA,Accounting Advanced,University of Peradeniya,1990,Second Upper
+5980,BSc,Computer Science Premier,Eastern University,2000,First Class
+5982,MSc,Business Elite,University of Kelaniya,2003,First Class
+5984,Diploma,Nursing Premier,University of Peradeniya,1996,Pass
+5985,BSc,Computer Science Global,University of Moratuwa,1994,Merit
+5991,Higher Diploma,Business International,University of Peradeniya,1992,Second Upper
+5991,Diploma,Hospitality Premier,University of Moratuwa,1981,First Class
+6000,MSc,Business Advanced,University of Ruhuna,2000,Second Lower
+6014,Higher Diploma,Engineering International,University of Moratuwa,2004,Merit
+6015,Diploma,Accounting Premier,NSBM Green University,2004,Second Upper
+6019,MSc,Hospitality Tech,SLIIT,2016,First Class
+6021,MSc,Hospitality Advanced,University of Sri Jayewardenepura,2025,Pass
+6026,MSc,Engineering Advanced,NSBM Green University,1991,Second Lower
+6031,MSc,Nursing Elite,SLIIT,2003,Second Upper
+6034,MSc,Nursing Global,University of Peradeniya,2008,
+6034,BA,Accounting National,University of Colombo,2005,Second Upper
+6039,BSc,Business International,University of Peradeniya,2004,First Class
+6060,MSc,Engineering National,University of Moratuwa,1993,Pass
+6074,BSc,Nursing Premier,SLIIT,1988,First Class
+6075,MSc,Computer Science International,University of Sri Jayewardenepura,2019,Merit
+6078,BSc,Accounting International,University of Colombo,2000,Pass
+6090,BSc,Computer Science Advanced,SLIIT,1998,First Class
+6092,MSc,Engineering Premier,Eastern University,1981,
+6103,BSc,Computer Science Premier,Eastern University,1991,First Class
+6103,BA,Engineering Elite,University of Kelaniya,2011,Merit
+6107,BSc,Engineering National,SLIIT,2013,Second Lower
+6115,MSc,Hospitality Global,University of Peradeniya,1994,Second Upper
+6115,Higher Diploma,Accounting Elite,University of Sri Jayewardenepura,1992,Merit
+6115,Higher Diploma,Business Tech,Eastern University,1980,Pass
+6118,BA,Nursing Premier,University of Colombo,2005,
+6118,BA,Nursing Elite,Eastern University,1982,Pass
+6123,Higher Diploma,Nursing International,University of Colombo,1990,Second Lower
+6123,Higher Diploma,Nursing Global,Eastern University,1997,Second Upper
+6128,Higher Diploma,Computer Science National,University of Ruhuna,1990,Merit
+6132,Diploma,Accounting Advanced,University of Sri Jayewardenepura,1995,First Class
+6132,BA,Hospitality International,University of Peradeniya,1988,Second Upper
+6134,MSc,Nursing Global,University of Peradeniya,1982,Merit
+6134,Higher Diploma,Business Advanced,University of Kelaniya,2021,Second Upper
+6144,MSc,Computer Science Global,University of Sri Jayewardenepura,1982,Pass
+6144,BA,Hospitality International,University of Sri Jayewardenepura,1998,
+6144,MSc,Nursing Premier,University of Colombo,1986,Second Upper
+6148,BA,Computer Science Premier,SLIIT,2015,Second Lower
+6152,Diploma,Computer Science Tech,University of Moratuwa,1987,Second Lower
+6155,Diploma,Hospitality Premier,University of Moratuwa,2000,First Class
+6155,BSc,Accounting National,University of Colombo,1992,
+6155,BA,Hospitality Advanced,SLIIT,2021,First Class
+6165,BSc,Business International,University of Moratuwa,1987,First Class
+6167,Diploma,Business International,Eastern University,1993,Second Lower
+6177,Higher Diploma,Computer Science Elite,University of Moratuwa,1985,Second Upper
+6180,Diploma,Business Elite,University of Sri Jayewardenepura,2015,Pass
+6180,Diploma,Business Advanced,Open University of Sri Lanka,1987,First Class
+6188,Diploma,Computer Science Global,University of Sri Jayewardenepura,1997,First Class
+6197,BA,Accounting Tech,University of Moratuwa,2025,Second Upper
+6202,BA,Business International,University of Peradeniya,2024,First Class
+6205,Higher Diploma,Engineering International,University of Kelaniya,1992,Second Upper
+6205,MSc,Computer Science Global,University of Ruhuna,2008,Second Lower
+6210,Higher Diploma,Nursing National,University of Moratuwa,2007,Second Lower
+6210,BSc,Accounting Global,Eastern University,2014,Pass
+6210,MSc,Nursing Global,University of Ruhuna,1995,First Class
+6212,Diploma,Engineering Elite,Eastern University,2021,Second Upper
+6228,BSc,Nursing Elite,Eastern University,1995,
+6228,BSc,Computer Science Tech,SLIIT,1989,Merit
+6228,MSc,Engineering Premier,University of Sri Jayewardenepura,2015,
+6237,Diploma,Nursing Premier,University of Ruhuna,2003,First Class
+6238,MSc,Hospitality Advanced,University of Colombo,2015,
+6238,BA,Business International,Eastern University,1983,Second Upper
+6244,BA,Business National,University of Peradeniya,2001,First Class
+6245,MSc,Engineering International,NSBM Green University,2008,First Class
+6247,Higher Diploma,Nursing Premier,University of Moratuwa,1982,
+6249,BA,Hospitality Advanced,University of Ruhuna,2014,First Class
+6260,BA,Engineering Tech,Open University of Sri Lanka,1990,Pass
+6265,Higher Diploma,Engineering Elite,NSBM Green University,2017,First Class
+6266,Diploma,Business Elite,Eastern University,2008,Pass
+6269,BSc,Accounting Tech,University of Ruhuna,2022,Pass
+6269,BSc,Accounting International,SLIIT,2009,Second Lower
+6272,BA,Computer Science Tech,Eastern University,2020,Merit
+6293,Higher Diploma,Nursing Premier,University of Peradeniya,2016,First Class
+6313,MSc,Business Premier,University of Peradeniya,2016,
+6322,BA,Hospitality National,SLIIT,1983,Merit
+6335,BSc,Business Tech,University of Ruhuna,2004,Second Lower
+6338,BA,Business National,SLIIT,1985,First Class
+6339,Diploma,Nursing Tech,University of Peradeniya,1995,
+6340,MSc,Nursing Global,SLIIT,2021,
+6348,BA,Accounting Global,University of Ruhuna,2020,Merit
+6350,BA,Nursing Premier,University of Colombo,2011,Pass
+6354,BSc,Computer Science National,Open University of Sri Lanka,2021,
+6357,BA,Computer Science Advanced,Open University of Sri Lanka,1984,Pass
+6361,Higher Diploma,Nursing Premier,NSBM Green University,2014,Second Lower
+6361,BA,Accounting Tech,University of Kelaniya,1992,Second Upper
+6363,MSc,Computer Science Tech,Eastern University,2022,Pass
+6368,BA,Accounting International,University of Ruhuna,1987,Second Upper
+6389,BA,Nursing Global,SLIIT,1981,Second Upper
+6401,MSc,Accounting Elite,NSBM Green University,1995,Second Lower
+6408,BSc,Engineering Elite,SLIIT,1988,Pass
+6421,BA,Accounting International,Eastern University,2001,Second Lower
+6422,BA,Hospitality International,SLIIT,1997,First Class
+6427,MSc,Engineering International,University of Sri Jayewardenepura,2003,Second Upper
+6440,BA,Nursing Advanced,University of Sri Jayewardenepura,2022,Second Upper
+6448,Higher Diploma,Nursing National,University of Moratuwa,2005,Second Lower
+6453,Higher Diploma,Computer Science International,NSBM Green University,1991,First Class
+6459,Diploma,Engineering Tech,University of Moratuwa,1996,First Class
+6460,MSc,Accounting Elite,University of Ruhuna,2011,Pass
+6468,BA,Engineering Premier,NSBM Green University,1992,First Class
+6468,BSc,Nursing Elite,University of Colombo,2023,Second Lower
+6470,Diploma,Computer Science International,Eastern University,2016,Second Lower
+6475,BA,Computer Science Advanced,University of Peradeniya,1981,Merit
+6475,BSc,Nursing Elite,University of Sri Jayewardenepura,2018,First Class
+6475,BA,Business Advanced,Open University of Sri Lanka,2000,First Class
+6476,Diploma,Accounting Elite,Open University of Sri Lanka,2009,
+6480,Higher Diploma,Hospitality Elite,Open University of Sri Lanka,2018,Merit
+6480,Diploma,Hospitality Advanced,Eastern University,1981,Second Lower
+6495,BSc,Engineering Global,University of Peradeniya,2020,
+6495,BA,Hospitality Advanced,Eastern University,2019,
+6499,MSc,Nursing Premier,University of Colombo,2010,Second Upper
+6500,Diploma,Business Advanced,Eastern University,1988,Merit
+6519,BSc,Business National,University of Kelaniya,1985,Pass
+6526,BSc,Computer Science Premier,University of Sri Jayewardenepura,1985,Second Upper
+6532,MSc,Accounting Premier,NSBM Green University,1986,Pass
+6541,Diploma,Nursing Global,University of Peradeniya,2005,
+6549,BA,Hospitality Elite,University of Kelaniya,2012,Second Lower
+6557,MSc,Computer Science Premier,University of Colombo,2012,
+6558,BSc,Nursing Tech,University of Kelaniya,1983,Second Upper
+6565,Higher Diploma,Hospitality Premier,University of Kelaniya,2020,Merit
+6569,BA,Engineering Tech,University of Sri Jayewardenepura,1989,Second Upper
+6572,Higher Diploma,Accounting Tech,University of Colombo,2003,Second Lower
+6576,BA,Hospitality Tech,University of Moratuwa,1983,Second Upper
+6584,BA,Computer Science Global,Open University of Sri Lanka,1986,Second Upper
+6589,MSc,Business Advanced,University of Colombo,1981,First Class
+6591,BA,Business Advanced,University of Ruhuna,2016,Second Lower
+6594,Diploma,Accounting Advanced,University of Colombo,1988,Second Upper
+6602,Diploma,Computer Science International,University of Peradeniya,1980,First Class
+6614,Diploma,Computer Science International,Open University of Sri Lanka,2002,Pass
+6626,BA,Hospitality National,SLIIT,1994,Second Upper
+6632,MSc,Accounting International,University of Sri Jayewardenepura,1981,First Class
+6638,Higher Diploma,Engineering Premier,Open University of Sri Lanka,1993,
+6641,BSc,Engineering Premier,Open University of Sri Lanka,2012,Merit
+6648,BSc,Business National,University of Colombo,2002,
+6651,BSc,Nursing Elite,University of Colombo,1990,Second Upper
+6651,Diploma,Hospitality Tech,SLIIT,1986,Pass
+6665,BA,Computer Science Premier,University of Ruhuna,1997,
+6673,MSc,Engineering National,University of Ruhuna,1992,
+6686,BSc,Accounting National,University of Sri Jayewardenepura,1993,
+6691,BSc,Nursing Advanced,SLIIT,1991,Pass
+6697,Higher Diploma,Computer Science National,University of Peradeniya,2024,Second Lower
+6701,Diploma,Business Advanced,Open University of Sri Lanka,1986,Pass
+6704,Higher Diploma,Hospitality International,University of Ruhuna,2025,Merit
+6705,MSc,Computer Science Global,University of Moratuwa,2007,Pass
+6705,Diploma,Business Global,Open University of Sri Lanka,2007,
+6708,Higher Diploma,Engineering Advanced,University of Peradeniya,2020,Pass
+6711,BSc,Accounting Tech,Eastern University,1989,Pass
+6718,MSc,Nursing Global,University of Sri Jayewardenepura,2010,Second Lower
+6730,MSc,Nursing National,SLIIT,2023,Merit
+6736,Higher Diploma,Accounting National,University of Colombo,1999,
+6739,Higher Diploma,Accounting Advanced,Eastern University,1991,Second Upper
+6748,MSc,Computer Science Advanced,University of Peradeniya,2015,Second Lower
+6755,BA,Computer Science Advanced,University of Peradeniya,1993,First Class
+6764,Diploma,Accounting Tech,SLIIT,1983,Pass
+6768,Higher Diploma,Engineering Global,University of Sri Jayewardenepura,1995,Merit
+6771,Higher Diploma,Nursing Elite,University of Moratuwa,2001,Pass
+6776,BSc,Business Advanced,University of Colombo,1989,Second Lower
+6776,BSc,Nursing Advanced,University of Peradeniya,1985,Second Lower
+6776,BA,Accounting National,University of Ruhuna,2013,Second Lower
+6781,BA,Engineering Tech,University of Kelaniya,2013,Second Upper
+6786,MSc,Computer Science Global,Eastern University,1991,First Class
+6788,BA,Nursing Premier,University of Kelaniya,2025,First Class
+6790,Diploma,Computer Science Tech,University of Ruhuna,2024,
+6794,BSc,Accounting Premier,NSBM Green University,1996,Pass
+6797,Diploma,Hospitality Tech,Open University of Sri Lanka,2012,Merit
+6816,Diploma,Nursing Premier,University of Ruhuna,2013,
+6816,Diploma,Hospitality Advanced,University of Sri Jayewardenepura,1997,Second Upper
+6822,Higher Diploma,Engineering Tech,Open University of Sri Lanka,2015,Second Upper
+6823,Higher Diploma,Nursing International,NSBM Green University,1996,Second Upper
+6823,MSc,Accounting Tech,Open University of Sri Lanka,2003,Merit
+6829,Higher Diploma,Hospitality Global,Open University of Sri Lanka,2016,Merit
+6829,BSc,Hospitality Advanced,Open University of Sri Lanka,2004,Pass
+6835,MSc,Hospitality National,Open University of Sri Lanka,2009,First Class
+6838,Higher Diploma,Nursing National,University of Moratuwa,2021,First Class
+6839,Higher Diploma,Engineering National,University of Colombo,2011,Second Upper
+6847,MSc,Engineering National,University of Colombo,2008,Second Upper
+6851,BSc,Hospitality Premier,Open University of Sri Lanka,1993,First Class
+6857,Higher Diploma,Accounting Tech,University of Peradeniya,2024,Second Upper
+6871,MSc,Accounting Tech,Eastern University,2011,Second Upper
+6884,Higher Diploma,Business Tech,Eastern University,2014,First Class
+6884,Higher Diploma,Hospitality Global,University of Peradeniya,1985,Second Lower
+6887,Higher Diploma,Accounting Premier,University of Kelaniya,2009,Second Lower
+6898,Diploma,Business National,University of Colombo,2008,Second Lower
+6902,Higher Diploma,Business Elite,Open University of Sri Lanka,2009,First Class
+6907,Diploma,Accounting Tech,University of Peradeniya,1988,Pass
+6913,Diploma,Hospitality Premier,University of Kelaniya,1981,Second Lower
+6917,Higher Diploma,Business Advanced,University of Peradeniya,1985,First Class
+6920,Higher Diploma,Business National,Open University of Sri Lanka,2015,Second Lower
+6923,Higher Diploma,Accounting International,University of Ruhuna,2003,Merit
+6931,BA,Nursing Elite,SLIIT,2000,First Class
+6938,MSc,Computer Science International,NSBM Green University,1996,
+6938,MSc,Engineering Premier,University of Colombo,2025,
+6953,MSc,Computer Science International,University of Moratuwa,2018,Second Upper
+6957,Higher Diploma,Hospitality Global,Open University of Sri Lanka,2005,First Class
+6957,MSc,Engineering Tech,SLIIT,1997,
+6968,Higher Diploma,Business Global,University of Colombo,1999,Second Upper
+6969,MSc,Nursing Advanced,SLIIT,2010,Second Lower
+6973,Higher Diploma,Nursing International,University of Sri Jayewardenepura,1988,
+6974,MSc,Engineering National,University of Ruhuna,2010,Second Upper
+6981,MSc,Hospitality Tech,NSBM Green University,2015,Pass
+6989,BSc,Nursing National,Eastern University,2024,
+6989,Higher Diploma,Accounting Advanced,NSBM Green University,2013,
+6989,Higher Diploma,Engineering Elite,University of Moratuwa,2018,First Class
+7002,BSc,Engineering Tech,University of Ruhuna,2014,Merit
+7005,Higher Diploma,Nursing International,Open University of Sri Lanka,2022,First Class
+7007,BSc,Accounting Elite,University of Colombo,1992,Merit
+7007,BSc,Hospitality National,Open University of Sri Lanka,1997,First Class
+7007,Higher Diploma,Accounting Advanced,University of Colombo,1988,First Class
+7013,BA,Hospitality Premier,Eastern University,1998,
+7013,MSc,Business Premier,University of Kelaniya,2014,Merit
+7014,Diploma,Accounting International,University of Moratuwa,1997,Second Lower
+7016,BA,Business National,NSBM Green University,1999,Pass
+7029,MSc,Engineering Tech,University of Moratuwa,2000,First Class
+7032,BA,Accounting Elite,University of Moratuwa,1980,Merit
+7036,MSc,Business Global,University of Ruhuna,2009,Pass
+7036,Higher Diploma,Computer Science Advanced,Eastern University,1982,First Class
+7038,BSc,Accounting Elite,University of Sri Jayewardenepura,1988,Second Upper
+7046,BA,Business National,University of Moratuwa,2010,First Class
+7049,Diploma,Hospitality National,Open University of Sri Lanka,1980,First Class
+7050,Higher Diploma,Accounting International,Open University of Sri Lanka,2024,First Class
+7050,Diploma,Hospitality Premier,University of Peradeniya,2012,First Class
+7054,BSc,Hospitality Advanced,University of Colombo,2004,Second Lower
+7062,BSc,Accounting Tech,SLIIT,2010,Merit
+7069,BSc,Engineering National,University of Ruhuna,2000,Second Lower
+7069,BSc,Nursing International,University of Ruhuna,2010,First Class
+7078,Diploma,Accounting International,University of Ruhuna,2017,Pass
+7082,MSc,Hospitality Elite,Open University of Sri Lanka,2019,Second Lower
+7088,MSc,Accounting Premier,University of Moratuwa,2005,Second Lower
+7090,Higher Diploma,Hospitality Elite,University of Ruhuna,2020,Pass
+7097,BA,Business Advanced,NSBM Green University,1980,Second Lower
+7101,MSc,Accounting Advanced,University of Moratuwa,1987,Merit
+7112,Diploma,Business National,Eastern University,2000,Second Upper
+7125,Diploma,Engineering Tech,Eastern University,2013,
+7130,Higher Diploma,Nursing Advanced,University of Sri Jayewardenepura,1983,Merit
+7132,Diploma,Business Global,University of Sri Jayewardenepura,1999,First Class
+7134,Higher Diploma,Accounting Premier,University of Moratuwa,1998,Second Upper
+7141,BA,Engineering Elite,University of Sri Jayewardenepura,2023,Merit
+7146,MSc,Accounting Global,University of Kelaniya,2010,Merit
+7146,BSc,Accounting Tech,University of Peradeniya,2013,Second Lower
+7148,MSc,Accounting Premier,University of Ruhuna,1988,Pass
+7150,Higher Diploma,Nursing Premier,Open University of Sri Lanka,2010,Merit
+7154,Diploma,Business Global,University of Sri Jayewardenepura,2010,First Class
+7155,Higher Diploma,Engineering Tech,NSBM Green University,1984,
+7170,BSc,Computer Science Elite,University of Ruhuna,2013,Second Lower
+7174,Higher Diploma,Accounting Advanced,University of Moratuwa,1986,First Class
+7176,MSc,Computer Science Elite,NSBM Green University,1994,
+7176,Diploma,Computer Science International,University of Kelaniya,2022,Second Lower
+7176,Higher Diploma,Business International,University of Ruhuna,1980,Second Lower
+7181,Higher Diploma,Hospitality Premier,University of Kelaniya,1992,Merit
+7190,BA,Accounting Global,SLIIT,1988,Merit
+7195,Diploma,Accounting Advanced,NSBM Green University,1994,Second Upper
+7197,Higher Diploma,Accounting Elite,University of Kelaniya,1987,Pass
+7199,BA,Nursing National,University of Peradeniya,2014,
+7204,Higher Diploma,Accounting Elite,Open University of Sri Lanka,2001,First Class
+7204,Higher Diploma,Hospitality Advanced,University of Ruhuna,2013,Pass
+7233,MSc,Nursing Global,Eastern University,2019,Pass
+7234,Diploma,Computer Science Tech,NSBM Green University,2013,First Class
+7237,Diploma,Accounting National,University of Kelaniya,1992,Merit
+7243,BSc,Computer Science Global,NSBM Green University,2008,First Class
+7243,Diploma,Business National,University of Sri Jayewardenepura,2016,Second Upper
+7243,BSc,Accounting International,University of Ruhuna,2025,Second Lower
+7252,BA,Hospitality International,University of Kelaniya,1984,
+7272,Diploma,Engineering Global,NSBM Green University,1987,First Class
+7275,MSc,Business Global,University of Moratuwa,2005,Second Upper
+7277,MSc,Business National,University of Sri Jayewardenepura,1988,Second Upper
+7279,MSc,Engineering Global,NSBM Green University,1990,Second Lower
+7279,MSc,Engineering Advanced,University of Peradeniya,2018,Pass
+7282,BA,Business Advanced,Eastern University,1986,First Class
+7289,MSc,Accounting National,Open University of Sri Lanka,1983,
+7298,Diploma,Business Premier,Open University of Sri Lanka,2019,Pass
+7304,MSc,Business National,University of Kelaniya,1982,Merit
+7304,BA,Accounting Global,NSBM Green University,2009,Second Upper
+7308,BSc,Accounting Advanced,Open University of Sri Lanka,2025,Second Lower
+7309,BA,Accounting Advanced,University of Peradeniya,1981,Pass
+7311,BSc,Accounting Advanced,NSBM Green University,2021,
+7312,Higher Diploma,Hospitality Elite,University of Sri Jayewardenepura,1981,Pass
+7318,MSc,Business Advanced,University of Colombo,1982,Second Upper
+7327,MSc,Computer Science National,University of Colombo,1996,Pass
+7330,BSc,Accounting International,University of Peradeniya,2014,Second Upper
+7336,Higher Diploma,Nursing National,Eastern University,2006,
+7336,BA,Accounting National,University of Ruhuna,1990,Second Lower
+7344,Higher Diploma,Accounting Premier,University of Peradeniya,2020,First Class
+7347,MSc,Business Global,Open University of Sri Lanka,2015,Second Lower
+7348,BSc,Business Premier,University of Sri Jayewardenepura,2020,
+7349,Higher Diploma,Business Premier,University of Kelaniya,2005,First Class
+7350,MSc,Computer Science Advanced,NSBM Green University,2016,Second Upper
+7361,BSc,Engineering Advanced,NSBM Green University,1982,
+7362,Diploma,Computer Science Premier,University of Kelaniya,1993,Merit
+7368,BSc,Engineering International,Eastern University,1983,Second Upper
+7370,BSc,Hospitality Global,University of Moratuwa,1981,Merit
+7370,MSc,Accounting National,Eastern University,1993,Second Lower
+7370,BSc,Nursing Premier,University of Kelaniya,1991,First Class
+7378,Higher Diploma,Business Tech,University of Sri Jayewardenepura,1982,Merit
+7383,BSc,Computer Science International,University of Moratuwa,1987,
+7389,Higher Diploma,Business International,SLIIT,1987,Second Upper
+7398,Higher Diploma,Nursing National,NSBM Green University,2018,Merit
+7398,Diploma,Business Global,SLIIT,1981,Second Upper
+7398,Higher Diploma,Nursing Tech,NSBM Green University,2008,Merit
+7399,BSc,Hospitality Advanced,University of Moratuwa,1985,Second Lower
+7406,BSc,Business National,Open University of Sri Lanka,1995,Merit
+7412,MSc,Hospitality National,University of Sri Jayewardenepura,2010,First Class
+7416,Higher Diploma,Computer Science Premier,University of Sri Jayewardenepura,1993,First Class
+7416,BA,Accounting Elite,University of Sri Jayewardenepura,2006,
+7424,Higher Diploma,Engineering International,Eastern University,1997,Pass
+7429,Higher Diploma,Computer Science Elite,University of Sri Jayewardenepura,1983,First Class
+7434,BA,Nursing Advanced,Open University of Sri Lanka,2007,Second Upper
+7455,BSc,Accounting Elite,University of Colombo,2020,Second Upper
+7456,Higher Diploma,Computer Science National,University of Peradeniya,2000,Second Upper
+7457,MSc,Computer Science Premier,University of Kelaniya,2015,Second Upper
+7457,MSc,Nursing Tech,Eastern University,2020,
+7460,BSc,Computer Science National,University of Moratuwa,2010,Merit
+7462,Higher Diploma,Computer Science International,NSBM Green University,2005,
+7462,BSc,Hospitality National,Open University of Sri Lanka,1987,Pass
+7469,Diploma,Hospitality Advanced,Open University of Sri Lanka,1992,
+7470,Diploma,Accounting Advanced,Eastern University,1989,First Class
+7474,MSc,Business Elite,University of Peradeniya,2008,Pass
+7474,MSc,Nursing Elite,NSBM Green University,1998,Second Upper
+7480,BSc,Business Premier,Open University of Sri Lanka,1999,
+7480,BA,Hospitality Premier,SLIIT,2019,Second Upper
+7484,Diploma,Computer Science International,University of Ruhuna,1981,Second Upper
+7486,Higher Diploma,Business Elite,University of Peradeniya,2012,Pass
+7494,Higher Diploma,Hospitality National,University of Ruhuna,2020,Second Lower
+7494,Higher Diploma,Computer Science Premier,University of Moratuwa,2015,Second Upper
+7495,Higher Diploma,Computer Science Premier,Eastern University,2000,Merit
+7495,Diploma,Computer Science Advanced,University of Kelaniya,2020,
+7513,BSc,Engineering National,University of Ruhuna,1985,Second Upper
+7521,Higher Diploma,Accounting International,University of Sri Jayewardenepura,1987,Second Upper
+7521,BA,Nursing Advanced,University of Colombo,1998,Second Upper
+7521,Higher Diploma,Computer Science National,University of Peradeniya,1997,First Class
+7522,BSc,Accounting Premier,SLIIT,1990,
+7529,BA,Engineering International,University of Colombo,2002,Merit
+7566,BA,Engineering Elite,University of Colombo,2012,Second Upper
+7568,BSc,Engineering Tech,SLIIT,1993,Merit
+7570,MSc,Nursing National,SLIIT,1992,
+7572,BA,Computer Science International,University of Colombo,2008,Merit
+7573,BA,Hospitality Tech,University of Sri Jayewardenepura,1988,Merit
+7574,BA,Engineering Tech,Open University of Sri Lanka,2019,Pass
+7577,BA,Computer Science International,Open University of Sri Lanka,1989,Second Lower
+7603,Diploma,Business Elite,Open University of Sri Lanka,1992,Second Upper
+7605,BA,Hospitality International,University of Sri Jayewardenepura,1996,
+7606,MSc,Nursing Tech,University of Kelaniya,2001,
+7607,BA,Business Elite,Open University of Sri Lanka,1995,Second Lower
+7607,MSc,Nursing National,Open University of Sri Lanka,2002,
+7610,Diploma,Hospitality Global,NSBM Green University,1988,
+7622,BA,Nursing Premier,University of Moratuwa,1994,Second Lower
+7636,Diploma,Accounting Tech,University of Ruhuna,2009,First Class
+7636,BA,Nursing Tech,University of Ruhuna,2025,Merit
+7638,MSc,Computer Science Tech,University of Sri Jayewardenepura,1980,Merit
+7643,MSc,Engineering National,NSBM Green University,1980,
+7652,Diploma,Engineering Tech,University of Ruhuna,1981,Merit
+7656,MSc,Business International,University of Kelaniya,1988,Second Lower
+7661,Higher Diploma,Nursing National,University of Kelaniya,2014,Second Lower
+7663,BSc,Engineering International,SLIIT,1998,Merit
+7663,Diploma,Computer Science Premier,University of Sri Jayewardenepura,2011,Second Lower
+7679,Higher Diploma,Nursing Advanced,SLIIT,1981,Merit
+7680,Diploma,Engineering Advanced,University of Peradeniya,2004,Second Upper
+7680,MSc,Accounting National,University of Sri Jayewardenepura,1994,Merit
+7681,BA,Engineering National,University of Ruhuna,2024,Second Upper
+7689,Diploma,Nursing International,University of Peradeniya,1997,
+7689,Higher Diploma,Engineering Tech,University of Sri Jayewardenepura,1995,
+7689,BSc,Computer Science Elite,University of Colombo,1999,Merit
+7695,BSc,Business International,University of Sri Jayewardenepura,2023,
+7699,Higher Diploma,Business Premier,NSBM Green University,1998,Second Lower
+7706,BA,Business National,University of Colombo,1988,Merit
+7714,BSc,Engineering Advanced,University of Kelaniya,1982,
+7717,BSc,Computer Science Tech,University of Sri Jayewardenepura,1989,Second Upper
+7719,BA,Computer Science International,University of Sri Jayewardenepura,1990,Merit
+7730,BA,Accounting Premier,University of Peradeniya,2005,First Class
+7733,BA,Engineering Advanced,University of Peradeniya,2017,First Class
+7733,BSc,Computer Science Advanced,University of Moratuwa,2022,Second Upper
+7739,BSc,Engineering Tech,Open University of Sri Lanka,2023,Pass
+7739,Higher Diploma,Hospitality Elite,University of Kelaniya,2005,Pass
+7754,MSc,Engineering Advanced,NSBM Green University,2017,Pass
+7767,BSc,Engineering Advanced,Eastern University,1994,First Class
+7781,Diploma,Accounting International,University of Ruhuna,1999,First Class
+7784,BSc,Business Tech,University of Colombo,2008,Second Upper
+7786,Diploma,Accounting Advanced,University of Sri Jayewardenepura,2007,Pass
+7786,BSc,Nursing National,University of Ruhuna,2003,Second Lower
+7801,BA,Nursing Global,NSBM Green University,2009,
+7802,Higher Diploma,Accounting Global,University of Peradeniya,2008,Pass
+7802,Higher Diploma,Business Advanced,Open University of Sri Lanka,1999,Merit
+7804,Diploma,Engineering Advanced,University of Peradeniya,2023,Second Lower
+7810,BA,Engineering Tech,Eastern University,1988,Merit
+7810,BSc,Accounting Tech,NSBM Green University,1996,
+7812,BSc,Nursing National,Eastern University,2000,Pass
+7812,Diploma,Computer Science Premier,Eastern University,1992,Second Lower
+7812,Diploma,Computer Science International,University of Colombo,1992,Second Lower
+7819,BSc,Nursing Premier,University of Ruhuna,2019,Merit
+7830,BA,Accounting Global,Eastern University,2018,Pass
+7831,Diploma,Engineering Elite,University of Moratuwa,2014,
+7843,BSc,Nursing National,University of Sri Jayewardenepura,2005,Pass
+7846,Higher Diploma,Nursing Premier,University of Moratuwa,2012,First Class
+7848,BSc,Nursing International,Open University of Sri Lanka,2025,Second Upper
+7848,BSc,Nursing Elite,Eastern University,2021,Second Lower
+7855,BSc,Computer Science Global,SLIIT,1982,First Class
+7855,BSc,Nursing Advanced,University of Peradeniya,1987,Second Lower
+7860,BSc,Computer Science Global,University of Colombo,2003,Merit
+7863,Diploma,Business Tech,University of Peradeniya,1991,Merit
+7867,BSc,Accounting Elite,Open University of Sri Lanka,2021,Pass
+7867,Diploma,Nursing Tech,Open University of Sri Lanka,1996,Pass
+7868,Diploma,Accounting Tech,NSBM Green University,1992,
+7868,MSc,Nursing Premier,University of Sri Jayewardenepura,2018,Pass
+7885,Diploma,Nursing Premier,University of Ruhuna,2013,
+7888,BA,Engineering Tech,NSBM Green University,1998,Merit
+7892,BSc,Hospitality National,NSBM Green University,1982,Second Upper
+7895,MSc,Computer Science Elite,University of Ruhuna,2019,
+7896,BA,Hospitality International,University of Peradeniya,2017,Second Upper
+7897,BA,Accounting Global,University of Ruhuna,2023,Second Upper
+7897,BA,Hospitality Premier,University of Moratuwa,2016,Merit
+7899,Higher Diploma,Engineering National,NSBM Green University,1987,
+7899,BA,Accounting Advanced,SLIIT,2003,Second Upper
+7899,MSc,Accounting International,Open University of Sri Lanka,1986,Merit
+7903,Diploma,Engineering Advanced,University of Colombo,2009,Second Upper
+7915,BA,Business International,SLIIT,2009,Second Upper
+7915,BA,Nursing Elite,University of Kelaniya,1989,Pass
+7929,Diploma,Accounting Premier,University of Kelaniya,2010,
+7941,Higher Diploma,Accounting Global,University of Moratuwa,2020,Second Upper
+7941,MSc,Computer Science Elite,SLIIT,1993,Pass
+7943,Diploma,Accounting Elite,NSBM Green University,2008,
+7955,BSc,Accounting Premier,University of Sri Jayewardenepura,1995,
+7955,Higher Diploma,Accounting Global,Open University of Sri Lanka,2011,Pass
+7957,Diploma,Nursing Global,University of Peradeniya,1982,Second Upper
+7960,BSc,Hospitality Global,University of Colombo,2016,
+7967,Higher Diploma,Hospitality Advanced,University of Kelaniya,1994,First Class
+7968,Diploma,Hospitality Advanced,University of Ruhuna,1987,Second Upper
+7969,BSc,Hospitality Premier,NSBM Green University,2020,Pass
+7969,MSc,Business Advanced,University of Ruhuna,2019,Pass
+7971,BA,Business National,University of Sri Jayewardenepura,2021,First Class
+7977,Higher Diploma,Nursing Advanced,University of Peradeniya,2010,First Class
+7977,Higher Diploma,Business International,Open University of Sri Lanka,1994,Merit
+7979,MSc,Business International,Open University of Sri Lanka,2019,First Class
+7979,BSc,Computer Science International,University of Kelaniya,1995,Pass
+7979,Diploma,Accounting Elite,University of Moratuwa,2021,Merit
+7985,BSc,Computer Science Advanced,University of Kelaniya,2011,Pass
+7992,Diploma,Hospitality National,University of Ruhuna,2001,
+7998,Diploma,Nursing Premier,University of Peradeniya,2007,First Class
+8000,MSc,Accounting Premier,NSBM Green University,2017,Second Upper
+8008,BA,Computer Science Premier,Eastern University,2012,Merit
+8025,Diploma,Hospitality National,Eastern University,2008,Second Upper
+8038,Higher Diploma,Nursing International,Eastern University,2008,First Class
+8038,Diploma,Nursing Premier,University of Sri Jayewardenepura,2012,Pass
+8042,BSc,Hospitality Elite,University of Sri Jayewardenepura,1997,Second Lower
+8049,Diploma,Hospitality Elite,University of Kelaniya,2002,Second Lower
+8052,Diploma,Computer Science National,University of Sri Jayewardenepura,1987,Second Lower
+8057,BA,Engineering Tech,University of Peradeniya,2011,First Class
+8057,BSc,Engineering Tech,University of Moratuwa,1981,First Class
+8057,MSc,Nursing International,NSBM Green University,2007,Second Lower
+8058,Higher Diploma,Nursing International,Eastern University,2000,Pass
+8059,Higher Diploma,Hospitality Elite,NSBM Green University,2006,Second Upper
+8071,Higher Diploma,Computer Science Advanced,University of Peradeniya,1990,First Class
+8072,MSc,Nursing Premier,University of Ruhuna,1983,Second Lower
+8072,BSc,Business International,University of Sri Jayewardenepura,2004,
+8080,MSc,Hospitality National,SLIIT,1999,Second Lower
+8085,Diploma,Computer Science Tech,University of Ruhuna,1982,Merit
+8086,BA,Engineering National,University of Colombo,1983,First Class
+8097,BA,Computer Science Advanced,University of Kelaniya,1998,Second Lower
+8100,MSc,Accounting Elite,University of Colombo,1996,Second Lower
+8104,MSc,Accounting Global,University of Colombo,1984,First Class
+8105,MSc,Accounting Global,University of Kelaniya,2025,Second Lower
+8108,BA,Accounting Tech,NSBM Green University,2005,Merit
+8112,MSc,Accounting Tech,University of Kelaniya,1985,Merit
+8116,Higher Diploma,Nursing Premier,University of Ruhuna,2011,Second Lower
+8124,BA,Accounting National,University of Colombo,1986,Second Upper
+8124,Higher Diploma,Computer Science Global,Open University of Sri Lanka,2012,
+8136,BSc,Computer Science Elite,NSBM Green University,1984,First Class
+8136,MSc,Hospitality International,NSBM Green University,1981,Merit
+8136,Higher Diploma,Engineering Elite,University of Sri Jayewardenepura,1984,First Class
+8145,BA,Business National,SLIIT,1996,Pass
+8150,BSc,Hospitality Premier,University of Colombo,1995,First Class
+8152,BA,Business International,Eastern University,1983,Pass
+8152,BA,Business Elite,University of Sri Jayewardenepura,2024,Second Lower
+8152,Higher Diploma,Hospitality National,SLIIT,1990,Merit
+8157,MSc,Engineering Elite,University of Peradeniya,2006,First Class
+8167,Higher Diploma,Accounting National,University of Moratuwa,2001,Merit
+8169,MSc,Nursing Tech,SLIIT,2002,First Class
+8169,Diploma,Engineering Tech,University of Colombo,2001,Second Lower
+8173,MSc,Nursing International,University of Kelaniya,2005,Second Lower
+8173,Higher Diploma,Hospitality Premier,University of Colombo,2023,Second Upper
+8173,BSc,Computer Science Elite,Eastern University,2023,Merit
+8197,BSc,Accounting Global,SLIIT,2004,
+8208,BSc,Computer Science Tech,University of Ruhuna,2007,Second Upper
+8208,Diploma,Hospitality Elite,University of Sri Jayewardenepura,2017,Merit
+8208,MSc,Accounting International,University of Peradeniya,2003,
+8212,BA,Business National,SLIIT,2021,Merit
+8212,BSc,Nursing Tech,SLIIT,2009,Second Upper
+8212,BA,Computer Science Advanced,University of Peradeniya,2016,Merit
+8223,Higher Diploma,Engineering National,University of Kelaniya,2022,First Class
+8224,Higher Diploma,Accounting International,University of Sri Jayewardenepura,2012,Second Lower
+8247,Diploma,Business Premier,NSBM Green University,2013,Second Lower
+8251,Diploma,Engineering Elite,University of Kelaniya,2003,
+8260,Higher Diploma,Computer Science National,University of Sri Jayewardenepura,1984,Pass
+8273,MSc,Accounting Premier,University of Kelaniya,2017,Second Upper
+8280,BA,Accounting Advanced,NSBM Green University,1991,Merit
+8287,BSc,Nursing International,University of Ruhuna,1985,
+8292,BSc,Hospitality Elite,SLIIT,2004,Second Lower
+8305,BSc,Nursing Tech,NSBM Green University,1995,Second Upper
+8316,MSc,Computer Science Advanced,University of Moratuwa,2014,
+8319,Diploma,Hospitality Premier,University of Ruhuna,1997,Second Upper
+8324,Diploma,Nursing Global,University of Ruhuna,2001,Second Lower
+8324,MSc,Hospitality International,University of Moratuwa,2001,Pass
+8325,Diploma,Nursing Premier,University of Ruhuna,2009,First Class
+8331,Diploma,Hospitality International,University of Ruhuna,1986,
+8331,BA,Nursing Elite,University of Moratuwa,1995,Merit
+8349,Higher Diploma,Nursing Global,University of Moratuwa,2024,Second Lower
+8355,Higher Diploma,Accounting Tech,SLIIT,2025,Merit
+8355,BA,Business National,University of Peradeniya,2003,Merit
+8360,BSc,Business Tech,University of Moratuwa,1983,Second Lower
+8361,MSc,Computer Science Elite,NSBM Green University,1998,
+8363,Higher Diploma,Hospitality Elite,SLIIT,1986,First Class
+8366,MSc,Nursing National,SLIIT,1986,Second Upper
+8369,BA,Accounting Tech,SLIIT,1991,First Class
+8371,MSc,Computer Science Advanced,University of Colombo,1996,Second Lower
+8371,BSc,Engineering Tech,SLIIT,2008,Pass
+8373,Diploma,Nursing Tech,University of Kelaniya,2011,Pass
+8373,Higher Diploma,Nursing National,University of Kelaniya,2008,Pass
+8377,BSc,Accounting National,University of Sri Jayewardenepura,2023,
+8379,BSc,Business Elite,University of Moratuwa,2020,Second Lower
+8380,BA,Accounting Advanced,Open University of Sri Lanka,1984,
+8380,BA,Business Tech,Open University of Sri Lanka,1997,
+8388,BA,Hospitality International,NSBM Green University,2023,
+8388,MSc,Business Elite,SLIIT,2016,
+8389,BSc,Computer Science Premier,University of Moratuwa,2006,Second Upper
+8390,BA,Business International,University of Ruhuna,2011,First Class
+8391,BSc,Accounting Elite,University of Moratuwa,2010,First Class
+8399,Higher Diploma,Business National,University of Kelaniya,1987,Merit
+8400,MSc,Computer Science Elite,University of Peradeniya,1981,Pass
+8400,BSc,Engineering Tech,University of Kelaniya,2014,First Class
+8400,BSc,Hospitality Premier,NSBM Green University,2014,Pass
+8409,MSc,Accounting Premier,NSBM Green University,2011,Second Upper
+8421,Diploma,Nursing International,SLIIT,2012,Second Upper
+8427,Higher Diploma,Hospitality Tech,SLIIT,2002,Second Lower
+8432,BSc,Hospitality Elite,Open University of Sri Lanka,2015,Second Upper
+8440,BSc,Business Premier,University of Sri Jayewardenepura,1995,
+8440,BA,Nursing Elite,University of Ruhuna,2011,Second Lower
+8440,MSc,Business National,University of Ruhuna,2013,First Class
+8445,BSc,Engineering National,Eastern University,2016,Merit
+8455,BA,Business Tech,University of Kelaniya,1991,
+8456,MSc,Hospitality Elite,Open University of Sri Lanka,1984,Merit
+8486,BSc,Computer Science Tech,University of Ruhuna,1999,Second Lower
+8515,BA,Accounting Elite,SLIIT,2006,
+8534,BSc,Computer Science Premier,Eastern University,1997,Second Lower
+8535,BSc,Hospitality Advanced,University of Peradeniya,2001,First Class
+8537,BA,Accounting Global,Eastern University,2004,Second Lower
+8552,BA,Computer Science Advanced,University of Kelaniya,1986,Second Lower
+8556,BA,Business International,NSBM Green University,2020,Second Upper
+8556,Diploma,Engineering Elite,Open University of Sri Lanka,2008,First Class
+8557,MSc,Business Advanced,University of Ruhuna,2022,Second Upper
+8588,BA,Accounting Advanced,University of Kelaniya,1991,
+8616,Diploma,Computer Science Elite,Open University of Sri Lanka,2000,
+8618,Diploma,Computer Science National,University of Peradeniya,1995,
+8626,Diploma,Computer Science Tech,NSBM Green University,2016,Merit
+8628,Higher Diploma,Accounting National,University of Peradeniya,1989,
+8630,MSc,Engineering Tech,Eastern University,1990,Merit
+8637,MSc,Accounting International,University of Moratuwa,1985,Pass
+8645,Higher Diploma,Business International,University of Peradeniya,1980,Second Lower
+8645,Diploma,Engineering National,University of Kelaniya,1981,Second Lower
+8657,MSc,Business Advanced,University of Colombo,1994,Second Upper
+8657,Higher Diploma,Nursing Elite,NSBM Green University,1991,Second Upper
+8660,MSc,Nursing National,University of Kelaniya,1990,Second Lower
+8660,MSc,Accounting National,University of Colombo,2018,First Class
+8669,Diploma,Hospitality International,University of Ruhuna,1992,Second Upper
+8681,Diploma,Accounting Advanced,University of Kelaniya,1989,First Class
+8690,MSc,Nursing Global,University of Kelaniya,1997,Second Upper
+8698,Higher Diploma,Computer Science Premier,University of Moratuwa,1984,
+8700,Higher Diploma,Business Advanced,University of Peradeniya,2012,Second Upper
+8702,MSc,Business Premier,NSBM Green University,1999,Second Upper
+8703,Diploma,Business Global,University of Peradeniya,1993,Merit
+8706,MSc,Nursing International,Eastern University,2005,
+8712,BSc,Accounting International,SLIIT,2020,First Class
+8717,Higher Diploma,Business Advanced,NSBM Green University,1999,Merit
+8724,MSc,Nursing Global,University of Moratuwa,1991,Merit
+8729,BSc,Hospitality Premier,University of Ruhuna,2003,
+8737,BA,Nursing Premier,University of Colombo,2025,Merit
+8741,BSc,Hospitality Global,University of Kelaniya,2005,Merit
+8747,MSc,Business International,University of Moratuwa,1993,First Class
+8754,BA,Hospitality Advanced,University of Kelaniya,2017,Second Lower
+8754,BA,Computer Science Premier,University of Moratuwa,1980,Second Upper
+8755,Diploma,Business Tech,University of Ruhuna,1986,Second Upper
+8758,BA,Engineering Tech,University of Kelaniya,1990,Pass
+8771,Higher Diploma,Hospitality National,University of Moratuwa,1994,Second Upper
+8771,BSc,Nursing Tech,Eastern University,1986,Second Upper
+8786,Diploma,Nursing Global,Eastern University,1998,First Class
+8789,Diploma,Accounting Advanced,University of Ruhuna,2022,First Class
+8801,Higher Diploma,Business Advanced,University of Kelaniya,2010,
+8802,BSc,Business Elite,Open University of Sri Lanka,1993,Pass
+8805,MSc,Business Global,University of Colombo,2007,First Class
+8809,Diploma,Accounting Advanced,University of Kelaniya,2017,Pass
+8809,MSc,Engineering Tech,Open University of Sri Lanka,2012,Second Lower
+8809,BA,Hospitality National,Open University of Sri Lanka,2013,Pass
+8819,BSc,Computer Science Global,NSBM Green University,1998,Merit
+8829,BSc,Engineering International,NSBM Green University,2016,Merit
+8832,Diploma,Engineering Elite,Eastern University,2025,
+8834,BA,Engineering Advanced,NSBM Green University,2001,Second Lower
+8835,BA,Accounting Advanced,Eastern University,2003,Pass
+8843,Higher Diploma,Business National,University of Kelaniya,1996,Second Lower
+8849,BA,Engineering Advanced,Open University of Sri Lanka,1984,Second Upper
+8849,MSc,Nursing Advanced,University of Sri Jayewardenepura,1984,Merit
+8849,BA,Engineering Tech,Eastern University,1980,Second Lower
+8853,BSc,Engineering Advanced,University of Colombo,1997,First Class
+8857,Higher Diploma,Business Advanced,University of Colombo,2021,
+8860,BA,Nursing National,University of Moratuwa,1992,
+8860,BA,Accounting International,Eastern University,2007,First Class
+8879,Higher Diploma,Accounting Premier,Open University of Sri Lanka,2024,First Class
+8889,Diploma,Nursing Advanced,Open University of Sri Lanka,2012,
+8911,BA,Nursing Premier,University of Peradeniya,1985,Second Lower
+8914,BSc,Computer Science Advanced,University of Colombo,2023,Second Lower
+8917,MSc,Accounting National,Eastern University,1981,
+8924,MSc,Computer Science Tech,University of Moratuwa,1991,Second Upper
+8930,MSc,Nursing Global,University of Ruhuna,2002,Second Lower
+8931,BSc,Hospitality Premier,University of Colombo,2022,Second Lower
+8933,Diploma,Engineering National,University of Sri Jayewardenepura,1983,Second Upper
+8933,Higher Diploma,Business Premier,Open University of Sri Lanka,2016,Merit
+8934,MSc,Computer Science Global,University of Colombo,2017,Second Lower
+8938,BSc,Accounting Global,University of Moratuwa,2019,First Class
+8938,BA,Business Tech,University of Peradeniya,2016,Second Lower
+8940,MSc,Computer Science Elite,University of Ruhuna,1991,First Class
+8948,BSc,Business Advanced,University of Peradeniya,2020,Second Upper
+8961,Diploma,Business Advanced,SLIIT,2021,Second Upper
+8968,MSc,Computer Science Premier,University of Sri Jayewardenepura,2025,Pass
+8974,BSc,Accounting National,University of Colombo,1981,Second Lower
+8975,Higher Diploma,Business National,University of Colombo,1997,Pass
+8979,Higher Diploma,Engineering Global,Open University of Sri Lanka,2017,
+8989,BSc,Nursing Elite,SLIIT,1993,Second Lower
+8989,MSc,Accounting Advanced,University of Ruhuna,1993,Second Upper
+9021,BA,Engineering Tech,University of Kelaniya,2007,First Class
+9031,BA,Business Tech,University of Kelaniya,1981,
+9038,Higher Diploma,Nursing Advanced,University of Ruhuna,2015,Merit
+9038,BSc,Nursing Tech,University of Colombo,2013,
+9038,Higher Diploma,Accounting Elite,Open University of Sri Lanka,2023,First Class
+9040,MSc,Engineering National,SLIIT,1996,First Class
+9045,Diploma,Hospitality Global,NSBM Green University,2018,Second Upper
+9049,BSc,Computer Science Global,University of Sri Jayewardenepura,1987,Merit
+9062,MSc,Business Global,University of Peradeniya,1980,First Class
+9063,MSc,Computer Science National,University of Moratuwa,2004,First Class
+9079,Higher Diploma,Nursing Advanced,University of Kelaniya,2013,Second Lower
+9079,Higher Diploma,Engineering National,Open University of Sri Lanka,1996,First Class
+9088,BSc,Business Premier,NSBM Green University,1988,Merit
+9089,BSc,Nursing Advanced,University of Peradeniya,2018,First Class
+9100,Higher Diploma,Accounting Global,University of Colombo,1985,Second Upper
+9114,BA,Computer Science International,University of Peradeniya,1982,Second Lower
+9119,BA,Business Advanced,University of Colombo,2017,
+9129,Diploma,Nursing Global,SLIIT,1991,Pass
+9131,Higher Diploma,Nursing Global,Open University of Sri Lanka,2016,Second Lower
+9131,Higher Diploma,Engineering International,SLIIT,2015,Second Lower
+9140,Higher Diploma,Computer Science Global,Open University of Sri Lanka,2009,First Class
+9141,Diploma,Engineering Global,University of Peradeniya,2006,First Class
+9141,Higher Diploma,Engineering Global,University of Kelaniya,2005,Second Upper
+9141,Higher Diploma,Engineering Advanced,Open University of Sri Lanka,2010,Merit
+9146,Diploma,Accounting Global,University of Moratuwa,1989,Merit
+9147,BSc,Accounting Premier,University of Peradeniya,2019,Pass
+9159,MSc,Nursing National,Eastern University,1998,Merit
+9167,BSc,Computer Science Elite,University of Sri Jayewardenepura,2001,First Class
+9172,Higher Diploma,Accounting Tech,University of Ruhuna,1980,Pass
+9176,MSc,Nursing National,SLIIT,2015,Second Upper
+9176,BA,Computer Science International,NSBM Green University,2001,First Class
+9177,Higher Diploma,Hospitality International,University of Peradeniya,1991,Merit
+9177,BSc,Engineering Advanced,University of Moratuwa,2017,Merit
+9188,Higher Diploma,Computer Science Premier,SLIIT,2000,Pass
+9203,MSc,Engineering Premier,University of Moratuwa,2011,Merit
+9206,MSc,Accounting National,University of Sri Jayewardenepura,2004,
+9206,Higher Diploma,Computer Science Advanced,University of Peradeniya,1988,Second Upper
+9210,Higher Diploma,Computer Science National,Eastern University,1994,Merit
+9215,BSc,Hospitality Global,University of Ruhuna,1981,Pass
+9215,BSc,Nursing Global,University of Sri Jayewardenepura,2014,Pass
+9221,BA,Accounting National,Eastern University,2001,First Class
+9222,BA,Business Premier,University of Sri Jayewardenepura,2010,Pass
+9238,Higher Diploma,Business Global,University of Ruhuna,2013,Second Upper
+9240,Diploma,Computer Science International,University of Peradeniya,2000,Second Lower
+9250,MSc,Accounting National,University of Moratuwa,1981,Second Lower
+9252,MSc,Engineering International,University of Colombo,2018,Merit
+9256,BA,Engineering Elite,Open University of Sri Lanka,2020,Pass
+9264,MSc,Hospitality Tech,University of Peradeniya,2019,First Class
+9266,Higher Diploma,Engineering Elite,University of Colombo,1986,
+9277,BA,Nursing Elite,University of Sri Jayewardenepura,2019,Second Lower
+9285,BSc,Computer Science Global,Open University of Sri Lanka,1996,Merit
+9288,Higher Diploma,Engineering Tech,NSBM Green University,1981,Pass
+9300,BA,Engineering Tech,University of Kelaniya,1982,
+9300,BSc,Engineering Premier,University of Kelaniya,2020,
+9310,BSc,Business Tech,University of Moratuwa,2002,Second Upper
+9314,BA,Computer Science Global,Open University of Sri Lanka,1986,Second Upper
+9318,BA,Business Premier,University of Colombo,2008,First Class
+9321,BA,Engineering Premier,SLIIT,2020,
+9322,BSc,Business Tech,University of Peradeniya,2001,Second Upper
+9323,BA,Business International,NSBM Green University,2016,Second Upper
+9327,Diploma,Engineering International,Eastern University,2008,Pass
+9335,MSc,Computer Science National,University of Colombo,2010,First Class
+9337,Higher Diploma,Business Tech,University of Moratuwa,2013,First Class
+9348,Higher Diploma,Computer Science Advanced,University of Kelaniya,2023,First Class
+9356,Diploma,Accounting Elite,University of Sri Jayewardenepura,2006,
+9356,BSc,Accounting International,University of Colombo,1992,Pass
+9362,MSc,Nursing National,University of Kelaniya,2002,Merit
+9362,Higher Diploma,Hospitality Elite,University of Colombo,2019,Merit
+9362,BSc,Business National,University of Sri Jayewardenepura,2008,Second Lower
+9364,MSc,Business Elite,University of Colombo,1994,Second Upper
+9376,Diploma,Hospitality Global,University of Kelaniya,1992,
+9381,BSc,Business National,SLIIT,1981,
+9385,BA,Accounting Elite,University of Kelaniya,1982,Second Lower
+9390,BSc,Hospitality International,Open University of Sri Lanka,2012,
+9390,Higher Diploma,Business Advanced,SLIIT,2014,First Class
+9390,Higher Diploma,Computer Science Tech,University of Sri Jayewardenepura,2025,First Class
+9395,Diploma,Hospitality Global,University of Kelaniya,2008,First Class
+9395,MSc,Computer Science International,SLIIT,1980,Second Lower
+9396,MSc,Engineering Global,NSBM Green University,1998,Pass
+9403,Diploma,Engineering Global,SLIIT,1992,Second Lower
+9424,MSc,Business National,NSBM Green University,2024,Pass
+9432,Diploma,Accounting Global,NSBM Green University,2015,Second Lower
+9433,BSc,Hospitality Global,Eastern University,2003,Second Upper
+9433,Higher Diploma,Computer Science Advanced,SLIIT,2009,Second Upper
+9437,Diploma,Accounting Global,University of Colombo,2010,Pass
+9437,MSc,Business National,University of Ruhuna,1982,
+9437,BA,Accounting National,University of Moratuwa,2012,
+9438,MSc,Engineering National,University of Peradeniya,2015,Pass
+9439,BSc,Engineering International,University of Kelaniya,1991,First Class
+9444,Diploma,Hospitality International,University of Kelaniya,2011,Second Lower
+9447,Diploma,Computer Science Elite,University of Moratuwa,2011,Second Upper
+9451,Diploma,Hospitality Advanced,University of Peradeniya,1996,Second Upper
+9455,Diploma,Accounting Global,NSBM Green University,2001,Merit
+9463,Diploma,Hospitality Premier,Open University of Sri Lanka,2012,Pass
+9464,Diploma,Business Global,University of Sri Jayewardenepura,2021,
+9470,MSc,Accounting Global,Eastern University,1992,Second Upper
+9470,MSc,Accounting Premier,Open University of Sri Lanka,1995,Second Lower
+9475,BSc,Business Tech,University of Ruhuna,2009,First Class
+9484,MSc,Engineering National,NSBM Green University,2005,Pass
+9485,BA,Nursing Tech,University of Sri Jayewardenepura,1982,Second Upper
+9502,MSc,Engineering Tech,University of Moratuwa,2004,Pass
+9513,MSc,Engineering Premier,SLIIT,1986,
+9514,BA,Business Advanced,NSBM Green University,2002,First Class
+9516,Diploma,Computer Science Advanced,SLIIT,1993,
+9519,BSc,Accounting Advanced,University of Sri Jayewardenepura,1987,
+9524,MSc,Accounting Advanced,University of Moratuwa,1998,
+9531,BA,Hospitality Elite,University of Kelaniya,2016,
+9534,BSc,Accounting National,University of Kelaniya,2014,First Class
+9536,BSc,Accounting International,University of Kelaniya,1980,Second Upper
+9558,MSc,Engineering International,University of Ruhuna,2008,Pass
+9566,BSc,Nursing Elite,University of Sri Jayewardenepura,1987,Second Lower
+9568,Higher Diploma,Accounting Premier,NSBM Green University,1980,Second Lower
+9569,BSc,Accounting Advanced,Eastern University,2015,Second Lower
+9569,BSc,Hospitality Premier,SLIIT,2001,Second Lower
+9569,BSc,Accounting National,Open University of Sri Lanka,2025,
+9572,BSc,Hospitality National,University of Colombo,1982,Pass
+9572,Diploma,Business International,University of Ruhuna,1994,Merit
+9572,Higher Diploma,Computer Science Global,SLIIT,2001,Pass
+9578,Diploma,Computer Science International,University of Kelaniya,1982,Pass
+9586,BSc,Computer Science Advanced,University of Sri Jayewardenepura,2025,First Class
+9587,Diploma,Business National,University of Colombo,2019,Second Lower
+9595,MSc,Accounting Global,Open University of Sri Lanka,2002,Second Lower
+9595,Higher Diploma,Nursing Tech,University of Ruhuna,1980,Pass
+9604,BSc,Accounting Global,University of Ruhuna,2022,
+9606,MSc,Hospitality Global,University of Ruhuna,2003,Merit
+9607,Higher Diploma,Nursing Premier,University of Kelaniya,2025,Second Upper
+9607,BA,Accounting Advanced,University of Moratuwa,2021,Second Lower
+9621,Higher Diploma,Hospitality Global,SLIIT,1986,Second Upper
+9647,MSc,Computer Science Tech,University of Moratuwa,2021,First Class
+9649,BSc,Nursing Advanced,University of Peradeniya,2012,First Class
+9656,MSc,Business Tech,University of Ruhuna,1999,Second Lower
+9663,BA,Business Premier,University of Colombo,2010,Pass
+9663,BSc,Business National,NSBM Green University,2018,Second Lower
+9666,Higher Diploma,Computer Science National,SLIIT,1991,
+9679,Diploma,Computer Science Global,University of Ruhuna,1993,Second Lower
+9688,BSc,Hospitality National,University of Sri Jayewardenepura,2002,
+9697,Diploma,Accounting Global,University of Ruhuna,2012,Second Lower
+9715,MSc,Hospitality Elite,University of Ruhuna,2014,Second Lower
+9730,Diploma,Hospitality Advanced,University of Moratuwa,2009,Second Upper
+9730,Diploma,Accounting Tech,University of Colombo,1990,First Class
+9730,BA,Nursing Global,NSBM Green University,1997,Merit
+9750,Diploma,Engineering International,NSBM Green University,1982,Second Upper
+9750,Diploma,Hospitality National,University of Colombo,1984,
+9775,BSc,Nursing Advanced,University of Sri Jayewardenepura,1980,First Class
+9775,BA,Nursing National,NSBM Green University,1992,Second Upper
+9776,Diploma,Computer Science Tech,University of Ruhuna,2016,First Class
+9776,BA,Computer Science Global,Open University of Sri Lanka,2006,Second Upper
+9776,Diploma,Hospitality Tech,University of Peradeniya,2008,Second Lower
+9779,Diploma,Business Global,University of Peradeniya,2024,Pass
+9781,Higher Diploma,Nursing National,University of Sri Jayewardenepura,1998,
+9788,BSc,Nursing National,SLIIT,2015,First Class
+9793,MSc,Hospitality International,University of Kelaniya,1991,Second Upper
+9822,Higher Diploma,Nursing Global,University of Moratuwa,1994,First Class
+9830,Higher Diploma,Computer Science Global,Open University of Sri Lanka,1985,First Class
+9838,Diploma,Nursing Premier,University of Kelaniya,2003,First Class
+9838,BSc,Computer Science Tech,Eastern University,1990,Second Lower
+9839,Higher Diploma,Engineering International,University of Ruhuna,1990,Second Lower
+9839,MSc,Engineering Advanced,University of Ruhuna,2012,Second Upper
+9842,BA,Computer Science National,University of Peradeniya,2001,First Class
+9860,MSc,Nursing Advanced,University of Kelaniya,2020,First Class
+9864,Higher Diploma,Computer Science Premier,University of Sri Jayewardenepura,2016,Second Lower
+9868,Diploma,Hospitality Tech,University of Moratuwa,1992,Merit
+9870,Higher Diploma,Business Premier,University of Colombo,1987,Pass
+9871,BSc,Nursing Premier,University of Colombo,2025,Merit
+9874,BA,Business Premier,NSBM Green University,2005,Pass
+9881,BA,Nursing Tech,University of Moratuwa,2021,Second Upper
+9893,Diploma,Hospitality National,NSBM Green University,1988,Pass
+9893,Diploma,Computer Science Global,University of Ruhuna,1988,
+9905,BA,Accounting Elite,University of Colombo,1987,Merit
+9905,MSc,Accounting Premier,University of Kelaniya,1999,Second Upper
+9912,BSc,Engineering Premier,Open University of Sri Lanka,2002,
+9918,BA,Hospitality National,University of Colombo,2000,First Class
+9919,Diploma,Engineering Elite,University of Kelaniya,2009,Second Upper
+9920,Diploma,Nursing Advanced,NSBM Green University,1990,First Class
+9928,Diploma,Business Premier,Open University of Sri Lanka,2018,
+9928,MSc,Accounting Premier,University of Moratuwa,2010,Second Upper
+9928,MSc,Nursing Advanced,University of Kelaniya,1992,Merit
+9935,Diploma,Business Global,NSBM Green University,2008,Pass
+9937,BA,Engineering Premier,NSBM Green University,2020,Second Lower
+9941,Higher Diploma,Nursing International,Open University of Sri Lanka,1995,Merit
+9948,Higher Diploma,Computer Science Elite,NSBM Green University,1989,Pass
+9951,BSc,Hospitality Global,University of Peradeniya,1989,Second Upper
+9953,BA,Hospitality Elite,University of Moratuwa,1985,Merit
+9957,BSc,Business Premier,SLIIT,2014,
+9964,Diploma,Engineering International,University of Colombo,1993,Second Lower
+9975,Higher Diploma,Hospitality National,University of Ruhuna,2000,Second Upper
+9978,Diploma,Computer Science National,University of Ruhuna,2004,Merit
+9978,Diploma,Hospitality Advanced,Open University of Sri Lanka,1996,Merit
+9992,Higher Diploma,Hospitality International,Eastern University,2023,First Class
+9993,MSc,Nursing Premier,Eastern University,1984,
+9997,Higher Diploma,Engineering International,University of Kelaniya,2020,
+9998,MSc,Computer Science Premier,Open University of Sri Lanka,1997,Second Upper
+9999,Diploma,Engineering Global,Eastern University,1981,Merit
+9999,Diploma,Hospitality International,NSBM Green University,1994,Merit
