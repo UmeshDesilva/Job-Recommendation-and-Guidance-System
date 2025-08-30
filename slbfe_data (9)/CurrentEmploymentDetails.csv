@@ -1,0 +1,475 @@
+EmploymentID,PersonalID,EmploymentSector,Employer,Country,Occupation,StartDate
+35,32,Agriculture & Fishery,Sri Inc,Saudi Arabia,Delivery Driver,2024-04-11
+52,44,Education & Training,Tea Corp,Qatar,Cleaner,2024-06-21
+80,66,Manufacturing,Apparel Ltd,United Arab Emirates,Teacher Assistant,2012-10-20
+116,100,Cleaning Services,Ceylon Pvt,Qatar,Nursing Assistant,2014-12-12
+146,128,Retail & Sales,Hotel Group,Hong Kong,Hotel Housekeeper,2024-05-28
+153,132,Domestic Services,Gem Group,Maldives,Delivery Driver,2020-02-19
+170,145,Textile & Sewing,Gem Pvt,Russia,Kitchen Helper,2012-08-09
+172,146,Engineering & Technical,Tech Co,Saudi Arabia,Construction Helper,2019-07-17
+191,164,Construction,Tech Corp,Saudi Arabia,Electrician,2018-11-08
+194,167,Cleaning Services,Hotel Corp,Saudi Arabia,Bar Bender,2022-06-21
+206,180,IT & Professional Services,Tech Ltd,Qatar,Nurse,2019-12-16
+252,216,Healthcare & Nursing,Lanka Co,Saudi Arabia,Room Attendant,2022-12-08
+261,220,Beauty & Personal Care,Apparel Inc,Saudi Arabia,Fishery Worker,2023-06-26
+301,246,Education & Training,Gem Pvt,Qatar,General Labourer,2024-02-17
+332,271,Domestic Services,Lanka Corp,Saudi Arabia,Housemaid,2022-12-23
+341,276,Healthcare & Nursing,Gem Pvt,United Kingdom,Construction Helper,2020-09-30
+346,279,Domestic Services,Tech Inc,United Arab Emirates,Housemaid,2023-12-30
+355,290,Construction,Gem Ltd,Singapore,Janitor,2014-05-01
+357,292,Manufacturing,Tech Solutions,Qatar,Logistics Coordinator,2013-07-22
+364,295,Agriculture & Fishery,Island Enterprises,Saudi Arabia,Heavy Vehicle Operator,2021-10-27
+415,333,Facility Management,Lanka Corp,Qatar,Beautician,2019-04-22
+420,336,Driving & Transportation,Construction Plantations,Saudi Arabia,Kitchen Helper,2013-03-24
+445,352,Garment & Apparel,Sri Co,Kuwait,Cook,2021-05-29
+524,416,Education & Training,Ceylon Pvt,Maldives,General Labourer,2019-09-06
+586,472,Garment & Apparel,Sri Pvt,Hong Kong,Hotel Housekeeper,2014-03-20
+588,473,Retail & Sales,Ceylon Group,United Kingdom,Technician,2013-01-27
+648,520,Garment & Apparel,Island Solutions,Qatar,Technician,2022-04-12
+652,523,Education & Training,Tech Solutions,Kuwait,Mason,2019-06-02
+660,529,Education & Training,Apparel Pvt,Maldives,Domestic Worker,2022-03-07
+663,530,Facility Management,Tech Co,United Arab Emirates,Plumber,2024-06-03
+671,534,Beauty & Personal Care,Apparel Enterprises,Saudi Arabia,Quality Control Inspector,2020-07-22
+705,558,Driving & Transportation,Ceylon Plantations,United Arab Emirates,Driver,2020-09-16
+714,563,Domestic Services,Construction Group,United Arab Emirates,Barista,2021-06-01
+725,574,Cleaning Services,Gem Pvt,United Arab Emirates,Housemaid,2017-12-14
+751,595,Textile & Sewing,Island Corp,United Arab Emirates,Nursing Assistant,2015-04-17
+766,612,Retail & Sales,Hotel Corp,Saudi Arabia,Cook,2022-04-06
+799,641,Textile & Sewing,Island Group,Australia,Forklift Operator,2022-10-18
+815,656,Garment & Apparel,Gem Co,Kuwait,Electrician,2020-09-18
+850,683,Domestic Services,Ceylon Inc,Qatar,Sewing Machine Operator,2018-12-28
+896,734,Retail & Sales,Sri Enterprises,Saudi Arabia,Machine Operator,2024-07-04
+897,735,Construction,Hotel Enterprises,United Kingdom,Administrative Assistant,2014-12-03
+918,751,Construction,Tech Inc,Australia,Tailor,2024-04-03
+922,756,Driving & Transportation,Sri Solutions,Saudi Arabia,Delivery Driver,2015-05-03
+923,757,Driving & Transportation,Tech Solutions,Qatar,Driver,2019-05-17
+1021,846,Manufacturing,Sri Pvt,Saudi Arabia,Welder,2019-12-31
+1024,857,Domestic Services,Hotel Corp,Kuwait,Caregiver,2015-06-03
+1034,865,Construction,Hotel Pvt,Qatar,Chef,2022-03-20
+1067,892,Garment & Apparel,Tea Group,United Arab Emirates,Technician,2023-07-19
+1083,908,Retail & Sales,Tech Inc,Kuwait,Security Guard,2022-04-06
+1135,949,Beauty & Personal Care,Sri Pvt,Kuwait,House Driver,2016-05-08
+1185,988,Textile & Sewing,Ceylon Plantations,Qatar,Security Guard,2017-11-23
+1202,1000,Garment & Apparel,Sri Group,Qatar,Mason,2017-01-11
+1269,1048,Driving & Transportation,Tech Corp,United Arab Emirates,Driver,2022-07-24
+1279,1060,Healthcare & Nursing,Gem Enterprises,Qatar,Construction Supervisor,2014-10-08
+1325,1089,Construction,Lanka Corp,Saudi Arabia,Electrician,2012-06-10
+1334,1095,Retail & Sales,Apparel Co,United Arab Emirates,Construction Supervisor,2011-01-29
+1348,1110,Logistics & Warehousing,Hotel Plantations,Kuwait,Technician,2017-10-25
+1367,1126,Driving & Transportation,Construction Pvt,Cyprus,Maintenance Worker,2021-07-07
+1401,1154,Agriculture & Fishery,Hotel Plantations,Cyprus,Construction Supervisor,2018-10-07
+1422,1173,IT & Professional Services,Hotel Pvt,Kuwait,Gardener,2013-09-23
+1427,1177,Retail & Sales,Gem Corp,Qatar,Construction Supervisor,2013-07-31
+1452,1205,Security Services,Hotel Solutions,Qatar,Kitchen Helper,2020-08-03
+1465,1213,Agriculture & Fishery,Hotel Plantations,Saudi Arabia,Construction Supervisor,2023-11-21
+1474,1223,Education & Training,Tea Plantations,United Arab Emirates,Packing Worker,2021-01-05
+1511,1260,Domestic Services,Hotel Ltd,United Arab Emirates,Caregiver,2023-11-24
+1524,1272,Retail & Sales,Sri Pvt,Qatar,Construction Helper,2015-09-19
+1534,1278,Agriculture & Fishery,Sri Inc,Qatar,Technician,2014-07-30
+1539,1282,Beauty & Personal Care,Tech Corp,Saudi Arabia,Packing Worker,2018-10-22
+1549,1290,Healthcare & Nursing,Hotel Group,Saudi Arabia,Caregiver,2014-05-29
+1552,1291,Garment & Apparel,Apparel Ltd,Saudi Arabia,Construction Supervisor,2024-08-06
+1608,1341,IT & Professional Services,Hotel Corp,Saudi Arabia,Nursing Assistant,2021-10-01
+1635,1361,Manufacturing,Apparel Ltd,United Arab Emirates,Hairdresser,2023-10-04
+1670,1387,Healthcare & Nursing,Construction Co,Cyprus,General Labourer,2022-05-16
+1678,1393,Security Services,Lanka Solutions,United Arab Emirates,Logistics Coordinator,2021-02-27
+1692,1398,Logistics & Warehousing,Apparel Inc,Saudi Arabia,Driver,2022-11-04
+1718,1419,Logistics & Warehousing,Tea Inc,Saudi Arabia,Teacher Assistant,2024-05-07
+1726,1425,Construction,Tea Co,Qatar,Domestic Worker,2020-11-05
+1752,1445,Garment & Apparel,Construction Enterprises,United Arab Emirates,Bar Bender,2014-05-28
+1786,1466,Hospitality & Tourism,Gem Inc,Kuwait,Technician,2020-12-18
+1825,1495,Engineering & Technical,Island Corp,Canada,Janitor,2014-12-25
+1842,1508,Logistics & Warehousing,Sri Inc,Saudi Arabia,Driver,2020-01-10
+1852,1513,Healthcare & Nursing,Hotel Solutions,United Arab Emirates,Cook,2023-09-13
+1885,1535,Construction,Sri Inc,Israel,Hotel Housekeeper,2016-12-31
+1917,1559,Beauty & Personal Care,Sri Solutions,Kuwait,Heavy Vehicle Operator,2021-03-30
+2020,1643,Security Services,Hotel Ltd,Maldives,Tailor,2013-05-17
+2036,1664,Logistics & Warehousing,Lanka Co,Saudi Arabia,Driver,2015-10-12
+2039,1665,Beauty & Personal Care,Gem Ltd,United Arab Emirates,Receptionist,2024-02-25
+2081,1696,Logistics & Warehousing,Hotel Corp,Kuwait,Mason,2021-08-11
+2140,1750,Domestic Services,Gem Plantations,Saudi Arabia,Electrician,2010-12-27
+2151,1757,Healthcare & Nursing,Island Plantations,United Arab Emirates,Caregiver,2023-06-11
+2207,1804,Cleaning Services,Apparel Inc,Qatar,Housemaid,2024-07-07
+2210,1805,Garment & Apparel,Lanka Plantations,United Arab Emirates,Gardener,2020-08-12
+2241,1830,Driving & Transportation,Lanka Pvt,United Arab Emirates,Heavy Vehicle Operator,2017-02-16
+2249,1836,Garment & Apparel,Sri Corp,Saudi Arabia,Warehouse Worker,2023-02-23
+2287,1867,Construction,Tea Group,Turkey,Sewing Machine Operator,2019-12-05
+2369,1926,Textile & Sewing,Ceylon Inc,Saudi Arabia,Heavy Vehicle Operator,2011-03-27
+2385,1941,Security Services,Tech Solutions,Oman,Forklift Operator,2011-01-07
+2411,1960,Cleaning Services,Hotel Group,Maldives,Administrative Assistant,2017-11-04
+2413,1968,Facility Management,Sri Group,Saudi Arabia,Gardener,2019-09-25
+2416,1969,Healthcare & Nursing,Gem Co,Kuwait,Caregiver,2024-03-20
+2480,2025,IT & Professional Services,Lanka Corp,South Korea,Salesperson,2014-08-15
+2489,2033,Domestic Services,Ceylon Enterprises,United Arab Emirates,Caregiver,2023-04-24
+2498,2037,Manufacturing,Ceylon Pvt,South Korea,Welder,2020-04-14
+2518,2047,Healthcare & Nursing,Island Solutions,Kuwait,Delivery Driver,2017-08-11
+2521,2049,Healthcare & Nursing,Apparel Pvt,Israel,Caregiver,2023-09-03
+2526,2053,Healthcare & Nursing,Tech Group,United Arab Emirates,Caregiver,2012-05-20
+2538,2062,Facility Management,Ceylon Enterprises,Kuwait,Forklift Operator,2012-06-30
+2554,2071,Hospitality & Tourism,Lanka Ltd,Kuwait,Sewing Machine Operator,2021-02-15
+2570,2082,Healthcare & Nursing,Tea Corp,Saudi Arabia,Construction Helper,2013-03-31
+2571,2083,Driving & Transportation,Construction Enterprises,Qatar,Laundry Worker,2016-05-08
+2572,2086,Retail & Sales,Island Enterprises,Qatar,General Labourer,2017-01-11
+2586,2106,Retail & Sales,Ceylon Inc,Japan,Construction Helper,2011-05-06
+2587,2107,Healthcare & Nursing,Tea Ltd,Qatar,House Driver,2011-03-06
+2611,2136,Domestic Services,Apparel Plantations,Maldives,Waiter,2012-06-24
+2645,2168,Garment & Apparel,Sri Group,South Korea,Fishery Worker,2011-11-28
+2665,2191,Logistics & Warehousing,Island Enterprises,United Arab Emirates,General Labourer,2016-08-31
+2666,2192,Manufacturing,Ceylon Corp,Saudi Arabia,Welder,2022-11-17
+2680,2206,Logistics & Warehousing,Gem Corp,Qatar,Driver,2015-08-06
+2721,2240,Cleaning Services,Gem Ltd,Saudi Arabia,Hotel Housekeeper,2010-11-15
+2749,2258,Security Services,Tea Ltd,United Arab Emirates,Plumber,2023-04-12
+2773,2277,Domestic Services,Construction Plantations,Kuwait,Housemaid,2022-06-04
+2782,2280,Cleaning Services,Island Solutions,Seychelles,Laundry Worker,2019-01-26
+2789,2288,Cleaning Services,Construction Inc,Kuwait,Cleaner,2018-09-11
+2802,2296,Logistics & Warehousing,Hotel Corp,Saudi Arabia,Driver,2013-09-22
+2813,2306,Security Services,Island Solutions,United Arab Emirates,Construction Supervisor,2023-10-15
+2835,2328,Driving & Transportation,Tea Pvt,Jordan,Barista,2017-05-11
+2848,2340,Domestic Services,Lanka Pvt,United Arab Emirates,Housemaid,2020-03-26
+2853,2343,Domestic Services,Hotel Group,Cyprus,Domestic Worker,2012-01-28
+2881,2371,Cleaning Services,Hotel Co,United Arab Emirates,Housemaid,2017-12-26
+2894,2380,Beauty & Personal Care,Lanka Plantations,Saudi Arabia,Bar Bender,2022-09-07
+2897,2385,Construction,Apparel Corp,Kuwait,Receptionist,2015-10-18
+2920,2399,Retail & Sales,Ceylon Solutions,Malaysia,Room Attendant,2019-03-26
+2930,2407,Manufacturing,Sri Group,Hong Kong,Machine Operator,2023-04-21
+2947,2424,Agriculture & Fishery,Construction Pvt,Saudi Arabia,Accountant,2021-01-30
+2981,2457,Beauty & Personal Care,Tea Enterprises,Qatar,Delivery Driver,2015-08-23
+3043,2513,Domestic Services,Tea Plantations,Qatar,Housemaid,2023-09-06
+3061,2522,Hospitality & Tourism,Tech Co,Saudi Arabia,Hairdresser,2012-11-22
+3105,2565,Retail & Sales,Tea Group,Singapore,Domestic Worker,2018-12-12
+3125,2581,Hospitality & Tourism,Tea Co,Saudi Arabia,Agricultural Worker,2015-07-03
+3201,2655,IT & Professional Services,Tea Inc,Qatar,Maintenance Worker,2014-06-29
+3207,2659,Garment & Apparel,Ceylon Corp,Saudi Arabia,Delivery Driver,2013-02-06
+3235,2683,Construction,Gem Plantations,Saudi Arabia,Quality Control Inspector,2021-12-05
+3243,2688,Agriculture & Fishery,Hotel Enterprises,Kuwait,House Driver,2022-12-03
+3267,2702,Domestic Services,Gem Solutions,Maldives,Plumber,2019-01-04
+3289,2715,Education & Training,Tech Enterprises,United Arab Emirates,Waiter,2022-05-22
+3298,2724,Logistics & Warehousing,Construction Group,Qatar,Driver,2015-12-20
+3311,2733,IT & Professional Services,Tea Solutions,United Arab Emirates,Janitor,2022-06-26
+3315,2734,Beauty & Personal Care,Gem Corp,South Korea,Domestic Worker,2023-05-16
+3332,2743,Cleaning Services,Ceylon Pvt,Saudi Arabia,Delivery Driver,2024-06-22
+3338,2745,Manufacturing,Gem Solutions,South Korea,Receptionist,2022-06-23
+3369,2765,Garment & Apparel,Ceylon Co,Oman,Machine Operator,2024-06-15
+3416,2801,Engineering & Technical,Ceylon Corp,South Korea,Plumber,2020-12-05
+3422,2803,Domestic Services,Hotel Enterprises,Saudi Arabia,Housemaid,2016-08-13
+3427,2805,Healthcare & Nursing,Hotel Enterprises,Saudi Arabia,Caregiver,2024-02-14
+3440,2819,Cleaning Services,Lanka Corp,Saudi Arabia,General Labourer,2022-02-21
+3449,2828,Hospitality & Tourism,Construction Enterprises,Qatar,Technician,2018-05-15
+3471,2839,IT & Professional Services,Hotel Enterprises,Qatar,Domestic Worker,2022-11-09
+3479,2845,Garment & Apparel,Tea Co,Jordan,Teacher Assistant,2018-10-10
+3483,2847,Security Services,Lanka Plantations,Saudi Arabia,Delivery Driver,2022-02-16
+3525,2880,Security Services,Tea Co,Jordan,General Labourer,2023-02-11
+3532,2886,Manufacturing,Hotel Pvt,Bahrain,Construction Helper,2022-08-05
+3551,2901,Retail & Sales,Tea Ltd,Cyprus,Forklift Operator,2019-04-21
+3556,2903,Security Services,Lanka Pvt,United Arab Emirates,Cleaner,2018-03-13
+3571,2918,Textile & Sewing,Construction Pvt,Qatar,Construction Supervisor,2013-02-07
+3581,2928,Domestic Services,Gem Pvt,Kuwait,Receptionist,2021-09-11
+3607,2950,Garment & Apparel,Island Pvt,Saudi Arabia,House Driver,2024-04-22
+3619,2959,Security Services,Tea Co,United Arab Emirates,Fishery Worker,2017-02-13
+3638,2975,Engineering & Technical,Tea Corp,United Arab Emirates,Chef,2024-03-28
+3639,2976,Construction,Apparel Co,United Arab Emirates,Heavy Vehicle Operator,2023-12-24
+3682,3015,Facility Management,Tech Solutions,Cyprus,Domestic Worker,2014-07-16
+3695,3030,Retail & Sales,Sri Ltd,Jordan,Packing Worker,2022-01-11
+3697,3036,Logistics & Warehousing,Gem Corp,Kuwait,Nurse,2021-12-03
+3725,3053,Driving & Transportation,Apparel Group,Maldives,Beautician,2020-04-06
+3754,3070,Agriculture & Fishery,Island Solutions,Cyprus,General Labourer,2022-08-01
+3766,3081,Manufacturing,Hotel Plantations,United Arab Emirates,General Labourer,2010-12-31
+3772,3086,Education & Training,Construction Plantations,Saudi Arabia,Tailor,2020-11-30
+3781,3094,Agriculture & Fishery,Tech Co,Kuwait,Carpenter,2014-05-23
+3796,3099,Security Services,Ceylon Solutions,Saudi Arabia,Chef,2020-02-12
+3819,3115,Engineering & Technical,Island Inc,Malaysia,Factory Worker,2016-06-28
+3838,3134,Garment & Apparel,Construction Inc,Saudi Arabia,Laundry Worker,2015-06-26
+3867,3158,Hospitality & Tourism,Ceylon Inc,Seychelles,Fishery Worker,2024-06-15
+3932,3202,Domestic Services,Apparel Solutions,Kuwait,Caregiver,2022-07-11
+3962,3223,Healthcare & Nursing,Ceylon Ltd,United Arab Emirates,Hotel Housekeeper,2021-06-17
+3964,3225,Construction,Sri Group,Romania,Domestic Worker,2018-11-30
+4091,3317,Manufacturing,Ceylon Pvt,Saudi Arabia,Factory Worker,2024-04-27
+4099,3327,Cleaning Services,Island Co,Saudi Arabia,Quality Control Inspector,2023-10-29
+4116,3338,Textile & Sewing,Lanka Group,Bahrain,Tailor,2021-02-20
+4195,3401,Domestic Services,Lanka Group,Kuwait,Caregiver,2023-01-14
+4202,3416,Logistics & Warehousing,Construction Pvt,Hong Kong,Agricultural Worker,2013-05-06
+4234,3454,Garment & Apparel,Lanka Solutions,Bahrain,House Driver,2018-11-30
+4244,3464,Garment & Apparel,Gem Co,Saudi Arabia,Gardener,2020-02-09
+4271,3486,Domestic Services,Island Inc,Kuwait,Caregiver,2021-07-09
+4284,3495,Facility Management,Apparel Group,Maldives,Nursing Assistant,2022-02-21
+4326,3525,Healthcare & Nursing,Sri Co,Kuwait,Shuttering Carpenter,2012-05-18
+4343,3540,Construction,Tech Pvt,Saudi Arabia,Welder,2017-11-02
+4366,3562,Domestic Services,Tea Group,Jordan,House Driver,2021-12-24
+4437,3617,Education & Training,Lanka Corp,Qatar,Heavy Vehicle Operator,2023-02-03
+4457,3632,Facility Management,Island Corp,Kuwait,Engineer,2023-06-17
+4480,3649,Agriculture & Fishery,Lanka Ltd,Romania,Janitor,2020-01-29
+4495,3662,Domestic Services,Hotel Plantations,Kuwait,Receptionist,2021-07-13
+4516,3674,Healthcare & Nursing,Island Plantations,Saudi Arabia,Mason,2022-11-12
+4529,3685,Textile & Sewing,Gem Solutions,Kuwait,House Driver,2013-07-14
+4553,3706,Logistics & Warehousing,Lanka Pvt,Qatar,Driver,2021-11-11
+4577,3727,Retail & Sales,Apparel Pvt,Saudi Arabia,Cleaner,2015-03-23
+4585,3732,Cleaning Services,Hotel Ltd,United Arab Emirates,Housemaid,2022-07-15
+4592,3741,Garment & Apparel,Lanka Ltd,Malaysia,Kitchen Helper,2023-02-09
+4618,3760,Healthcare & Nursing,Island Enterprises,Saudi Arabia,Laundry Worker,2020-06-01
+4674,3797,IT & Professional Services,Island Pvt,Saudi Arabia,Fishery Worker,2018-10-06
+4685,3803,Education & Training,Sri Pvt,Saudi Arabia,Delivery Driver,2023-04-29
+4721,3830,Domestic Services,Lanka Ltd,Saudi Arabia,Caregiver,2023-10-14
+4729,3833,IT & Professional Services,Lanka Enterprises,Saudi Arabia,Delivery Driver,2011-07-20
+4760,3858,Logistics & Warehousing,Construction Corp,Kuwait,Fishery Worker,2022-09-29
+4880,3971,Domestic Services,Tech Inc,Saudi Arabia,Caregiver,2023-10-15
+4891,3979,Agriculture & Fishery,Hotel Co,Kuwait,Kitchen Helper,2020-11-16
+4907,3997,Logistics & Warehousing,Lanka Plantations,United Arab Emirates,Gardener,2011-09-12
+4979,4062,Healthcare & Nursing,Island Enterprises,Saudi Arabia,Nursing Assistant,2022-06-24
+4999,4080,Security Services,Ceylon Group,Qatar,Delivery Driver,2016-11-05
+5077,4155,Engineering & Technical,Sri Group,United Arab Emirates,Cook,2023-11-06
+5183,4248,IT & Professional Services,Island Enterprises,Qatar,Plumber,2024-04-05
+5267,4309,IT & Professional Services,Gem Ltd,United Arab Emirates,Logistics Coordinator,2022-12-24
+5292,4329,Domestic Services,Island Inc,Qatar,Logistics Coordinator,2016-04-04
+5298,4332,Agriculture & Fishery,Sri Enterprises,Maldives,Delivery Driver,2012-04-06
+5304,4337,Manufacturing,Hotel Plantations,Kuwait,Construction Supervisor,2017-06-05
+5313,4345,Security Services,Sri Enterprises,Qatar,General Labourer,2019-03-29
+5314,4346,Domestic Services,Hotel Group,Kuwait,Barista,2013-06-20
+5319,4348,Textile & Sewing,Construction Enterprises,Saudi Arabia,Technician,2016-07-26
+5340,4363,Education & Training,Lanka Corp,Qatar,Maintenance Worker,2023-01-04
+5364,4375,Beauty & Personal Care,Gem Ltd,United Arab Emirates,Factory Worker,2013-02-27
+5372,4380,Healthcare & Nursing,Tea Enterprises,Saudi Arabia,Domestic Worker,2020-11-19
+5380,4386,IT & Professional Services,Lanka Plantations,Kuwait,Delivery Driver,2011-06-22
+5420,4432,Healthcare & Nursing,Ceylon Co,Maldives,Barista,2017-04-23
+5578,4555,Education & Training,Construction Plantations,Saudi Arabia,Technician,2023-01-07
+5598,4564,Agriculture & Fishery,Tea Inc,United Arab Emirates,Engineer,2020-03-25
+5615,4575,Facility Management,Tea Inc,United Arab Emirates,Nursing Assistant,2021-08-24
+5616,4576,Manufacturing,Apparel Solutions,United Arab Emirates,Delivery Driver,2013-08-05
+5627,4590,Beauty & Personal Care,Sri Pvt,Oman,House Driver,2024-03-04
+5633,4593,IT & Professional Services,Tech Solutions,United Arab Emirates,Gardener,2011-01-02
+5641,4599,Education & Training,Tech Pvt,Maldives,Nurse,2020-05-30
+5686,4635,Garment & Apparel,Sri Corp,Cyprus,Logistics Coordinator,2019-09-13
+5703,4647,Retail & Sales,Island Corp,Kuwait,Salesperson,2018-04-05
+5711,4652,IT & Professional Services,Tech Pvt,Bahrain,Cook,2021-10-08
+5734,4669,Retail & Sales,Hotel Enterprises,Maldives,General Labourer,2023-07-06
+5782,4720,Facility Management,Tea Group,Maldives,Laundry Worker,2023-04-26
+5813,4747,Domestic Services,Lanka Corp,Saudi Arabia,Beautician,2021-06-18
+5816,4754,Hospitality & Tourism,Construction Group,Malaysia,Technician,2021-10-26
+5858,4798,Cleaning Services,Tech Solutions,Kuwait,Kitchen Helper,2020-12-06
+5881,4819,Engineering & Technical,Apparel Inc,United Arab Emirates,Engineer,2018-08-10
+5885,4820,Beauty & Personal Care,Island Enterprises,United Arab Emirates,Tailor,2016-08-25
+5920,4850,Logistics & Warehousing,Construction Ltd,Saudi Arabia,Driver,2022-11-01
+5928,4865,Hospitality & Tourism,Tech Enterprises,United Arab Emirates,Chef,2023-11-02
+5937,4875,Facility Management,Hotel Solutions,Saudi Arabia,Construction Supervisor,2017-02-20
+5958,4888,Retail & Sales,Lanka Inc,Oman,General Labourer,2022-10-15
+5965,4891,Security Services,Sri Group,Lebanon,Cook,2023-07-28
+5973,4901,Agriculture & Fishery,Gem Enterprises,Saudi Arabia,Beautician,2015-05-14
+6039,4948,Manufacturing,Island Corp,Saudi Arabia,Welder,2023-09-15
+6044,4953,Domestic Services,Tea Inc,Lebanon,Construction Supervisor,2020-10-23
+6121,5017,IT & Professional Services,Hotel Pvt,United Arab Emirates,Construction Supervisor,2019-03-10
+6161,5048,Domestic Services,Island Inc,Qatar,Nurse,2011-06-09
+6168,5052,Logistics & Warehousing,Tech Inc,Oman,Construction Helper,2013-07-01
+6178,5061,Hospitality & Tourism,Lanka Solutions,Saudi Arabia,Maintenance Worker,2021-03-07
+6190,5070,Driving & Transportation,Construction Pvt,Saudi Arabia,Driver,2015-04-04
+6197,5072,Domestic Services,Hotel Corp,Kuwait,Caregiver,2023-05-22
+6232,5094,Domestic Services,Sri Inc,South Korea,Engineer,2017-11-15
+6267,5141,Logistics & Warehousing,Apparel Plantations,Kuwait,House Driver,2021-01-29
+6283,5147,IT & Professional Services,Sri Corp,Qatar,Hairdresser,2024-03-16
+6301,5159,Healthcare & Nursing,Gem Pvt,Kuwait,Caregiver,2021-09-30
+6305,5164,Engineering & Technical,Tea Enterprises,Hong Kong,Fishery Worker,2012-09-01
+6339,5194,Domestic Services,Apparel Solutions,Qatar,Housemaid,2023-03-30
+6483,5331,Garment & Apparel,Sri Pvt,Qatar,Construction Helper,2017-02-22
+6489,5336,Agriculture & Fishery,Gem Enterprises,Saudi Arabia,Machine Operator,2023-11-30
+6492,5337,Agriculture & Fishery,Sri Pvt,Kuwait,Construction Helper,2023-02-05
+6494,5339,Engineering & Technical,Gem Pvt,South Korea,Maintenance Worker,2018-08-07
+6532,5367,Retail & Sales,Construction Pvt,Serbia,General Labourer,2022-11-25
+6576,5402,Garment & Apparel,Tea Corp,Saudi Arabia,Janitor,2024-07-29
+6578,5403,Garment & Apparel,Ceylon Corp,Jordan,Nurse,2024-01-13
+6609,5425,Security Services,Lanka Plantations,Australia,Accountant,2021-02-28
+6654,5458,IT & Professional Services,Lanka Enterprises,United Arab Emirates,Receptionist,2018-04-07
+6667,5470,Cleaning Services,Sri Solutions,Qatar,Maintenance Worker,2024-07-25
+6730,5523,Engineering & Technical,Ceylon Co,Qatar,General Labourer,2022-04-25
+6770,5559,Security Services,Island Plantations,Qatar,General Labourer,2018-10-08
+6800,5579,Agriculture & Fishery,Gem Plantations,Qatar,Nurse,2022-05-26
+6829,5605,IT & Professional Services,Island Pvt,Saudi Arabia,Delivery Driver,2017-01-30
+6849,5622,Healthcare & Nursing,Sri Co,Hong Kong,Forklift Operator,2018-09-13
+6850,5625,Hospitality & Tourism,Gem Plantations,Kuwait,Logistics Coordinator,2022-11-11
+6857,5631,Beauty & Personal Care,Ceylon Group,Saudi Arabia,Cook,2022-05-18
+6868,5641,Facility Management,Hotel Co,Saudi Arabia,Delivery Driver,2018-06-23
+6935,5691,Facility Management,Gem Co,United Arab Emirates,Maintenance Worker,2021-04-18
+6947,5705,Logistics & Warehousing,Ceylon Inc,South Korea,Cleaner,2020-07-21
+6961,5716,Beauty & Personal Care,Apparel Pvt,United Arab Emirates,Nurse,2021-03-30
+6970,5723,Domestic Services,Construction Inc,Qatar,Housemaid,2020-10-11
+6992,5745,Domestic Services,Sri Corp,Saudi Arabia,Nurse,2017-02-24
+7044,5793,Education & Training,Hotel Enterprises,Maldives,Gardener,2022-08-28
+7198,5923,Retail & Sales,Tech Enterprises,United Arab Emirates,House Driver,2023-08-19
+7206,5926,Logistics & Warehousing,Hotel Pvt,Maldives,Hairdresser,2021-04-12
+7208,5928,Manufacturing,Sri Corp,United Arab Emirates,Shuttering Carpenter,2013-07-20
+7249,5964,Logistics & Warehousing,Hotel Group,Maldives,Bar Bender,2023-03-10
+7258,5977,Logistics & Warehousing,Hotel Co,Saudi Arabia,Technician,2022-08-26
+7337,6042,Beauty & Personal Care,Ceylon Pvt,United Kingdom,Security Guard,2020-10-04
+7365,6064,Beauty & Personal Care,Lanka Inc,Qatar,Tailor,2014-03-03
+7417,6102,Healthcare & Nursing,Hotel Corp,Japan,Machine Operator,2013-03-03
+7428,6108,Domestic Services,Ceylon Corp,United Arab Emirates,General Labourer,2020-04-09
+7433,6115,Engineering & Technical,Tea Group,United Arab Emirates,Carpenter,2011-09-10
+7482,6146,Logistics & Warehousing,Tea Solutions,United Arab Emirates,Maintenance Worker,2023-06-18
+7489,6161,Beauty & Personal Care,Tech Solutions,United Arab Emirates,Forklift Operator,2016-09-17
+7509,6180,Education & Training,Construction Inc,Saudi Arabia,Forklift Operator,2014-09-26
+7516,6193,Driving & Transportation,Sri Co,Qatar,Driver,2015-08-21
+7532,6202,Hospitality & Tourism,Lanka Co,Qatar,Packing Worker,2017-08-21
+7539,6207,Agriculture & Fishery,Lanka Corp,Qatar,Engineer,2023-03-10
+7591,6246,Domestic Services,Hotel Corp,Saudi Arabia,Construction Helper,2023-12-12
+7604,6261,Hospitality & Tourism,Gem Co,Seychelles,Packing Worker,2023-04-01
+7644,6301,Textile & Sewing,Apparel Inc,United Arab Emirates,Domestic Worker,2021-02-05
+7702,6341,Beauty & Personal Care,Hotel Group,United Arab Emirates,Tailor,2015-03-20
+7766,6396,Logistics & Warehousing,Tea Plantations,Singapore,Warehouse Worker,2020-07-29
+7802,6431,Cleaning Services,Apparel Enterprises,Qatar,Salesperson,2019-10-29
+7818,6442,Driving & Transportation,Tea Inc,Saudi Arabia,Driver,2021-07-28
+7820,6444,Hospitality & Tourism,Gem Pvt,Saudi Arabia,Delivery Driver,2020-06-30
+7832,6457,Security Services,Tea Ltd,South Korea,Nursing Assistant,2024-03-26
+7837,6462,Engineering & Technical,Island Co,United Arab Emirates,Construction Supervisor,2022-07-11
+7861,6478,Engineering & Technical,Island Corp,Saudi Arabia,Quality Control Inspector,2021-12-10
+7862,6479,Engineering & Technical,Hotel Co,United Arab Emirates,Construction Helper,2022-07-15
+7880,6493,Domestic Services,Tea Inc,Cyprus,General Labourer,2011-11-25
+7891,6505,Hospitality & Tourism,Construction Corp,Kuwait,Machine Operator,2022-06-11
+7926,6534,Facility Management,Lanka Enterprises,Kuwait,Domestic Worker,2017-08-04
+7974,6567,Engineering & Technical,Tech Plantations,Kuwait,Construction Supervisor,2019-03-10
+7986,6579,Retail & Sales,Island Group,Serbia,Hotel Housekeeper,2024-08-03
+7995,6588,Hospitality & Tourism,Lanka Group,Qatar,Engineer,2022-09-11
+8007,6600,Garment & Apparel,Hotel Group,Oman,Salesperson,2021-09-28
+8031,6616,Hospitality & Tourism,Gem Enterprises,Saudi Arabia,Plumber,2022-07-24
+8055,6631,Logistics & Warehousing,Apparel Enterprises,Saudi Arabia,Driver,2013-04-10
+8056,6632,Textile & Sewing,Hotel Inc,United Arab Emirates,House Driver,2015-03-02
+8269,6805,Driving & Transportation,Construction Ltd,Saudi Arabia,Driver,2020-04-26
+8302,6836,Garment & Apparel,Apparel Solutions,Qatar,Carpenter,2023-01-28
+8326,6854,Cleaning Services,Sri Co,United Arab Emirates,House Driver,2014-01-08
+8343,6865,Manufacturing,Construction Enterprises,Saudi Arabia,Kitchen Helper,2010-09-13
+8358,6882,Cleaning Services,Lanka Co,United Arab Emirates,Gardener,2017-05-17
+8404,6920,Garment & Apparel,Ceylon Inc,Serbia,Mason,2019-06-25
+8412,6929,Hospitality & Tourism,Ceylon Inc,Kuwait,Room Attendant,2014-01-28
+8422,6942,Education & Training,Tech Group,Saudi Arabia,Delivery Driver,2023-10-21
+8444,6974,Domestic Services,Hotel Pvt,United Arab Emirates,Housemaid,2023-07-18
+8452,6979,IT & Professional Services,Island Enterprises,Canada,Construction Supervisor,2022-05-20
+8456,6980,Construction,Ceylon Enterprises,Qatar,Domestic Worker,2022-11-17
+8477,6994,Manufacturing,Ceylon Plantations,South Korea,Domestic Worker,2021-07-17
+8529,7037,Logistics & Warehousing,Hotel Solutions,Oman,Technician,2020-07-24
+8555,7054,Logistics & Warehousing,Sri Pvt,Jordan,Construction Helper,2020-01-17
+8580,7076,Logistics & Warehousing,Gem Co,Qatar,Tailor,2023-09-18
+8584,7078,Logistics & Warehousing,Gem Ltd,Serbia,Technician,2019-07-21
+8585,7081,IT & Professional Services,Island Plantations,Kuwait,Construction Supervisor,2014-05-23
+8656,7132,Construction,Ceylon Corp,Qatar,Bar Bender,2020-09-05
+8688,7152,Hospitality & Tourism,Sri Solutions,Qatar,Hotel Housekeeper,2015-07-01
+8713,7175,Logistics & Warehousing,Gem Solutions,United Arab Emirates,Driver,2019-01-07
+8724,7183,Engineering & Technical,Island Enterprises,Kuwait,Technician,2022-03-07
+8731,7189,Security Services,Island Group,Australia,House Driver,2017-10-28
+8762,7206,Hospitality & Tourism,Hotel Enterprises,Kuwait,Construction Supervisor,2019-02-20
+8770,7210,Healthcare & Nursing,Construction Solutions,Kuwait,House Driver,2017-11-29
+8774,7218,Cleaning Services,Gem Group,Bahrain,Cook,2022-10-14
+8861,7280,Healthcare & Nursing,Tech Ltd,Serbia,Plumber,2022-09-10
+8867,7287,Education & Training,Tea Enterprises,Romania,Forklift Operator,2011-08-22
+8872,7289,Facility Management,Tech Pvt,Qatar,Plumber,2024-05-16
+8880,7293,Cleaning Services,Lanka Co,Saudi Arabia,Cook,2023-11-20
+8898,7306,Driving & Transportation,Island Pvt,Saudi Arabia,House Driver,2022-12-09
+8921,7328,Hospitality & Tourism,Construction Enterprises,Romania,Accountant,2023-04-10
+8936,7337,Facility Management,Construction Pvt,United Arab Emirates,Domestic Worker,2022-05-23
+8941,7338,Hospitality & Tourism,Construction Ltd,Kuwait,Forklift Operator,2023-05-08
+8950,7342,Healthcare & Nursing,Ceylon Group,Saudi Arabia,Construction Helper,2023-11-08
+8980,7359,Security Services,Sri Pvt,Oman,Hotel Housekeeper,2010-09-19
+9052,7406,Driving & Transportation,Hotel Corp,United Arab Emirates,Driver,2021-10-10
+9119,7457,Healthcare & Nursing,Sri Co,Kuwait,Salesperson,2012-10-12
+9125,7460,Construction,Lanka Group,Lebanon,Nursing Assistant,2021-02-27
+9133,7467,Domestic Services,Lanka Solutions,Qatar,Kitchen Helper,2017-02-28
+9152,7482,Construction,Tea Solutions,Saudi Arabia,Teacher Assistant,2014-02-06
+9168,7497,Domestic Services,Hotel Solutions,Kuwait,Gardener,2023-06-03
+9176,7503,Security Services,Tech Ltd,Romania,Sewing Machine Operator,2021-01-29
+9177,7504,Domestic Services,Construction Solutions,Saudi Arabia,Construction Helper,2019-10-23
+9216,7539,Agriculture & Fishery,Tech Pvt,Kuwait,Quality Control Inspector,2021-08-17
+9231,7545,Beauty & Personal Care,Ceylon Co,Kuwait,Waiter,2023-02-07
+9240,7551,Security Services,Hotel Inc,Singapore,Factory Worker,2022-09-28
+9257,7582,Hospitality & Tourism,Tea Ltd,Saudi Arabia,Accountant,2021-07-07
+9260,7583,IT & Professional Services,Hotel Solutions,Saudi Arabia,Beautician,2021-07-26
+9274,7589,Construction,Gem Solutions,Saudi Arabia,Cook,2019-11-20
+9295,7604,Beauty & Personal Care,Gem Inc,Kuwait,Warehouse Worker,2020-04-07
+9334,7632,Facility Management,Tea Enterprises,Malaysia,Administrative Assistant,2015-03-15
+9335,7635,Cleaning Services,Construction Co,Malaysia,Construction Supervisor,2013-07-19
+9336,7636,Healthcare & Nursing,Apparel Enterprises,Saudi Arabia,Caregiver,2012-04-09
+9388,7685,Facility Management,Ceylon Solutions,Qatar,Carpenter,2017-08-28
+9399,7697,Healthcare & Nursing,Sri Co,Kuwait,Construction Helper,2016-06-30
+9437,7731,Driving & Transportation,Sri Inc,Qatar,Laundry Worker,2021-02-24
+9461,7741,Domestic Services,Lanka Pvt,Kuwait,Caregiver,2017-09-13
+9466,7742,Security Services,Island Ltd,South Korea,Shuttering Carpenter,2020-10-17
+9468,7745,Cleaning Services,Tea Inc,United Arab Emirates,Factory Worker,2022-02-06
+9484,7766,Driving & Transportation,Tea Group,Canada,General Labourer,2023-10-05
+9628,7886,Facility Management,Tea Solutions,Saudi Arabia,Tailor,2019-06-08
+9684,7938,Hospitality & Tourism,Hotel Pvt,Qatar,Carpenter,2016-12-28
+9701,7959,IT & Professional Services,Island Co,Saudi Arabia,Chef,2019-08-11
+9703,7962,Facility Management,Island Inc,Bahrain,Electrician,2022-08-03
+9799,8019,Logistics & Warehousing,Apparel Inc,Qatar,Construction Helper,2019-10-30
+9828,8036,Construction,Sri Co,Turkey,Sewing Machine Operator,2011-04-26
+9848,8056,IT & Professional Services,Sri Solutions,Qatar,Teacher Assistant,2015-10-04
+9881,8079,Engineering & Technical,Hotel Pvt,Saudi Arabia,Packing Worker,2021-06-25
+9901,8091,Engineering & Technical,Apparel Co,Kuwait,Construction Helper,2019-03-20
+9916,8099,Logistics & Warehousing,Tea Ltd,Qatar,Driver,2022-05-11
+9931,8105,Healthcare & Nursing,Hotel Co,Malaysia,Construction Supervisor,2023-06-24
+9963,8132,Engineering & Technical,Gem Inc,Maldives,Bar Bender,2024-03-16
+9976,8138,Driving & Transportation,Ceylon Inc,Japan,Receptionist,2022-01-17
+10052,8184,Hospitality & Tourism,Ceylon Group,United Arab Emirates,Kitchen Helper,2017-11-08
+10063,8198,Healthcare & Nursing,Tea Ltd,Maldives,Fishery Worker,2011-05-24
+10087,8209,Security Services,Lanka Co,Russia,Cook,2014-09-30
+10178,8279,Cleaning Services,Tea Group,United Arab Emirates,Housemaid,2022-06-08
+10180,8283,Logistics & Warehousing,Tech Solutions,Saudi Arabia,Driver,2021-06-13
+10257,8352,Cleaning Services,Tech Group,Jordan,Delivery Driver,2023-12-22
+10260,8355,Domestic Services,Apparel Pvt,Lebanon,Salesperson,2012-05-08
+10275,8369,Education & Training,Gem Enterprises,Saudi Arabia,Forklift Operator,2017-03-25
+10295,8388,Construction,Construction Co,South Korea,Welder,2017-02-20
+10322,8409,Engineering & Technical,Construction Co,Kuwait,Teacher Assistant,2023-08-26
+10408,8476,Driving & Transportation,Hotel Corp,United Arab Emirates,Nurse,2024-01-21
+10441,8500,Hospitality & Tourism,Tea Enterprises,Saudi Arabia,Construction Supervisor,2022-07-22
+10491,8535,Textile & Sewing,Ceylon Plantations,Saudi Arabia,Bar Bender,2022-03-15
+10496,8542,Security Services,Lanka Plantations,Saudi Arabia,Chef,2019-05-22
+10518,8555,Garment & Apparel,Tea Co,Qatar,Delivery Driver,2024-04-14
+10526,8560,Driving & Transportation,Island Inc,Qatar,Construction Helper,2018-01-14
+10541,8571,Textile & Sewing,Gem Corp,Saudi Arabia,House Driver,2016-04-09
+10544,8577,Construction,Apparel Group,South Korea,Welder,2017-02-07
+10584,8614,Driving & Transportation,Tech Plantations,Russia,Domestic Worker,2020-01-02
+10630,8672,Engineering & Technical,Island Corp,Kuwait,Carpenter,2015-12-10
+10644,8696,Hospitality & Tourism,Hotel Inc,Saudi Arabia,Nursing Assistant,2011-01-12
+10783,8807,Security Services,Construction Pvt,Saudi Arabia,Construction Helper,2020-04-17
+10862,8876,Healthcare & Nursing,Construction Solutions,Canada,Salesperson,2011-05-06
+10916,8941,Hospitality & Tourism,Tea Corp,Malaysia,Kitchen Helper,2017-06-11
+10924,8952,Cleaning Services,Island Inc,United Kingdom,Construction Supervisor,2017-12-02
+10930,8956,Hospitality & Tourism,Tech Inc,United Arab Emirates,General Labourer,2016-05-10
+10957,8972,Driving & Transportation,Tea Enterprises,Saudi Arabia,Cleaner,2024-05-11
+10998,9010,Engineering & Technical,Hotel Group,Bahrain,General Labourer,2019-12-29
+11009,9019,Education & Training,Apparel Group,Seychelles,Delivery Driver,2016-08-10
+11023,9027,Construction,Apparel Pvt,Lebanon,House Driver,2021-08-05
+11056,9062,Logistics & Warehousing,Tea Pvt,New Zealand,Waiter,2014-10-27
+11086,9091,Retail & Sales,Hotel Group,Israel,Accountant,2023-07-17
+11120,9118,Security Services,Ceylon Group,United Arab Emirates,Agricultural Worker,2015-07-04
+11155,9151,Construction,Apparel Pvt,South Korea,General Labourer,2018-08-29
+11189,9178,Security Services,Sri Solutions,Kuwait,Shuttering Carpenter,2023-01-25
+11190,9179,Driving & Transportation,Apparel Ltd,Saudi Arabia,Technician,2016-04-13
+11233,9212,Manufacturing,Tech Ltd,Serbia,Domestic Worker,2019-01-18
+11237,9220,Retail & Sales,Island Co,Kuwait,Factory Worker,2015-05-25
+11257,9243,Healthcare & Nursing,Sri Solutions,United Arab Emirates,Plumber,2018-10-14
+11281,9261,Manufacturing,Ceylon Plantations,Malaysia,Domestic Worker,2018-06-23
+11320,9294,Domestic Services,Gem Solutions,Qatar,Housemaid,2023-07-01
+11371,9334,Cleaning Services,Gem Pvt,Qatar,Receptionist,2024-07-17
+11388,9346,Garment & Apparel,Tea Group,United Kingdom,Hairdresser,2022-10-09
+11414,9362,Retail & Sales,Gem Ltd,South Korea,Sewing Machine Operator,2019-06-13
+11432,9379,Driving & Transportation,Hotel Solutions,United Arab Emirates,Driver,2015-07-20
+11456,9396,Garment & Apparel,Sri Corp,Kuwait,General Labourer,2013-08-30
+11530,9477,Engineering & Technical,Lanka Ltd,Maldives,Cleaner,2019-12-24
+11573,9522,Retail & Sales,Gem Plantations,United Arab Emirates,Cook,2018-09-01
+11579,9527,Cleaning Services,Construction Corp,Saudi Arabia,House Driver,2022-04-30
+11580,9528,Retail & Sales,Tea Plantations,Qatar,Waiter,2016-02-01
+11585,9533,Facility Management,Gem Inc,Kuwait,Administrative Assistant,2013-02-18
+11613,9557,Construction,Construction Co,Saudi Arabia,Welder,2021-11-24
+11697,9631,Security Services,Construction Pvt,Qatar,Domestic Worker,2023-11-19
+11719,9643,Facility Management,Ceylon Group,Maldives,Sewing Machine Operator,2023-09-28
+11750,9662,Domestic Services,Construction Corp,Kuwait,Construction Supervisor,2021-03-19
+11788,9692,Retail & Sales,Tech Pvt,Israel,Cook,2019-11-02
+11789,9694,Agriculture & Fishery,Hotel Solutions,United Kingdom,Administrative Assistant,2015-06-25
+11816,9723,Manufacturing,Gem Corp,Qatar,Electrician,2016-12-25
+11837,9738,Retail & Sales,Hotel Enterprises,Saudi Arabia,House Driver,2024-01-02
+11872,9768,Beauty & Personal Care,Island Enterprises,Saudi Arabia,Cleaner,2023-11-13
+11893,9784,Agriculture & Fishery,Sri Corp,Saudi Arabia,Heavy Vehicle Operator,2023-07-13
+11952,9835,Construction,Tech Solutions,Kuwait,Nurse,2021-06-01
+11965,9846,Domestic Services,Gem Plantations,United Arab Emirates,Janitor,2014-09-16
+11983,9857,Manufacturing,Ceylon Inc,Kuwait,Construction Helper,2024-07-27
+12038,9909,Construction,Ceylon Co,Saudi Arabia,General Labourer,2018-11-15
+12039,9911,Agriculture & Fishery,Ceylon Plantations,Maldives,Bar Bender,2024-06-11
+12065,9936,Engineering & Technical,Island Plantations,Saudi Arabia,Laundry Worker,2014-07-31
+12070,9943,Domestic Services,Tea Inc,Saudi Arabia,Caregiver,2015-05-08
+12087,9962,Education & Training,Apparel Co,Bahrain,Nursing Assistant,2023-11-29
+12096,9972,Textile & Sewing,Ceylon Plantations,Japan,Logistics Coordinator,2018-05-06
+12108,9985,Domestic Services,Apparel Plantations,Saudi Arabia,Caregiver,2019-08-23

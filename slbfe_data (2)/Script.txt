@@ -1,0 +1,903 @@
+# Install necessary libraries if not already available (though most are pre-installed in Colab)
+!pip install pandas numpy lorem-text faker
+
+import pandas as pd
+import numpy as np
+import random
+import os
+from datetime import date, timedelta
+import zipfile  # We'll use zipfile instead of os.system for better compatibility
+from google.colab import files  # To download the zip file
+from lorem_text import lorem
+from faker import Faker
+
+fake = Faker('en_US')  # For generating random text, addresses, etc.
+
+# ------------------------------
+# Setup
+# ------------------------------
+random.seed(42)
+
+n_seekers = 10000  # Number of job seekers
+n_jobs = 5000      # Number of job postings
+batch_size = 1000  # Batch size for splitting CSVs
+
+output_dir = "slbfe_data_csv"
+os.makedirs(output_dir, exist_ok=True)
+
+# ------------------------------
+# SLBFE-Specific Data
+# ------------------------------
+# Sri Lankan Districts
+districts = [
+    'Ampara', 'Anuradhapura', 'Badulla', 'Batticaloa', 'Colombo', 'Galle', 'Gampaha', 'Hambantota',
+    'Jaffna', 'Kalutara', 'Kandy', 'Kegalle', 'Kilinochchi', 'Kurunegala', 'Mannar', 'Matale',
+    'Matara', 'Moneragala', 'Mullaitivu', 'Nuwara Eliya', 'Polonnaruwa', 'Puttalam', 'Ratnapura',
+    'Trincomalee', 'Vavuniya'
+]
+
+# Real DS Divisions grouped by district
+district_to_ds = {
+    'Ampara': ['Addalachchenai', 'Akkaraipattu', 'Alayadiwembu', 'Ampara', 'Damana', 'Dehiattakandiya', 'Eragama', 'Kalmunai', 'Karativu', 'Lahugala', 'Mahaoya', 'Navithanveli', 'Ninthavur', 'Padiyathalawa', 'Pothuvil', 'Sainthamarathu', 'Sammanthurai', 'Thirukkovil', 'Uhana'],
+    'Anuradhapura': ['Galenbindunuwewa', 'Galnewa', 'Horowpothana', 'Ipalogama', 'Kahatagasdigiliya', 'Kebithigollewa', 'Kekirawa', 'Mahavilachchiya', 'Medawachchiya', 'Mihinthale', 'Nachchadoowa', 'Nochchiyagama', 'Nuwaragam Palatha Central', 'Nuwaragam Palatha East', 'Padaviya', 'Palagala', 'Palugaswewa', 'Rajanganaya', 'Rambewa', 'Thalawa', 'Thambuttegama', 'Thirappane'],
+    'Badulla': ['Badulla', 'Bandarawela', 'Ella', 'Haldummulla', 'Hali-Ela', 'Haputale', 'Kandaketiya', 'Lunugala', 'Mahiyanganaya', 'Meegahakivula', 'Passara', 'Rideemaliyadda', 'Soranathota', 'Uva-Paranagama', 'Welimada'],
+    'Batticaloa': ['Eravur Pattu', 'Eravur Town', 'Kattankudy', 'Koralai Pattu', 'Koralai Pattu Central', 'Koralai Pattu North', 'Koralai Pattu South', 'Koralai Pattu West', 'Manmunai North', 'Manmunai Pattu', 'Manmunai South & Eruvil Pattu', 'Manmunai South West', 'Manmunai West', 'Porativu Pattu'],
+    'Colombo': ['Colombo', 'Dehiwala', 'Homagama', 'Kaduwela', 'Kesbewa', 'Kolonnawa', 'Maharagama', 'Moratuwa', 'Padukka', 'Ratmalana', 'Seethawaka', 'Sri Jayawardanapura Kotte', 'Thimbirigasyaya'],
+    'Galle': ['Akmeemana', 'Ambalangoda', 'Baddegama', 'Balapitiya', 'Benthota', 'Bope-Poddala', 'Elpitiya', 'Galle Four Gravets', 'Gonapinuwala', 'Habaraduwa', 'Hikkaduwa', 'Imaduwa', 'Karandeniya', 'Nagoda', 'Neluwa', 'Niyagama', 'Thawalama', 'Welivitiya-Divithura', 'Yakkalamulla'],
+    'Gampaha': ['Attanagalla', 'Biyagama', 'Divulapitiya', 'Dompe', 'Gampaha', 'Ja-Ela', 'Katana', 'Kelaniya', 'Mahara', 'Minuwangoda', 'Mirigama', 'Negombo', 'Wattala'],
+    'Hambantota': ['Ambalantota', 'Angunakolapelessa', 'Beliatta', 'Hambantota', 'Katuwana', 'Lunugamvehera', 'Okewela', 'Sooriyawewa', 'Tangalle', 'Thissamaharama', 'Walasmulla', 'Weeraketiya'],
+    'Jaffna': ['Delft', 'Island North', 'Island South', 'Jaffna', 'Karainagar', 'Nallur', 'Thenmaradchi', 'Vadamaradchi East', 'Vadamaradchi North', 'Vadamaradchi South-West', 'Valikamam East', 'Valikamam North', 'Valikamam South', 'Valikamam South-West', 'Valikamam West'],
+    'Kalutara': ['Agalawatta', 'Bandaragama', 'Beruwala', 'Bulathsinhala', 'Dodangoda', 'Horana', 'Ingiriya', 'Kalutara', 'Madurawela', 'Mathugama', 'Millaniya', 'Palindanuwara', 'Panadura', 'Walallavita'],
+    'Kandy': ['Akurana', 'Delthota', 'Doluwa', 'Ganga Ihala Korale', 'Harispattuwa', 'Hatharaliyadda', 'Kandy Four Gravets & Gangawata Korale', 'Kundasale', 'Medadumbara', 'Minipe', 'Panvila', 'Paspase Korale', 'Pathadumbara', 'Pathahewaheta', 'Poojapitiya', 'Thumpane', 'Udadumbara', 'Udapalatha', 'Udunuwara', 'Yatinuwara'],
+    'Kegalle': ['Aranayaka', 'Bulathkohupitiya', 'Dehiovita', 'Deraniyagala', 'Galigamuwa', 'Kegalle', 'Mawanella', 'Rambukkana', 'Ruwanwella', 'Warakapola', 'Yatiyanthota'],
+    'Kilinochchi': ['Kandavalai', 'Karachchi', 'Pachchilaipalli', 'Poonakary'],
+    'Kurunegala': ['Alawwa', 'Ambanpola', 'Bamunakotuwa', 'Bingiriya', 'Ehetuwewa', 'Galigamuwa', 'Galgamuwa', 'Ganewatta', 'Giribawa', 'Ibbagamuwa', 'Katupotha', 'Kotavehera', 'Kuliyapitiya East', 'Kuliyapitiya West', 'Kurunegala', 'Mahawa', 'Mallawapitiya', 'Maspotha', 'Mawathagama', 'Narammala', 'Nikaweratiya', 'Panduwasnuwara', 'Pannala', 'Polgahawela', 'Polpithigama', 'Rasnayakapura', 'Rideegama', 'Udubaddawa', 'Wariyapola', 'Weerambugedara'],
+    'Mannar': ['Madhu', 'Mannar Town', 'Manthai West', 'Musali', 'Nanthankadal'],
+    'Matale': ['Ambanganga Korale', 'Dambulla', 'Galewela', 'Laggala-Pallegama', 'Matale', 'Naula', 'Pallepola', 'Rattota', 'Ukuwela', 'Wilgamuwa', 'Yatawatta'],
+    'Matara': ['Akuressa', 'Athuraliya', 'Devinuwara', 'Dickwella', 'Hakmana', 'Kamburupitiya', 'Kirinda Puhulwella', 'Kotapola', 'Malimbada', 'Matara Four Gravets', 'Mulatiyana', 'Pasgoda', 'Pitabeddara', 'Thihagoda', 'Weligama', 'Welipitiya'],
+    'Moneragala': ['Badalkumbura', 'Bibile', 'Buttala', 'Katharagama', 'Madulla', 'Medagama', 'Moneragala', 'Sevanagala', 'Siyambalanduwa', 'Thanamalvila', 'Wellawaya'],
+    'Mullaitivu': ['Manthai East', 'Maritimepattu', 'Oddusuddan', 'Puthukudiyiruppu', 'Thunukkai', 'Welioya'],
+    'Nuwara Eliya': ['Ambagamuwa', 'Hanguranketha', 'Kothmale', 'Nuwara Eliya', 'Walapane'],
+    'Polonnaruwa': ['Dimbulagala', 'Elahera', 'Hingurakgoda', 'Lankapura', 'Medirigiriya', 'Thamankaduwa', 'Welikanda'],
+    'Puttalam': ['Anamaduwa', 'Arachchikattuwa', 'Chilaw', 'Dankotuwa', 'Kalpitiya', 'Karuwalagaswewa', 'Madampe', 'Mahawewa', 'Mundel', 'Nattandiya', 'Nawagattegama', 'Pallama', 'Puttalam', 'Vanathavilluwa', 'Wennappuwa'],
+    'Ratnapura': ['Ayagama', 'Balangoda', 'Eheliyagoda', 'Elapatha', 'Embilipitiya', 'Godakawela', 'Imbulpe', 'Kahawatta', 'Kalawana', 'Kiriella', 'Kolonna', 'Kuruvita', 'Nivithigala', 'Opanayaka', 'Pelmadulla', 'Ratnapura', 'Weligepola'],
+    'Trincomalee': ['Gomarankadawala', 'Kantalai', 'Kinniya', 'Kuchchaveli', 'Morawewa', 'Muttur', 'Padavi Siripura', 'Seruvila', 'Thambalagamuwa', 'Trincomalee Town and Gravets', 'Verugal'],
+    'Vavuniya': ['Vavuniya', 'Vavuniya North', 'Vavuniya South', 'Vengalacheddikulam']
+}
+
+def get_ds_division(district):
+    return random.choice(district_to_ds.get(district, [f"{district} DS {random.randint(1, 20)}"]))
+
+# Custom Sri Lankan-style names
+male_first_names = [
+    'Kasun', 'Indika', 'Gayan', 'Sampath', 'Prasad', 'Nuwan', 'Lahiru', 'Chamara', 'Chandana', 'Ruwan',
+    'Anura', 'Duminda', 'Janaka', 'Sunil', 'Ajith', 'Rohan', 'Saman', 'Kamal', 'Asanka', 'Tharaka',
+    'Dilshan', 'Mahesh', 'Nalaka', 'Pradeep', 'Suranga', 'Bandula', 'Dinesh', 'Eranga', 'Harsha',
+    'Jagath', 'Kapila', 'Lasantha', 'Madushan', 'Nadeeka', 'Oshan', 'Pasindu', 'Ranil', 'Sanjaya',
+    'Thilina', 'Udaya', 'Viraj', 'Wasantha', 'Yasith', 'Zahran', 'Mohamed', 'Ahmed', 'Fazil', 'Ibrahim',
+    'Abhaya', 'Adeesha', 'Akila', 'Aloka', 'Amarasiri', 'Asanga', 'Buddhika', 'Chaminda', 'Dayan',
+    'Gamini', 'Hemantha', 'Isuru', 'Jayantha', 'Kithsiri', 'Lalith', 'Mahinda', 'Nimal', 'Priyantha',
+    'Ranjith', 'Sarath', 'Tilak', 'Upul', 'Vijitha', 'Wimal', 'Yohan', 'Zameer'
+]
+
+female_first_names = [
+    'Nadeesha', 'Shashika', 'Madushika', 'Ishani', 'Tharushi', 'Bhagya', 'Ruwini', 'Nethmi', 'Isuri',
+    'Eshini', 'Anjali', 'Chathurika', 'Dilani', 'Erandika', 'Fathima', 'Gayani', 'Harshani', 'Inoka',
+    'Janani', 'Kanchana', 'Lakmini', 'Madhavi', 'Nirosha', 'Oshadi', 'Pavithra', 'Queenie', 'Rashmi',
+    'Sanduni', 'Thilini', 'Udeshika', 'Vimukthi', 'Wasanthi', 'Yashodha', 'Zainab', 'Ayesha', 'Hiba',
+    'Anne', 'Sana', 'Soha', 'Saisha', 'Shey', 'Bhagya', 'Tharushi', 'Achini', 'Buddhini', 'Chandrika',
+    'Deepthi', 'Eshika', 'Ganga', 'Hansika', 'Indrani', 'Jayani', 'Kalani', 'Lasika', 'Menaka',
+    'Nishani', 'Oshini', 'Prabha', 'Roshini', 'Sashika', 'Thushari', 'Upeksha', 'Vishaka', 'Wathsala',
+    'Yasara', 'Zara'
+]
+
+surnames = [
+    'Perera', 'Fernando', 'de Silva', 'Bandara', 'Jayawardena', 'Dissanayake', 'Ratnayake',
+    'Wickramasinghe', 'Gunawardena', 'Herath', 'Rajapaksa', 'Weerasinghe', 'Senanayake', 'Kumara',
+    'Pathirana', 'Abeysinghe', 'Amarasinghe', 'Balasuriya', 'Chandrasekara', 'Dias', 'Ekanayake',
+    'Fonseka', 'Gamage', 'Hettiarachchi', 'Ilangakoon', 'Jayaweera', 'Karunaratne', 'Liyanage',
+    'Munasinghe', 'Nanayakkara', 'Obeysekera', 'Peiris', 'Quintus', 'Ranaweera', 'Samarasinghe',
+    'Thilakarathna', 'Udayanga', 'Vithanage', 'Wijesinghe', 'Yapa', 'Zoysa', 'Guneratne', 'Kodithuwakku',
+    'Alwis', 'Basnayake', 'Cooray', 'Dharmasena', 'Edirisinghe', 'Galappaththi', 'Hewage', 'Ibrahim',
+    'Jaleel', 'Kulathunga', 'Lokuhetti', 'Madugalle', 'Nadarajah', 'Opatha', 'Ponnambalam', 'Rizvi',
+    'Sivapragasam', 'Thangavelu', 'Uthayakumar', 'Vigneswaran', 'Weerakoon', 'Xavier', 'Yogarajah',
+    'Zuhair'
+]
+
+titles_male = ['Mr.']
+titles_female = ['Mrs.', 'Ms.', 'Miss']
+genders = ['Male', 'Female']
+civil_statuses = ['Single', 'Married', 'Divorced', 'Widowed']
+
+# SLBFE-specific manpower levels (unused in schema, but kept for logic)
+manpower_levels = ['Professional', 'Middle Level', 'Clerical & Related', 'Skilled', 'Semi-Skilled', 'Unskilled', 'Domestic']
+
+# Expanded employment sectors based on SLBFE 2023 Annual Report
+employment_sectors = [
+    'Domestic Services', 'Construction', 'Garment & Apparel', 'Hospitality & Tourism',
+    'Healthcare & Nursing', 'Engineering & Technical', 'Manufacturing', 'Agriculture & Fishery',
+    'Security Services', 'IT & Professional Services', 'Retail & Sales', 'Driving & Transportation',
+    'Cleaning Services', 'Textile & Sewing', 'Facility Management', 'Logistics & Warehousing',
+    'Education & Training', 'Beauty & Personal Care'
+]
+
+# Expanded occupations to align with skills and SLBFE job categories
+occupations = [
+    'Housemaid', 'Domestic Worker', 'Caregiver', 'Nurse', 'Nursing Assistant', 'General Labourer',
+    'Driver', 'House Driver', 'Heavy Vehicle Operator', 'Forklift Operator', 'Delivery Driver',
+    'Engineer', 'Technician', 'Welder', 'Electrician', 'Plumber', 'Mason', 'Carpenter',
+    'Bar Bender', 'Shuttering Carpenter', 'Construction Helper', 'Cook', 'Chef', 'Kitchen Helper',
+    'Waiter', 'Room Attendant', 'Hotel Housekeeper', 'Laundry Worker', 'Security Guard',
+    'Salesperson', 'Machine Operator', 'Sewing Machine Operator', 'Tailor', 'Accountant',
+    'Administrative Assistant', 'Agricultural Worker', 'Fishery Worker', 'Cleaner', 'Janitor',
+    'Maintenance Worker', 'Gardener', 'Warehouse Worker', 'Logistics Coordinator',
+    'Hairdresser', 'Beautician', 'Teacher Assistant', 'Receptionist', 'Factory Worker',
+    'Construction Supervisor', 'Quality Control Inspector', 'Packing Worker', 'Barista'
+]
+
+# Top destination countries (weighted for SLBFE prevalence)
+countries = [
+    'Saudi Arabia', 'Kuwait', 'Qatar', 'United Arab Emirates', 'Maldives', 'Romania', 'South Korea',
+    'Oman', 'Japan', 'Jordan', 'United Kingdom', 'Cyprus', 'Malaysia', 'Bahrain', 'Singapore',
+    'Israel', 'New Zealand', 'Russia', 'Seychelles', 'Lebanon', 'Turkey', 'Australia', 'Hong Kong',
+    'Serbia', 'Canada'
+]
+country_weights = [0.25, 0.15, 0.15, 0.15, 0.05, 0.03, 0.03, 0.03, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+
+# Languages (weighted for SLBFE destinations)
+languages = ['English', 'Arabic', 'Hebrew', 'Japanese', 'Korean', 'Tamil', 'Sinhala', 'Hindi', 'Tagalog', 'Italian', 'French', 'German']
+language_weights = [0.3, 0.25, 0.05, 0.05, 0.05, 0.15, 0.15, 0.05, 0.02, 0.02, 0.02, 0.02]
+proficiencies = ['Basic', 'Intermediate', 'Advanced', 'Fluent']
+
+# Expanded skills list
+skills_list = [
+    # Domestic and caregiving
+    'Childcare', 'Elderly Care', 'Housekeeping', 'Cooking', 'Laundry', 'Home Cleaning', 'Caregiving',
+    # Construction and technical trades
+    'Welding', 'Electrical', 'Plumbing', 'Carpentry', 'Masonry', 'Bar Bending', 'Shuttering Carpentry',
+    'Painting', 'Tiling', 'Construction Supervision', 'Scaffolding', 'Concrete Mixing',
+    # Driving and transportation
+    'Driving', 'Heavy Vehicle Driving', 'Forklift Operation', 'Delivery Driving', 'Vehicle Maintenance',
+    # Hospitality and tourism
+    'Food Preparation', 'Serving', 'Hotel Housekeeping', 'Front Desk Operations', 'Barista Skills',
+    'Banquet Service', 'Kitchen Assistance', 'Guest Relations',
+    # Healthcare
+    'Nursing', 'First Aid', 'Patient Care', 'Medical Assistance', 'Health Aide',
+    # Garment and textile
+    'Sewing', 'Tailoring', 'Textile Machine Operation', 'Garment Quality Control',
+    # IT and clerical
+    'IT Skills', 'MS Office', 'Excel', 'Data Entry', 'Accounting', 'Bookkeeping', 'Administrative Support',
+    # Agriculture and fishery
+    'Farming', 'Fishing', 'Horticulture', 'Livestock Management',
+    # Security and facility management
+    'Security Guarding', 'CCTV Monitoring', 'Facility Maintenance', 'Janitorial Skills',
+    # Other skilled/semi-skilled
+    'Customer Service', 'Retail Sales', 'Inventory Management', 'Logistics Coordination',
+    'Hairdressing', 'Beauty Therapy', 'Makeup Artistry', 'Teaching Assistance', 'Packing',
+    'Quality Inspection'
+]
+
+# Expanded qualifications list
+qualifications_list = [
+    'O/L', 'A/L', 'NVQ Level 1', 'NVQ Level 2', 'NVQ Level 3', 'NVQ Level 4', 'NVQ Level 5',
+    'Certificate in Domestic Work', 'Certificate in Caregiving', 'Certificate in Welding',
+    'Certificate in Electrical Work', 'Certificate in Plumbing', 'Certificate in Carpentry',
+    'Certificate in Masonry', 'Certificate in Driving', 'Certificate in Heavy Vehicle Operation',
+    'Certificate in Hospitality', 'Certificate in Cooking', 'Certificate in Sewing',
+    'Certificate in IT', 'Certificate in Accounting', 'Certificate in Nursing',
+    'Diploma in Nursing', 'Diploma in Hospitality', 'Diploma in IT', 'Diploma in Business',
+    "Bachelor's Degree", "Master's Degree"
+]
+
+# Updated occupation profiles with reduced vocational qualifications
+occupation_profiles = {
+    'Caregiver': {
+        'sectors': ['Healthcare & Nursing', 'Domestic Services'],
+        'quals': ['Certificate in Caregiving', 'Certificate in Nursing', 'NVQ Level 3', 'NVQ Level 4'],
+        'skills': ['Childcare', 'Elderly Care', 'Caregiving', 'First Aid', 'Patient Care', 'Health Aide'],
+        'languages': ['English', 'Arabic', 'Hebrew'],
+        'lang_weights': [0.5, 0.4, 0.1],
+        'countries': ['Saudi Arabia', 'Kuwait', 'Qatar', 'United Arab Emirates', 'Israel'],
+        'country_weights': [0.3, 0.25, 0.2, 0.2, 0.05],
+        'has_ol_prob': 0.7,
+        'has_al_prob': 0.4,
+        'has_higher_edu_prob': 0.3,
+        'num_voc_range': [0, 2],  # Reduced, allows zero qualifications
+        'voc_prob': 0.6,  # 60% chance of having any vocational qualifications
+        'num_prof_range': [0, 1],
+        'num_languages_range': [2, 3],
+        'prob_previous': 0.65  # Higher for caregiving/domestic
+    },
+    'Housemaid': {
+        'sectors': ['Domestic Services', 'Cleaning Services'],
+        'quals': ['Certificate in Domestic Work', 'NVQ Level 2', 'NVQ Level 3'],
+        'skills': ['Housekeeping', 'Cooking', 'Laundry', 'Home Cleaning', 'Childcare'],
+        'languages': ['English', 'Arabic'],
+        'lang_weights': [0.6, 0.4],
+        'countries': ['Saudi Arabia', 'Kuwait', 'Qatar', 'United Arab Emirates'],
+        'country_weights': [0.3, 0.25, 0.25, 0.2],
+        'has_ol_prob': 0.6,
+        'has_al_prob': 0.2,
+        'has_higher_edu_prob': 0.1,
+        'num_voc_range': [0, 1],  # Reduced, high chance of zero qualifications
+        'voc_prob': 0.3,  # 30% chance of having any vocational qualifications
+        'num_prof_range': [0, 1],
+        'num_languages_range': [1, 2],
+        'prob_previous': 0.65  # Based on SLBFE data for housemaids
+    },
+    'Driver': {
+        'sectors': ['Driving & Transportation', 'Logistics & Warehousing'],
+        'quals': ['Certificate in Driving', 'Certificate in Heavy Vehicle Operation'],
+        'skills': ['Driving', 'Heavy Vehicle Driving', 'Vehicle Maintenance'],
+        'languages': ['English', 'Arabic'],
+        'lang_weights': [0.7, 0.3],
+        'countries': ['Saudi Arabia', 'Qatar', 'United Arab Emirates'],
+        'country_weights': [0.4, 0.3, 0.3],
+        'has_ol_prob': 0.8,
+        'has_al_prob': 0.3,
+        'has_higher_edu_prob': 0.05,
+        'num_voc_range': [1, 2],  # Kept but with probability check
+        'voc_prob': 0.7,  # 70% chance of having any vocational qualifications
+        'num_prof_range': [1, 2],
+        'num_languages_range': [1, 2],
+        'prob_previous': 0.57
+    },
+    'Welder': {
+        'sectors': ['Construction', 'Manufacturing'],
+        'quals': ['Certificate in Welding', 'NVQ Level 4'],
+        'skills': ['Welding', 'Metal Fabrication'],
+        'languages': ['English'],
+        'lang_weights': [1.0],
+        'countries': ['Saudi Arabia', 'South Korea', 'Japan'],
+        'country_weights': [0.5, 0.25, 0.25],
+        'has_ol_prob': 0.7,
+        'has_al_prob': 0.2,
+        'has_higher_edu_prob': 0.1,
+        'num_voc_range': [0, 2],  # Reduced, allows zero qualifications
+        'voc_prob': 0.8,  # 80% chance of having any vocational qualifications
+        'num_prof_range': [1, 2],
+        'num_languages_range': [1, 2],
+        'prob_previous': 0.57
+    },
+    'Default': {
+        'sectors': employment_sectors,
+        'quals': qualifications_list,
+        'skills': skills_list,
+        'languages': languages,
+        'lang_weights': language_weights,
+        'countries': countries,
+        'country_weights': country_weights,
+        'has_ol_prob': 0.8,
+        'has_al_prob': 0.5,
+        'has_higher_edu_prob': 0.3,
+        'num_voc_range': [0, 2],  # Reduced, allows zero qualifications
+        'voc_prob': 0.5,  # 50% chance of having any vocational qualifications
+        'num_prof_range': [0, 2],
+        'num_languages_range': [1, 4],
+        'prob_previous': 0.57
+    }
+}
+
+# Helper Functions
+def random_dob(min_age=18, max_age=50):
+    today = date.today()
+    max_birth = today - timedelta(days=min_age * 365)
+    min_birth = today - timedelta(days=max_age * 365)
+    delta = max_birth - min_birth
+    random_days = random.randint(0, delta.days)
+    return min_birth + timedelta(days=random_days)
+
+def random_date_between(start_date_str, end_date_str='today'):
+    today = date.today()
+    if end_date_str == 'today':
+        end_date = today
+    elif end_date_str.startswith('+') and end_date_str.endswith('y'):
+        years = int(end_date_str[1:-1])
+        end_date = today + timedelta(days=years * 365)
+    elif end_date_str.startswith('-') and end_date_str.endswith('y'):
+        years = int(end_date_str[1:-1])
+        end_date = today - timedelta(days=years * 365)
+    else:
+        end_date = date.fromisoformat(end_date_str)
+    if start_date_str.startswith('-') and start_date_str.endswith('y'):
+        years = int(start_date_str[1:-1])
+        start_date = today - timedelta(days=years * 365)
+    elif start_date_str.startswith('+') and start_date_str.endswith('y'):
+        years = int(start_date_str[1:-1])
+        start_date = today + timedelta(days=years * 365)
+    else:
+        start_date = date.fromisoformat(start_date_str)
+    delta = end_date - start_date
+    random_days = random.randint(0, max(0, delta.days))
+    return start_date + timedelta(days=random_days)
+
+def random_street_name():
+    return random.choice(['Main Road', 'High Street', 'Temple Road', 'Kandy Road', 'Colombo Street', 'Galle Road', 'Park Lane', 'Beach Road', 'School Lane', 'Church Street'])
+
+def random_company():
+    return random.choice(['Lanka', 'Ceylon', 'Sri', 'Island', 'Gem', 'Tea', 'Apparel', 'Construction', 'Hotel', 'Tech']) + ' ' + random.choice(['Corp', 'Ltd', 'Enterprises', 'Group', 'Co', 'Plantations', 'Inc', 'Pvt', 'Solutions'])
+
+def random_university():
+    return random.choice(['University of Colombo', 'University of Peradeniya', 'University of Sri Jayewardenepura', 'University of Kelaniya', 'University of Moratuwa', 'University of Ruhuna', 'Open University of Sri Lanka', 'University of Jaffna', 'Sabaragamuwa University of Sri Lanka', 'Eastern University'])
+
+def random_year():
+    return str(random.randint(1980, 2025))
+
+def random_word():
+    return random.choice(['Tech', 'Global', 'International', 'National', 'Premier', 'Advanced', 'Elite'])
+
+def random_city(country):
+    cities = {
+        'Saudi Arabia': ['Riyadh', 'Jeddah', 'Mecca'],
+        'Kuwait': ['Kuwait City', 'Hawalli'],
+        'Qatar': ['Doha', 'Al Rayyan'],
+        'United Arab Emirates': ['Dubai', 'Abu Dhabi'],
+        'Canada': ['Toronto', 'Vancouver']
+    }
+    return random.choice(cities.get(country, ['Unknown City']))
+
+def random_currency(country):
+    currencies = {
+        'Saudi Arabia': 'SAR',
+        'Kuwait': 'KWD',
+        'Qatar': 'QAR',
+        'United Arab Emirates': 'AED',
+        'Canada': 'CAD'
+    }
+    return currencies.get(country, 'USD')
+
+def random_benefits():
+    benefits_list = ['Health Insurance', 'Accommodation', 'Transportation', 'Annual Leave', 'Overtime Pay', 'Training']
+    return '; '.join(random.sample(benefits_list, random.randint(1, 4)))
+
+def random_remarks():
+    return random.choice([None, 'Standard contract', 'Requires visa', 'Training provided', 'Probation period'])
+
+def generate_nic(dob, gender):
+    year = dob.year % 100
+    julian_day = (dob - date(dob.year, 1, 1)).days + 1
+    if gender == 'Female':
+        julian_day += 500
+    serial = random.randint(0, 9999)
+    nic_base = f"{year:02d}{julian_day:03d}{serial:04d}"
+    letter = 'V' if random.random() < 0.95 else 'X'
+    return nic_base + letter
+
+# Function to get profile for an occupation
+def get_profile(occ):
+    profile = occupation_profiles.get(occ, occupation_profiles['Default'])
+    if 'prob_previous' not in profile:
+        profile['prob_previous'] = 0.57
+    return profile
+
+# ------------------------------
+# 1️⃣ PersonalDetails
+# ------------------------------
+personal_data = []
+primary_occupations = {}  # Dictionary to store primary_occupation per PersonalID
+for i in range(1, n_seekers + 1):
+    gender = random.choices(genders, weights=[0.6, 0.4])[0]  # More males per SLBFE data
+    if gender == 'Male':
+        first_name = random.choice(male_first_names)
+        title = random.choice(titles_male)
+    else:
+        first_name = random.choice(female_first_names)
+        title = random.choice(titles_female)
+    surname = random.choice(surnames)
+    full_name = f"{first_name} {surname}"
+
+    # Assign primary_occupation based on gender for consistency
+    if gender == 'Female':
+        possible_occupations = occupations.copy()
+        female_weights = [0.3 if 'maid' in o.lower() or 'domestic' in o.lower() else 0.2 if 'care' in o.lower() or 'nurs' in o.lower() else 0.05 for o in possible_occupations]
+        female_weights = [w / sum(female_weights) for w in female_weights]
+        primary_occ = random.choices(possible_occupations, weights=female_weights)[0]
+    else:
+        possible_occupations = occupations.copy()
+        male_weights = [0.3 if 'construction' in o.lower() or 'labour' in o.lower() else 0.2 if 'driver' in o.lower() or 'technician' in o.lower() else 0.05 for o in possible_occupations]
+        male_weights = [w / sum(male_weights) for w in male_weights]
+        primary_occ = random.choices(possible_occupations, weights=male_weights)[0]
+
+    # Special case for jobseeker 1: Set as female caregiver
+    if i == 1:
+        gender = 'Female'
+        title = 'Ms.'
+        first_name = 'Achini'
+        surname = 'Weerasinghe'
+        full_name = 'Achini Weerasinghe'
+        primary_occ = 'Caregiver'
+
+    primary_occupations[i] = primary_occ
+
+    dob = random_dob(min_age=18, max_age=50)
+    district = random.choice(districts)
+    ds_division = get_ds_division(district)
+    address = f"{random.randint(1, 999)} {random_street_name()}, {ds_division}, {district}"
+    mobile = f"07{random.randint(10000000, 99999999)}"
+    civil_status = random.choices(civil_statuses, weights=[0.4, 0.5, 0.08, 0.02])[0]
+    nic = generate_nic(dob, gender)
+    passport = f"N{random.randint(1000000, 9999999)}"
+    email = f"{first_name.lower()}.{surname.lower()}@{random.choice(['gmail.com', 'yahoo.com', 'hotmail.com', 'slnet.lk'])}" if random.random() > 0.4 else None
+    cv_filename = f"cv_{i}.pdf" if random.random() > 0.2 else None
+    cv_filetype = "application/pdf" if cv_filename else None
+    cv_uploaddate = random_date_between('-2y', 'today') if cv_filename else None
+
+    personal_data.append({
+        "PersonalID": i,
+        "Title": title,
+        "FullName": full_name,
+        "Gender": gender,
+        "DateOfBirth": dob,
+        "District": district,
+        "DSDivision": ds_division,
+        "Address": address,
+        "MobileNumber": mobile,
+        "CivilStatus": civil_status,
+        "NICNumber": nic,
+        "PassportNumber": passport,
+        "Email": email,
+        "CVFileName": cv_filename,
+        "CVFileType": cv_filetype,
+        "CVUploadDate": cv_uploaddate
+    })
+
+for i in range(0, len(personal_data), batch_size):
+    batch = personal_data[i:i + batch_size]
+    pd.DataFrame(batch).to_csv(f"{output_dir}/PersonalDetails_{i+1}_{i+batch_size}.csv", index=False)
+
+# ------------------------------
+# 3️⃣ SchoolEducation_OLevel
+# ------------------------------
+olevel_data = []
+has_ol_list = [False] * n_seekers
+olevel_id_counter = 1
+grades = ['A', 'B', 'C', 'S', 'W']
+grade_weights = [0.2, 0.25, 0.25, 0.2, 0.1]  # Reduced occurrence of 'W' (10%)
+for seeker_id in range(1, n_seekers + 1):
+    primary_occ = primary_occupations[seeker_id]
+    profile = get_profile(primary_occ)
+    if random.random() < profile['has_ol_prob']:
+        has_ol_list[seeker_id - 1] = True
+        subjects = random.sample(['Mathematics', 'Science', 'English', 'Sinhala', 'Tamil', 'History', 'Geography', 'Commerce', 'Art', 'Music', 'IT'], random.randint(6, 10))
+        results = random.choices(grades, weights=grade_weights, k=len(subjects))
+        subjects += [None] * (10 - len(subjects))
+        results += [None] * (10 - len(results))
+        olevel_data.append({
+            "OLevelID": olevel_id_counter,
+            "PersonalID": seeker_id,
+            "ExamName": "OLevel",
+            "Year": int(random_year()),
+            "Subject1": subjects[0], "Result1": results[0],
+            "Subject2": subjects[1], "Result2": results[1],
+            "Subject3": subjects[2], "Result3": results[2],
+            "Subject4": subjects[3], "Result4": results[3],
+            "Subject5": subjects[4], "Result5": results[4],
+            "Subject6": subjects[5], "Result6": results[5],
+            "Subject7": subjects[6], "Result7": results[6],
+            "Subject8": subjects[7], "Result8": results[7],
+            "Subject9": subjects[8], "Result9": results[8],
+            "Subject10": subjects[9], "Result10": results[9]
+        })
+        olevel_id_counter += 1
+pd.DataFrame(olevel_data).to_csv(f"{output_dir}/SchoolEducation_OLevel.csv", index=False)
+
+# ------------------------------
+# 4️⃣ SchoolEducation_ALevel
+# ------------------------------
+alevel_data = []
+has_al_list = [False] * n_seekers
+alevel_id_counter = 1
+grades = ['A', 'B', 'C', 'S', 'W']
+grade_weights = [0.2, 0.25, 0.25, 0.2, 0.1]  # Reduced occurrence of 'W' (10%)
+for seeker_id in range(1, n_seekers + 1):
+    has_ol = has_ol_list[seeker_id - 1]
+    primary_occ = primary_occupations[seeker_id]
+    profile = get_profile(primary_occ)
+    p_al = profile['has_al_prob'] if has_ol else 0.1
+    if random.random() < p_al:
+        has_al_list[seeker_id - 1] = True
+        streams = ['Science', 'Commerce', 'Arts', 'Technology']
+        stream = random.choice(streams)
+        subjects = random.sample([f"{stream} Subject {i}" for i in range(1, 5)], random.randint(3, 4))
+        results = random.choices(grades, weights=grade_weights, k=len(subjects))
+        subjects += [None] * (4 - len(subjects))
+        results += [None] * (4 - len(results))
+        alevel_data.append({
+            "ALevelID": alevel_id_counter,
+            "PersonalID": seeker_id,
+            "ExamName": "ALevel",
+            "SubjectStream": stream,
+            "Year": int(random_year()),
+            "Subject1": subjects[0], "Result1": results[0],
+            "Subject2": subjects[1], "Result2": results[1],
+            "Subject3": subjects[2], "Result3": results[2],
+            "Subject4": subjects[3], "Result4": results[3]
+        })
+        alevel_id_counter += 1
+pd.DataFrame(alevel_data).to_csv(f"{output_dir}/SchoolEducation_ALevel.csv", index=False)
+
+# ------------------------------
+# 2️⃣ HigherEducationDetails
+# ------------------------------
+edu_data = []
+higheredu_id_counter = 1
+for seeker_id in range(1, n_seekers + 1):
+    has_al = has_al_list[seeker_id - 1]
+    primary_occ = primary_occupations[seeker_id]
+    profile = get_profile(primary_occ)
+    p_edu = profile['has_higher_edu_prob'] if has_al else 0.05
+    if random.random() < p_edu:
+        num_edu = random.choices([1, 2, 3], weights=[80, 15, 5])[0]
+        for _ in range(num_edu):
+            course_base = random.choice(['Computer Science', 'Engineering', 'Business', 'Nursing', 'Hospitality', 'Accounting'])
+            course_suffix = random_word()
+            edu_data.append({
+                "HigherEduID": higheredu_id_counter,
+                "PersonalID": seeker_id,
+                "QualificationType": random.choice(["BSc", "MSc", "BA", "Diploma", "Higher Diploma"]),
+                "CourseName": f"{course_base} {course_suffix}",
+                "University": random_university(),
+                "Year": int(random_year()),
+                "Result": random.choice(["First Class", "Second Upper", "Second Lower", "Pass", "Merit", None])
+            })
+            higheredu_id_counter += 1
+pd.DataFrame(edu_data).to_csv(f"{output_dir}/HigherEducationDetails.csv", index=False)
+
+# ------------------------------
+# 5️⃣ VocationalQualifications
+# ------------------------------
+voc_qual = []
+voc_id_counter = 1
+for seeker_id in range(1, n_seekers + 1):
+    primary_occ = primary_occupations[seeker_id]
+    profile = get_profile(primary_occ)
+    # Check if the seeker should have vocational qualifications
+    if random.random() < profile['voc_prob']:
+        num_voc = random.randint(profile['num_voc_range'][0], profile['num_voc_range'][1])
+        relevant_quals = profile['quals']
+        for _ in range(num_voc):
+            qualification = random.choice(relevant_quals)
+            voc_qual.append({
+                "VocationalID": voc_id_counter,
+                "PersonalID": seeker_id,
+                "NVQLevel": qualification if 'NVQ' in qualification else None,
+                "CourseName": qualification if 'NVQ' not in qualification else None,
+                "Institution": random.choice(['VTA', 'NAITA', 'TVEC', random_company(), 'SLBFE Training Center']),
+                "CompletionDate": random_date_between('-10y', 'today')
+            })
+            voc_id_counter += 1
+pd.DataFrame(voc_qual).to_csv(f"{output_dir}/VocationalQualifications.csv", index=False)
+
+# ------------------------------
+# 6️⃣ ProfessionalQualifications
+# ------------------------------
+prof_qual = []
+qual_id_counter = 1
+for seeker_id in range(1, n_seekers + 1):
+    primary_occ = primary_occupations[seeker_id]
+    profile = get_profile(primary_occ)
+    num_prof = random.randint(profile['num_prof_range'][0], profile['num_prof_range'][1])
+    if 'care' in primary_occ.lower() or 'nurs' in primary_occ.lower():
+        relevant_prof_quals = ['Nursing License']
+    elif 'driver' in primary_occ.lower():
+        relevant_prof_quals = ['Driving License']
+    elif 'welder' in primary_occ.lower():
+        relevant_prof_quals = ['Welding Certification']
+    else:
+        relevant_prof_quals = [
+            'CPA', 'CIMA', 'PMP', 'NVQ Level 4', 'NVQ Level 5', 'Tourism & Hospitality Certificate'
+        ]
+    for _ in range(num_prof):
+        qual = random.choice(relevant_prof_quals)
+        if qual in ['CPA', 'CIMA']:
+            institution = random.choice(['ICASL', 'CIMA UK'])
+        elif qual == 'PMP':
+            institution = 'PMI'
+        elif qual in ['NVQ Level 4', 'NVQ Level 5']:
+            institution = random.choice(['TVEC', 'NAITA', 'VTA'])
+        elif qual == 'Nursing License':
+            institution = 'SLNMC'
+        elif qual == 'Driving License':
+            institution = 'DMT'
+        elif qual == 'Welding Certification':
+            institution = random.choice(['NAITA', 'VTA'])
+        elif qual == 'Tourism & Hospitality Certificate':
+            institution = 'SLITHM'
+        else:
+            institution = 'SLBFE'
+        prof_qual.append({
+            "QualificationID": qual_id_counter,
+            "PersonalID": seeker_id,
+            "Qualification": qual,
+            "Institution": institution,
+            "Year": int(random_year())
+        })
+        qual_id_counter += 1
+pd.DataFrame(prof_qual).to_csv(f"{output_dir}/ProfessionalQualifications.csv", index=False)
+
+# ------------------------------
+# 8️⃣ CurrentEmploymentDetails and PreviousEmploymentDetails
+# ------------------------------
+current_employment_data = []
+previous_employment_data = []
+emp_id_counter = 1
+for seeker_id in range(1, n_seekers + 1):
+    primary_occ = primary_occupations[seeker_id]
+    profile = get_profile(primary_occ)
+    # Approximate SLBFE ratios: ~57% have previous foreign employment, low % have current
+    prob_previous = profile.get('prob_previous', 0.57)
+    has_previous = random.random() < prob_previous
+    if has_previous:
+        num_previous = random.choices([1, 2, 3, 4], weights=[0.4, 0.3, 0.2, 0.1])[0]
+    else:
+        num_previous = 0
+    has_current = random.random() < 0.05  # Low probability for current, as they are seeking new jobs
+    total_employments = num_previous + (1 if has_current else 0)
+    if total_employments > 0:
+        # Generate sorted start dates in the past
+        start_dates = sorted([random_date_between('-15y', '-1y') for _ in range(total_employments)])
+        for idx in range(total_employments):
+            sector = random.choice(profile['sectors'])
+            occupation = primary_occ
+            country = random.choices(profile['countries'], weights=profile['country_weights'])[0]
+            start_date = start_dates[idx]
+            employer = random_company()
+            if idx < num_previous:  # Previous employment
+                # End date before next start or today
+                if idx + 1 < total_employments:
+                    max_end = start_dates[idx + 1]
+                else:
+                    max_end = date.today()
+                end_date = random_date_between(start_date.strftime('%Y-%m-%d'), max_end.strftime('%Y-%m-%d'))
+                duration_days = (end_date - start_date).days
+                duration_months = max(1, (duration_days // 30) + (1 if duration_days % 30 > 0 else 0))
+                previous_employment_data.append({
+                    "EmploymentID": emp_id_counter,
+                    "PersonalID": seeker_id,
+                    "EmploymentSector": sector,
+                    "Employer": employer,
+                    "Country": country,
+                    "Occupation": occupation,
+                    "StartDate": start_date,
+                    "EndDate": end_date,
+                    "DurationMonths": duration_months
+                })
+            else:  # Current employment (last one)
+                current_employment_data.append({
+                    "EmploymentID": emp_id_counter,
+                    "PersonalID": seeker_id,
+                    "EmploymentSector": sector,
+                    "Employer": employer,
+                    "Country": country,
+                    "Occupation": occupation,
+                    "StartDate": start_date
+                })
+            emp_id_counter += 1
+pd.DataFrame(current_employment_data).to_csv(f"{output_dir}/CurrentEmploymentDetails.csv", index=False)
+pd.DataFrame(previous_employment_data).to_csv(f"{output_dir}/PreviousEmploymentDetails.csv", index=False)
+
+# ------------------------------
+# 7️⃣ LanguageSkills
+# ------------------------------
+lang_data = []
+lang_id_counter = 1
+for seeker_id in range(1, n_seekers + 1):
+    primary_occ = primary_occupations[seeker_id]
+    profile = get_profile(primary_occ)
+    num_languages = random.randint(profile['num_languages_range'][0], profile['num_languages_range'][1])
+    selected_langs = random.choices(profile['languages'], weights=profile['lang_weights'], k=num_languages)
+    for lang in set(selected_langs):
+        proficiency = random.choices(proficiencies, weights=[0.4, 0.3, 0.2, 0.1])[0]
+        proof = random.choice(["Certificate", "Test Score", "None"]) if proficiency in ['Advanced', 'Fluent'] else None
+        lang_data.append({
+            "LanguageID": lang_id_counter,
+            "PersonalID": seeker_id,
+            "LanguageName": lang,
+            "ProficiencyLevel": proficiency,
+            "ProofOfProficiency": proof
+        })
+        lang_id_counter += 1
+pd.DataFrame(lang_data).to_csv(f"{output_dir}/LanguageSkills.csv", index=False)
+
+# ------------------------------
+# 1️⃣4️⃣ JobEmployers
+# ------------------------------
+employers = []
+employer_id_counter = 1
+unique_employer_names = set()
+employer_map = {}
+for _ in range(n_jobs):
+    employer_name = random_company()
+    if employer_name not in unique_employer_names:
+        unique_employer_names.add(employer_name)
+        country = random.choices(countries, weights=country_weights)[0]
+        employers.append({
+            "EmployerID": employer_id_counter,
+            "EmployerName": employer_name,
+            "EmployerType": random.choice(['Direct Employer', 'Recruitment Agency']),
+            "LicenseNumber": f"LIC{random.randint(1000, 9999)}" if random.random() > 0.5 else None,
+            "Country": country,
+            "Address": fake.address().replace('\n', ', '),
+            "ContactPerson": fake.name(),
+            "ContactEmail": fake.email(),
+            "ContactPhone": fake.phone_number(),
+            "Website": fake.url() if random.random() > 0.3 else None,
+            "CreatedDate": random_date_between('-5y', 'today')
+        })
+        employer_map[employer_name] = employer_id_counter
+        employer_id_counter += 1
+pd.DataFrame(employers).to_csv(f"{output_dir}/JobEmployers.csv", index=False)
+
+# ------------------------------
+# 1️⃣0️⃣ JobPostings
+# ------------------------------
+job_postings = []
+for job_id in range(1, n_jobs + 1):
+    sector = random.choices(employment_sectors, weights=[0.25, 0.2, 0.15, 0.15, 0.1, 0.05, 0.05, 0.05, 0.05, 0.03, 0.03, 0.03, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02])[0]
+    country = random.choices(countries, weights=country_weights)[0]
+    employer_name = random.choice(list(unique_employer_names))
+    employer_id = employer_map[employer_name]
+    job_title = random.choice([o for o in occupations if o.lower().find(sector.lower()) != -1] or occupations)
+    posted_date = random_date_between('-2y', 'today')
+    closing_date = posted_date + timedelta(days=random.randint(30, 90))
+    status = 'Active' if closing_date > date.today() else 'Closed'
+    salary_min = random.randint(1000, 3000)
+    salary_max = salary_min + random.randint(500, 2000)
+    job_postings.append({
+        "JobID": job_id,
+        "EmployerID": employer_id,
+        "JobTitle": job_title,
+        "JobDescription": lorem.paragraphs(2),
+        "Country": country,
+        "City": random_city(country),
+        "EmploymentSector": sector,
+        "Occupation": job_title,
+        "NumberOfVacancies": random.randint(1, 50),
+        "SalaryMin": salary_min,
+        "SalaryMax": salary_max,
+        "Currency": random_currency(country),
+        "ContractDurationMonths": random.randint(12, 36),
+        "WorkingHoursPerWeek": random.randint(40, 60),
+        "Benefits": random_benefits(),
+        "PostedDate": posted_date,
+        "ClosingDate": closing_date,
+        "Status": status
+    })
+pd.DataFrame(job_postings).to_csv(f"{output_dir}/JobPostings.csv", index=False)
+
+# ------------------------------
+# 1️⃣6️⃣ JobQualifications
+# ------------------------------
+job_qual = []
+qual_id_counter = 1
+for job_id in range(1, n_jobs + 1):
+    job = job_postings[job_id - 1]
+    num_quals = random.randint(1, 3)
+    relevant_quals = [q for q in qualifications_list if q.lower().find(job["EmploymentSector"].lower()) != -1 or q in ['O/L', 'A/L', "Bachelor's Degree", "Master's Degree"]]
+    if not relevant_quals:
+        relevant_quals = qualifications_list
+    selected_quals = random.sample(relevant_quals, min(num_quals, len(relevant_quals)))
+    for qual in selected_quals:
+        job_qual.append({
+            "QualificationID": qual_id_counter,
+            "JobID": job_id,
+            "QualificationType": qual,
+            "FieldOfStudy": random.choice(['General', 'Science', 'Commerce', 'Arts', 'Technology', None]),
+            "MinimumGrade": random.choice(['Pass', 'Merit', 'Distinction', None]),
+            "OtherDetails": random_remarks()
+        })
+        qual_id_counter += 1
+pd.DataFrame(job_qual).to_csv(f"{output_dir}/JobQualifications.csv", index=False)
+
+# ------------------------------
+# 1️⃣5️⃣ JobSkills
+# ------------------------------
+job_skills = []
+skill_id_counter = 1
+for job_id in range(1, n_jobs + 1):
+    job = job_postings[job_id - 1]
+    num_skills = random.randint(1, 5)
+    relevant_skills = [skill for skill in skills_list if skill.lower() in job["JobTitle"].lower() or skill.lower() in job["EmploymentSector"].lower()]
+    if not relevant_skills:
+        relevant_skills = skills_list
+    selected_skills = random.sample(relevant_skills, min(num_skills, len(relevant_skills)))
+    for skill in selected_skills:
+        job_skills.append({
+            "SkillID": skill_id_counter,
+            "JobID": job_id,
+            "SkillName": skill,
+            "ProficiencyLevel": random.choice(["Basic", "Intermediate", "Advanced"])
+        })
+        skill_id_counter += 1
+pd.DataFrame(job_skills).to_csv(f"{output_dir}/JobSkills.csv", index=False)
+
+# ------------------------------
+# 1️⃣1️⃣ JobApplications
+# ------------------------------
+statuses = ["Pending", "Shortlisted", "Rejected", "Selected"]
+job_applications = []
+app_id_counter = 1
+for seeker_id in range(1, n_seekers + 1):
+    primary_occ = primary_occupations[seeker_id]
+    num_apps = random.choices([0, 1, 2, 3, 4, 5, 6, 7, 8], weights=[10, 15, 20, 20, 15, 10, 5, 3, 2])[0]
+    matching_jobs = [job["JobID"] for job in job_postings if job["JobTitle"] == primary_occ or primary_occ.lower() in job["JobTitle"].lower() or primary_occ.lower() in job["EmploymentSector"].lower()]
+    if not matching_jobs:
+        matching_jobs = list(range(1, n_jobs + 1))
+    applied_jobs = random.sample(matching_jobs, min(num_apps, len(matching_jobs)))
+    for job_id in applied_jobs:
+        applied_date = random_date_between('-2y', 'today')
+        status_weights = [0.3, 0.4, 0.2, 0.1]
+        job_applications.append({
+            "ApplicationID": app_id_counter,
+            "JobID": job_id,
+            "PersonalID": seeker_id,
+            "ApplicationDate": applied_date,
+            "ApplicationStatus": random.choices(statuses, weights=status_weights)[0]
+        })
+        app_id_counter += 1
+pd.DataFrame(job_applications).to_csv(f"{output_dir}/JobApplications.csv", index=False)
+
+# ------------------------------
+# 1️⃣2️⃣ JobApprovalWorkflow
+# ------------------------------
+workflow_data = []
+workflow_id_counter = 1
+for job_id in range(1, n_jobs + 1):
+    num_stages = random.randint(1, 3)
+    stages = random.sample(["Initial Review", "SLBFE Review", "Embassy Review", "Final Approval"], num_stages)
+    for stage in stages:
+        reviewed_date = random_date_between(job_postings[job_id-1]["PostedDate"].strftime('%Y-%m-%d'), 'today')
+        workflow_data.append({
+            "WorkflowID": workflow_id_counter,
+            "JobID": job_id,
+            "StageName": stage,
+            "ActionTaken": random.choice(["Approved", "Rejected", "Pending"]),
+            "Remarks": random_remarks(),
+            "ReviewedBy": fake.name(),
+            "ReviewedDate": reviewed_date
+        })
+        workflow_id_counter += 1
+pd.DataFrame(workflow_data).to_csv(f"{output_dir}/JobApprovalWorkflow.csv", index=False)
+
+# ------------------------------
+# 1️⃣3️⃣ JobContracts
+# ----------------------
+contracts_data = []
+contract_id_counter = 1
+for app in job_applications:
+    if app["ApplicationStatus"] == "Selected":
+        job = next(j for j in job_postings if j["JobID"] == app["JobID"])
+        start_date = random_date_between(app["ApplicationDate"].strftime('%Y-%m-%d'), '+1y')
+        end_date = random_date_between(start_date.strftime('%Y-%m-%d'), '+2y')
+        signed_date = start_date
+        created_date = signed_date
+        contracts_data.append({
+            "ContractID": contract_id_counter,
+            "ApplicationID": app["ApplicationID"],
+            "JobID": app["JobID"],
+            "EmployerID": job["EmployerID"],
+            "PersonalID": app["PersonalID"],
+            "ContractNumber": f"C{contract_id_counter:07d}",
+            "ContractStartDate": start_date,
+            "ContractEndDate": end_date,
+            "RenewalEligible": random.choice([0, 1]),
+            "ContractStatus": random.choice(['Active', 'Completed', 'Terminated', 'Expired']),
+            "SignedDate": signed_date,
+            "Remarks": random_remarks(),
+            "CreatedDate": created_date
+        })
+        contract_id_counter += 1
+pd.DataFrame(contracts_data).to_csv(f"{output_dir}/JobContracts.csv", index=False)
+
+# Zip All CSVs
+zip_file = 'slbfe_data.zip'
+
+with zipfile.ZipFile(zip_file, 'w', zipfile.ZIP_DEFLATED) as zipf:
+    for root, dirs, file_list in os.walk(output_dir):
+        for file in file_list:
+            zipf.write(os.path.join(root, file), os.path.relpath(os.path.join(root, file), output_dir))
+
+print("Improved SLBFE dataset generated with reduced vocational qualifications and adjusted employment ratios/dates. ZIP file ready.")
+
+# Download the zip file
+files.download(zip_file)
